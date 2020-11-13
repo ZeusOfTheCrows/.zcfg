@@ -1,0 +1,2 @@
+profiles/* -> ~/.local/share/konsole/
+yakuakerc -> ~/.config/yakuakerc

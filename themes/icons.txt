@@ -1,0 +1,10 @@
+Bibata-Modern-Amber
+Breeze
+default
+Gruvbox-Papirus
+material_dark_cursors
+miniature
+oreo_purple_cursors
+ZC-Gruvbox-Gnome
+ZC-Gruvbox-Papirus
+ZC-Gruvbox-Suru

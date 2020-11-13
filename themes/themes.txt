@@ -1,0 +1,10 @@
+Dracula
+Dracula-alt-style
+Dracula-slim
+Dracula-slim-standard-buttons
+Dracula-standard-buttons
+Sweet-Dark
+Sweet-mars
+ZC-Gruvbox
+ZC-Gruvbox-Arc
+ZC-Gruvbox-Trans
