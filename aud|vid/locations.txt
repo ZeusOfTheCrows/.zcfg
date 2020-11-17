@@ -1,0 +1,2 @@
+smplayer/ -> ~/.config/
+.screenlayout/ -> ~ (hotkeys must be bound in settings)
