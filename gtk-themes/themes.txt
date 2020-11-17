@@ -1,10 +1,15 @@
+Ambiance-RW-DS
 Dracula
 Dracula-alt-style
 Dracula-slim
 Dracula-slim-standard-buttons
 Dracula-standard-buttons
+OneStepBack
+OneStepBack-darker
 Sweet-Dark
 Sweet-mars
+Yaru-dark
 ZC-Gruvbox
 ZC-Gruvbox-Arc
+ZC-Gruvbox-Materia
 ZC-Gruvbox-Trans
