@@ -1,0 +1,16 @@
+Bibata-Modern-Amber
+Breeze
+default
+Gruvbox-Papirus
+icons.txt
+Lila_HD-cursor
+material_dark_cursors
+miniature
+Newaita-dark
+oreo_purple_cursors
+Surfn
+Surfn-Arc
+Surfn-Majestic
+ZC-Gruvbox-Gnome
+ZC-Gruvbox-Papirus
+ZC-Gruvbox-Suru

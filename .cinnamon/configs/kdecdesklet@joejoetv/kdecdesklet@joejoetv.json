@@ -1,0 +1,14 @@
+{
+    "header": {
+        "type": "header",
+        "description": "Device Settings"
+    },
+    "selected-device-id": {
+        "type": "entry",
+        "default": "",
+        "description": "Device ID of selected Device",
+        "tooltip": "KDEConnect Device ID",
+        "value": "ac8e92954803a1d4"
+    },
+    "__md5__": "d33931f6f02fbebef3cefb6d3836195d"
+}

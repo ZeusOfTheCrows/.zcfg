@@ -1,0 +1,37 @@
+[Appearance]
+BackgroundColor=40,40,40
+Skin=breeze-gruvbox-dark
+SkinInstalledWithKns=true
+TerminalHighlightOnManualActivation=true
+
+[Behavior]
+OpenAfterStart=true
+
+[Desktop Entry]
+DefaultProfile=Gruvyzsh Dark.profile
+
+[Dialogs]
+FirstRun=false
+
+[DownloadDialog Settings]
+Height 1440=456
+Width 2560=700
+
+[Favorite Profiles]
+Favorites=GruvyFish Dark.profile,Gruvbash Dark.profile,Gruvyzsh Dark.profile
+
+[Profile Shortcuts]
+Ctrl+Shift+!=Gruvyzsh Dark.profile
+Ctrl+Shift+#=GruvyFish Dark.profile
+Ctrl+Shift+@=Gruvbash Dark.profile
+
+[Shortcuts]
+close-session=none
+next-session=Ctrl+Tab
+previous-session=Ctrl+Shift+Tab
+
+[Window]
+DynamicTabTitles=true
+KeepOpen=false
+Screen=1
+Width=60

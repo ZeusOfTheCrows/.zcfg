@@ -1,0 +1,11 @@
+include "%L"  # Include the default compose file
+
+<Multi_key> <bar> <exclam>	: "¦"	# broken bar
+<Multi_key> <z> <~>			: "ɀ"			# lowercase z with swash
+<Multi_key> <Z> <~>			: "Ɀ"			# uppercase z with swash
+<Multi_key> <s> <e> <c>		: "§"		# section sign
+<Multi_key> <r> <q>			: "⸮"			# reversed query mark
+<Multi_key> <?> <<>			: "⸮"			# reversed query mark
+<Multi_key> <n> <o>			: "№"			# numero sign
+<Multi_key> <o> <_>			: "º"			# half numero sign
+<Multi_key> <-> <|>			: "¬"			# logical not
