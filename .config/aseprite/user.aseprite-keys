@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<keyboard version="1">
+    <commands>
+        <key command="SaveFileCopyAs" shortcut="Ctrl+Alt+Shift+S" removed="true" />
+        <key command="SaveFileCopyAs" shortcut="Ctrl+Alt+S" removed="true" />
+        <key command="SaveFileCopyAs" shortcut="Alt+Shift+S" />
+        <key command="ImportSpriteSheet" shortcut="Ctrl+I" removed="true" />
+        <key command="ExportSpriteSheet" shortcut="Ctrl+E" removed="true" />
+        <key command="ExportSpriteSheet" shortcut="Ctrl+Alt+Shift+S" />
+        <key command="RepeatLastExport" shortcut="Ctrl+Shift+X" removed="true" />
+        <key command="RepeatLastExport" shortcut="Alt+Shift+S" removed="true" />
+        <key command="Redo" shortcut="Ctrl+R" removed="true" />
+        <key command="Fill" shortcut="F" removed="true" />
+        <key command="Stroke" shortcut="S" removed="true" />
+        <key command="ReplaceColor" shortcut="Shift+R" removed="true" />
+        <key command="SpriteProperties" shortcut="Alt+Enter" />
+        <key command="NewLayer" shortcut="Alt+Shift+N" removed="true">
+            <param name="group" value="true" />
+        </key>
+        <key command="GotoPreviousLayer" context="Normal" shortcut="Down" removed="true" />
+        <key command="GotoPreviousLayer" context="Normal" shortcut="PgDn" />
+        <key command="GotoNextLayer" context="Normal" shortcut="Up" removed="true" />
+        <key command="GotoNextLayer" context="Normal" shortcut="PgUp" />
+        <key command="NewFrame" shortcut="Alt+N" removed="true" />
+        <key command="NewFrame" shortcut="Alt+Shift+N" removed="true" />
+        <key command="NewFrame" shortcut="Alt+D" />
+        <key command="NewFrame" shortcut="Alt+B" removed="true">
+            <param name="content" value="empty" />
+        </key>
+        <key command="NewFrame" shortcut="Alt+N">
+            <param name="content" value="empty" />
+        </key>
+        <key command="NewFrame" shortcut="Alt+Shift+D" removed="true">
+            <param name="content" value="cellinked" />
+        </key>
+        <key command="NewFrame" shortcut="Alt+D" removed="true">
+            <param name="content" value="celcopies" />
+        </key>
+        <key command="FrameProperties" shortcut="P" removed="true">
+            <param name="frame" value="current" />
+        </key>
+        <key command="FrameProperties" shortcut="Alt+P">
+            <param name="frame" value="current" />
+        </key>
+        <key command="GotoFirstFrame" shortcut="Home" removed="true" />
+        <key command="GotoPreviousFrame" context="Normal" shortcut="Left" removed="true" />
+        <key command="GotoPreviousFrame" context="Normal" shortcut="Home" />
+        <key command="GotoNextFrame" context="Normal" shortcut="Right" removed="true" />
+        <key command="GotoNextFrame" context="Normal" shortcut="End" />
+        <key command="GotoLastFrame" shortcut="End" removed="true" />
+        <key command="DeselectMask" shortcut="Ctrl+D" removed="true" />
+        <key command="DeselectMask" shortcut="Ctrl+Shift+A" />
+        <key command="ReselectMask" shortcut="Ctrl+Shift+D" removed="true" />
+        <key command="ShowGrid" shortcut="Ctrl+&apos;" removed="true" />
+        <key command="ShowGrid" shortcut="Ctrl+~" />
+        <key command="ShowPixelGrid" shortcut="Ctrl+Shift+&apos;" removed="true" />
+        <key command="ShowPixelGrid" shortcut="Ctrl+Shift+~" />
+        <key command="SnapToGrid" shortcut="Shift+S" removed="true" />
+        <key command="Timeline" shortcut="Tab" removed="true">
+            <param name="switch" value="true" />
+        </key>
+        <key command="Timeline" shortcut="Shift+Esc">
+            <param name="switch" value="true" />
+        </key>
+        <key command="ContiguousFill" shortcut="Shift+F" />
+        <key command="CelProperties" shortcut="Alt+Shift+P" />
+        <key command="DuplicateLayer" shortcut="Shift+D" />
+        <key command="MergeDownLayer" shortcut="Alt+Shift+D" />
+        <key command="RemoveLayer" shortcut="Shift+C" />
+        <key command="NewLayer" shortcut="Ctrl+Alt+Shift+N">
+            <param name="fromFile" value="true" />
+            <param name="reference" value="true" />
+        </key>
+        <key command="ModifySelection" shortcut="Ctrl+Shift+&lt;" removed="true">
+            <param name="modifier" value="expand" />
+        </key>
+        <key command="ModifySelection" shortcut="Shift+&gt;">
+            <param name="modifier" value="expand" />
+        </key>
+        <key command="ModifySelection" shortcut="Shift+&lt;">
+            <param name="modifier" value="contract" />
+        </key>
+        <key command="MoveMask" shortcut="Left">
+            <param name="direction" value="left" />
+            <param name="quantity" value="1" />
+            <param name="target" value="content" />
+            <param name="units" value="pixel" />
+            <param name="wrap" value="1" />
+        </key>
+        <key command="MoveMask" shortcut="Right">
+            <param name="direction" value="right" />
+            <param name="quantity" value="1" />
+            <param name="target" value="content" />
+            <param name="units" value="pixel" />
+            <param name="wrap" value="1" />
+        </key>
+        <key command="MoveMask" shortcut="Up">
+            <param name="direction" value="up" />
+            <param name="quantity" value="1" />
+            <param name="target" value="content" />
+            <param name="units" value="pixel" />
+            <param name="wrap" value="1" />
+        </key>
+        <key command="MoveMask" shortcut="Down">
+            <param name="direction" value="down" />
+            <param name="quantity" value="1" />
+            <param name="target" value="content" />
+            <param name="units" value="pixel" />
+            <param name="wrap" value="1" />
+        </key>
+    </commands>
+    <tools>
+        <key tool="rectangular_marquee" shortcut="M" removed="true" />
+        <key tool="rectangular_marquee" shortcut="S" />
+        <key tool="elliptical_marquee" shortcut="Shift+M" removed="true" />
+        <key tool="elliptical_marquee" shortcut="Shift+S" />
+        <key tool="pencil" shortcut="B" removed="true" />
+        <key tool="pencil" shortcut="P" />
+        <key tool="spray" shortcut="Shift+B" removed="true" />
+        <key tool="slice" shortcut="Shift+C" removed="true" />
+        <key tool="paint_bucket" shortcut="G" removed="true" />
+        <key tool="paint_bucket" shortcut="B" />
+        <key tool="gradient" shortcut="Shift+G" removed="true" />
+        <key tool="gradient" shortcut="Shift+B" />
+        <key tool="rectangle" shortcut="U" removed="true" />
+        <key tool="rectangle" shortcut="R" />
+        <key tool="filled_rectangle" shortcut="U" removed="true" />
+        <key tool="filled_rectangle" shortcut="R" />
+        <key tool="ellipse" shortcut="Shift+U" removed="true" />
+        <key tool="ellipse" shortcut="Shift+R" />
+        <key tool="filled_ellipse" shortcut="Shift+U" removed="true" />
+        <key tool="filled_ellipse" shortcut="Shift+R" />
+        <key tool="contour" shortcut="D" removed="true" />
+        <key tool="polygon" shortcut="Shift+D" removed="true" />
+        <key tool="blur" shortcut="R" removed="true" />
+        <key tool="blur" shortcut="Shift+B" removed="true" />
+        <key tool="blur" shortcut="Shift+G" />
+        <key tool="jumble" shortcut="R" removed="true" />
+    </tools>
+    <quicktools>
+        <key tool="eraser" shortcut="D" />
+    </quicktools>
+    <actions />
+    <wheel />
+    <drag>
+        <key action="CelOpacity" vector="0,1" shortcut="Alt+Shift++" removed="true" />
+    </drag>
+</keyboard>

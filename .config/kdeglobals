@@ -1,0 +1,167 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
+
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=56,54,51
+BackgroundNormal=72,71,66
+DecorationFocus=244,116,33
+DecorationHover=255,168,88
+ForegroundActive=167,81,129
+ForegroundInactive=136,135,134
+ForegroundLink=0,87,174
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=223,219,210
+ForegroundPositive=0,110,40
+ForegroundVisited=109,46,86
+
+[Colors:Selection]
+BackgroundAlternate=134,32,116
+BackgroundNormal=217,82,34
+DecorationFocus=244,116,33
+DecorationHover=255,168,88
+ForegroundActive=167,81,129
+ForegroundInactive=142,112,115
+ForegroundLink=244,116,33
+ForegroundNegative=156,14,14
+ForegroundNeutral=170,211,192
+ForegroundNormal=255,255,255
+ForegroundPositive=168,206,64
+ForegroundVisited=109,46,86
+
+[Colors:Tooltip]
+BackgroundAlternate=255,172,99
+BackgroundNormal=42,40,38
+DecorationFocus=244,116,33
+DecorationHover=255,168,88
+ForegroundActive=167,81,129
+ForegroundInactive=96,112,128
+ForegroundLink=0,87,174
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=255,255,255
+ForegroundPositive=0,110,40
+ForegroundVisited=109,46,86
+
+[Colors:View]
+BackgroundAlternate=78,76,70
+BackgroundNormal=69,67,61
+DecorationFocus=244,116,33
+DecorationHover=255,168,88
+ForegroundActive=167,81,129
+ForegroundInactive=136,135,134
+ForegroundLink=0,87,174
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=255,255,255
+ForegroundPositive=0,110,40
+ForegroundVisited=109,46,86
+
+[Colors:Window]
+BackgroundAlternate=42,40,38
+BackgroundNormal=60,59,55
+DecorationFocus=244,116,33
+DecorationHover=255,168,88
+ForegroundActive=167,81,129
+ForegroundInactive=136,135,134
+ForegroundLink=0,87,174
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=255,255,255
+ForegroundPositive=0,110,40
+ForegroundVisited=109,46,86
+
+[DirSelect Dialog]
+DirSelectDialog Size=1300,750
+History Items[$e]=file:$HOME/Games/Emulators/Duckstation,file:$HOME,file:$HOME/Games/Roms/PS1/BIOS,file:$HOME/Games/Roms/PS1,file:///usr,file:///media/zeus/BkpPart,file:///media/zeus/Ventoy,file:$HOME/Downloads/KvGlowDark,file:$HOME/Downloads/Suave,file:$HOME/Downloads/RedStarKvantum,file:$HOME/Downloads/Windows7Kvantum,file:$HOME/Downloads,file:$HOME/Downloads/MacCheetahKvantum/MacCheetahKvantum,file:$HOME/.cache
+
+[General]
+BrowserApplication=firefox.desktop
+ColorScheme=AmbiantMATEDark
+ColorSchemeHash=38305961f9990d78e8cb46a09b3356df5261fde4
+LastUsedCustomAccentColor=233,100,58
+TerminalApplication=yakuake
+TerminalService=org.kde.yakuake.desktop
+XftHintStyle=hintslight
+XftSubPixel=rgb
+fixed=Cascadia Code PL,10,-1,5,50,0,0,0,0,0
+font=Ubuntu,10,-1,5,50,0,0,0,0,0
+menuFont=Ubuntu,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Ubuntu,8,-1,5,50,0,0,0,0,0
+toolBarFont=Ubuntu,10,-1,5,57,0,0,0,0,0,Medium
+
+[Icons]
+Theme=Humanity-Dark
+
+[KDE]
+LookAndFeelPackage=org.kde.oxygen
+ShowDeleteCommand=false
+SingleClick=false
+widgetStyle=QtCurve
+
+[KFileDialog Settings]
+Allow Expansion=true
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Preview Width=212
+Show Bookmarks=true
+Show Full Path=false
+Show Inline Previews=false
+Show Preview=false
+Show Speedbar=true
+Show hidden files=true
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=true
+Sort reversed=false
+Speedbar Width=195
+View Style=DetailTree
+
+[KShortcutsDialog Settings]
+Dialog Size=952,980
+
+[PreviewSettings]
+MaximumRemoteSize=0
+
+[Shortcuts]
+CreateFolder=Ctrl+Shift+N; F10
+Help=
+RenameFile=F2; Ctrl+Shift+R
+ShowMenubar=Ctrl+Shift+M
+
+[Toolbar style]
+ToolButtonStyle=NoText
+
+[WM]
+activeBackground=60,59,55
+activeBlend=255,255,255
+activeFont=Ubuntu,11,-1,5,75,1,0,0,0,0,Bold Italic
+activeForeground=255,255,255
+inactiveBackground=60,59,55
+inactiveBlend=60,59,55
+inactiveForeground=218,217,216

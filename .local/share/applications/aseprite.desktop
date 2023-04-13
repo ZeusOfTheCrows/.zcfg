@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=Graphics;
+Comment[en_GB]=
+Comment=
+Exec=/media/zeus/93be1955-ee6a-4524-84db-70e76901fccb/zeus/.steam/debian-installation/steamapps/common/Aseprite/aseprite
+GenericName[en_GB]=Pixel Editor
+GenericName=Pixel Editor
+Icon=/home/zeus/Pictures/Taskbar/Aseprite.png
+MimeType=image/png;image/jpeg;image/gif;image/bmp;image/aseprite;
+Name[en_GB]=Aseprite
+Name=Aseprite
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
