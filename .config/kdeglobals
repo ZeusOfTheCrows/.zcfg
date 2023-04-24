@@ -6,10 +6,10 @@ ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=0.65
+ContrastAmount=0.45
 ContrastEffect=1
 Enable=
-IntensityAmount=0.1
+IntensityAmount=-0.05
 IntensityEffect=2
 
 [ColorEffects:Inactive]
@@ -30,26 +30,26 @@ DecorationFocus=244,116,33
 DecorationHover=255,168,88
 ForegroundActive=167,81,129
 ForegroundInactive=136,135,134
-ForegroundLink=0,87,174
+ForegroundLink=233,84,32
 ForegroundNegative=191,3,3
 ForegroundNeutral=176,128,0
 ForegroundNormal=223,219,210
 ForegroundPositive=0,110,40
-ForegroundVisited=109,46,86
+ForegroundVisited=119,33,111
 
 [Colors:Selection]
 BackgroundAlternate=134,32,116
-BackgroundNormal=217,82,34
+BackgroundNormal=233,84,32
 DecorationFocus=244,116,33
 DecorationHover=255,168,88
 ForegroundActive=167,81,129
 ForegroundInactive=142,112,115
-ForegroundLink=244,116,33
+ForegroundLink=235,235,235
 ForegroundNegative=156,14,14
 ForegroundNeutral=170,211,192
-ForegroundNormal=255,255,255
+ForegroundNormal=235,235,235
 ForegroundPositive=168,206,64
-ForegroundVisited=109,46,86
+ForegroundVisited=119,33,111
 
 [Colors:Tooltip]
 BackgroundAlternate=255,172,99
@@ -58,12 +58,12 @@ DecorationFocus=244,116,33
 DecorationHover=255,168,88
 ForegroundActive=167,81,129
 ForegroundInactive=96,112,128
-ForegroundLink=0,87,174
+ForegroundLink=233,84,32
 ForegroundNegative=191,3,3
 ForegroundNeutral=176,128,0
 ForegroundNormal=255,255,255
 ForegroundPositive=0,110,40
-ForegroundVisited=109,46,86
+ForegroundVisited=119,33,111
 
 [Colors:View]
 BackgroundAlternate=78,76,70
@@ -72,12 +72,12 @@ DecorationFocus=244,116,33
 DecorationHover=255,168,88
 ForegroundActive=167,81,129
 ForegroundInactive=136,135,134
-ForegroundLink=0,87,174
+ForegroundLink=233,84,32
 ForegroundNegative=191,3,3
 ForegroundNeutral=176,128,0
 ForegroundNormal=255,255,255
 ForegroundPositive=0,110,40
-ForegroundVisited=109,46,86
+ForegroundVisited=119,33,111
 
 [Colors:Window]
 BackgroundAlternate=42,40,38
@@ -86,20 +86,21 @@ DecorationFocus=244,116,33
 DecorationHover=255,168,88
 ForegroundActive=167,81,129
 ForegroundInactive=136,135,134
-ForegroundLink=0,87,174
+ForegroundLink=233,84,32
 ForegroundNegative=191,3,3
 ForegroundNeutral=176,128,0
-ForegroundNormal=255,255,255
+ForegroundNormal=235,235,235
 ForegroundPositive=0,110,40
-ForegroundVisited=109,46,86
+ForegroundVisited=119,33,111
 
 [DirSelect Dialog]
 DirSelectDialog Size=1300,750
 History Items[$e]=file:$HOME/Games/Emulators/Duckstation,file:$HOME,file:$HOME/Games/Roms/PS1/BIOS,file:$HOME/Games/Roms/PS1,file:///usr,file:///media/zeus/BkpPart,file:///media/zeus/Ventoy,file:$HOME/Downloads/KvGlowDark,file:$HOME/Downloads/Suave,file:$HOME/Downloads/RedStarKvantum,file:$HOME/Downloads/Windows7Kvantum,file:$HOME/Downloads,file:$HOME/Downloads/MacCheetahKvantum/MacCheetahKvantum,file:$HOME/.cache
 
 [General]
+AllowKDEAppsToRememberWindowPositions=false
 BrowserApplication=firefox.desktop
-ColorScheme=AmbiantMATEDark
+ColorScheme=Kontinuance
 ColorSchemeHash=38305961f9990d78e8cb46a09b3356df5261fde4
 LastUsedCustomAccentColor=233,100,58
 TerminalApplication=yakuake
@@ -113,7 +114,7 @@ smallestReadableFont=Ubuntu,8,-1,5,50,0,0,0,0,0
 toolBarFont=Ubuntu,10,-1,5,57,0,0,0,0,0,Medium
 
 [Icons]
-Theme=Humanity-Dark
+Theme=ubuntu-mono-dark
 
 [KDE]
 LookAndFeelPackage=org.kde.oxygen

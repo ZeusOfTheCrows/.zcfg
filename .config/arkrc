@@ -8,15 +8,15 @@ StatusBar=Disabled
 Autoplay=false
 
 [ExtractDialog]
-DirHistory[$e]=$HOME/Downloads/,$HOME/Applications/APNG/,$HOME/,$HOME/Games/Roms/PS1/BIOS/,$HOME/Games/Roms/PS1/,$HOME/.local/share/,$HOME/.local/share/plasma/desktoptheme/,$HOME/.local/share/icons/,$HOME/.themes/,$HOME/Downloads/DSeg7/
+DirHistory[$e]=/opt/,$HOME/.themes/,$HOME/Pictures/,$HOME/Downloads/,$HOME/Applications/APNG/,$HOME/,$HOME/Games/Roms/PS1/BIOS/,$HOME/Games/Roms/PS1/,$HOME/.local/share/,$HOME/.local/share/plasma/desktoptheme/
 
 [Extraction]
 closeAfterExtraction=true
 extractToSubfolder=false
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME,file:$HOME/Downloads/kwin-script-noBorderOnMaximized-1.3/contents/code/main.js,file:$HOME/Applications/APNG,file:$HOME/.local/share/icons,file:$HOME/Games/Roms/PS1
-Recent URLs[$e]=file:$HOME/.local/share/plasma/desktoptheme/,file:$HOME/.local/,file:$HOME/.local/share/plasma/,recentlyused:/,file:$HOME/Games/Roms/PS1/,file:$HOME/Games/Roms/PS1/BIOS/,file:$HOME/,file:$HOME/Applications/APNG/,file:$HOME/Applications/,file:$HOME/Downloads/,file:$HOME/Downloads/kwin-script-noBorderOnMaximized-1.3/contents/code/
+Recent Files[$e]=file:$HOME,file:///opt,file:$HOME/Downloads,file:$HOME/Pictures,file:$HOME/.local/share/icons
+Recent URLs[$e]=file:$HOME/.local/,file:$HOME/.local/share/plasma/,recentlyused:/,file:$HOME/,file:$HOME/Downloads/,file:$HOME/Pictures/,file:$HOME/.themes/,file:///opt/
 detailViewIconSize=16
 iconViewIconSize=64
 
@@ -146,11 +146,14 @@ Word Completion Remove Tail=true
 DP-0 DP-2=DP-0
 HDMI-0=HDMI-0
 MenuBar=Enabled
-State=AAAA/wAAAAD9AAAAAAAAA/wAAAIvAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
-StatusBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA74AAAOjAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 eDP-1=eDP-1
-splitterSizes=676,338
+eDP-1 Height 1920x1080 eDP-1=1017
+eDP-1 Width 1920x1080 eDP-1=958
+eDP-1 XPosition 1920x1080 eDP-1=961
+eDP-1 YPosition 1920x1080 eDP-1=30
+splitterSizes=634,318
 
 [Viewer]
 1920x1080 screen: Height=975
@@ -163,7 +166,11 @@ splitterSizes=676,338
 2 screens: YPosition=580
 DP-0 DP-2=DP-2
 HDMI-0=HDMI-0
-State=AAAA/wAAAAD9AAAAAAAABkgAAAKiAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAQAAAAAAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAAAAA74AAAPCAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAQAAAAAAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 StatusBar=Disabled
 ToolBarsMovable=Disabled
 eDP-1=eDP-1
+eDP-1 Height 1920x1080 eDP-1=1017
+eDP-1 Width 1920x1080 eDP-1=958
+eDP-1 XPosition 1920x1080 eDP-1=1
+eDP-1 YPosition 1920x1080 eDP-1=30

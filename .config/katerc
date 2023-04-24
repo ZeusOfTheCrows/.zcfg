@@ -43,8 +43,9 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=extend.kbd,file:$HOME/.local/share/mime/packages/aseprite.xml,file:$HOME/.local/share/applications/spotify.desktop,file:$HOME/.local/share/applications/aseprite.desktop,file:$HOME/.screenlayout/main.sh,file:$HOME/.screenlayout/bed.sh,file:$HOME/.screenlayout/x-main.sh
-Recent URLs[$e]=file:///usr/share/applications/,file:$HOME/Applications/,file:$HOME/.screenlayout/,file:$HOME/.local/share/applications/,file:///usr/share/mime/image/,file:$HOME/.local/share/mime/packages/
+Recent Files[$e]=extend.kbd,file:$HOME/.mozilla/firefox/qno22uyx.default-release/chrome/autohide-menubar.css,file:$HOME/.mozilla/firefox/qno22uyx.default-release/chrome/compact.css,file:$HOME/.mozilla/firefox/qno22uyx.default-release/chrome/inline-menubar.css,file:$HOME/.local/share/applications/aseprite.desktop,file:$HOME/.screenlayout/main.sh,file:$HOME/.screenlayout/bed.sh
+Recent URLs[$e]=file:///usr/share/applications/,file:$HOME/.screenlayout/,file:$HOME/.local/share/applications/,file:///usr/share/mime/image/,file:$HOME/.local/share/mime/packages/,file:$HOME/.mozilla/firefox/qno22uyx.default-release/chrome/
+detailViewIconSize=16
 iconViewIconSize=64
 
 [KPropertiesDialog]
@@ -74,7 +75,7 @@ Indentation Width=2
 Keep Extra Spaces=false
 Line Length Limit=10000
 Newline at End of File=true
-On-The-Fly Spellcheck=false
+On-The-Fly Spellcheck=true
 Overwrite Mode=false
 PageUp/PageDown Moves Cursor=false
 Remove Spaces=1
@@ -167,7 +168,7 @@ Word Completion Remove Tail=true
 
 [KTextEditor::Search]
 Replace History=\\0
-Search History=close,window,\\\\bv\\\\b,\\\\b,activeclient,function,apng,libpng,menu,compose,volume,audio,redshift -o,.*iance$,.*iance^,.*iance,.*g.*ance,.*c.*iance,.*k.*iance,iance,ance,*ance,*c*ance,extend,desc
+Search History=menu,close,window,\\\\bv\\\\b,\\\\b,activeclient,function,apng,libpng,compose,volume,audio,redshift -o,.*iance$,.*iance^,.*iance,.*g.*ance,.*c.*iance,.*k.*iance,iance,ance,*ance,*c*ance,extend,desc
 
 [Konsole]
 AutoSyncronize=true
@@ -183,6 +184,8 @@ SetEditor=false
 1920x1080 screen: Window-Maximized=true
 2 screens: Height=1343
 2 screens: Width=1278
+eDP-1 Height 1920x1080 eDP-1=1017
+eDP-1 Width 1920x1080 eDP-1=958
 
 [Shortcuts]
 kate_mdi_focus_toolview_kate_private_plugin_katefileselectorplugin=none

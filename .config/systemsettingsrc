@@ -1,8 +1,8 @@
 [KFileDialog Settings]
 1920x1080 screen: Height=508
 1920x1080 screen: Width=960
-Recent Files[$e]=Blender-Ambiance.colors,file:$HOME/Downloads/kwin-script-noBorderOnMaximized-1.3.kwinscript,file:$HOME/Downloads/NoBorderFirefoxWhenMaximized-v1.kwinscript,file:$HOME/Downloads/noiseTexture.png,file:$HOME/.screenlayout/main.sh,file:$HOME/.screenlayout/bed.sh,file:$HOME/Documents/Kontinuance.qtcurve
-Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Documents/,file:$HOME/,file:$HOME/.screenlayout/
+Recent Files[$e]=Blender-Ambiance.colors,file:$HOME/Downloads/kontinuance-master/colours/Kontinuance.colors,file:$HOME/.screenlayout/main.sh,file:$HOME/.screenlayout/bed.sh
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Documents/,file:$HOME/,file:$HOME/.screenlayout/,file:$HOME/Downloads/kontinuance-master/colours/
 detailViewIconSize=16
 iconViewIconSize=64
 listViewIconSize=64
@@ -30,14 +30,13 @@ DP-0 DP-2 XPosition 2560x1440=3330
 DP-0 DP-2 YPosition 2560x1440=362
 HDMI-0=HDMI-0
 MenuBar=Disabled
-RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAAAABmEAAAP1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABAAAAAPLAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 eDP-1=eDP-1
-eDP-1 Height 1920x1080 eDP-1=984
-eDP-1 Width 1920x1080 eDP-1=960
-eDP-1 XPosition 1920x1080 eDP-1=0
-eDP-1 YPosition 1920x1080 eDP-1=32
+eDP-1 Height 1920x1080 eDP-1=971
+eDP-1 Width 1920x1080 eDP-1=1024
+eDP-1 XPosition 1920x1080 eDP-1=477
+eDP-1 YPosition 1920x1080 eDP-1=53
 
 [systemsettings_sidebar_mode]
 HighlightNonDefaultSettings=true
