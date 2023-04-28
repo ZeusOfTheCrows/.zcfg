@@ -1,0 +1,31 @@
+[Desktop Action Quit]
+Exec=telegram-desktop -quit
+Icon=application-exit
+Name=Quit Telegram
+
+[Desktop Entry]
+Actions=Quit;
+Categories=Chat;Network;InstantMessaging;Qt;
+Comment[en_GB]=Official desktop version of Telegram messaging app
+Comment=Official desktop version of Telegram messaging app
+Exec=telegram-desktop -- %u
+GenericName[en_GB]=
+GenericName=
+Icon=/home/zeus/.local/share/applications/telegram.svg
+Keywords=tg;chat;im;messaging;messenger;sms;tdesktop;
+MimeType=
+Name[en_GB]=Telegram Desktop
+Name=Telegram Desktop
+Path=
+SingleMainWindow=true
+StartupNotify=true
+StartupWMClass=TelegramDesktop
+Terminal=false
+TerminalOptions=
+TryExec=telegram-desktop
+Type=Application
+Version=1.5
+X-GNOME-SingleWindow=true
+X-GNOME-UsesNotifications=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=
