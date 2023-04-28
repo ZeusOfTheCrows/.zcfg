@@ -22,7 +22,7 @@ DialogWidth=720
 
 [Containments][1][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=559
+ToolBoxButtonX=554
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=/home/zeus/.local/share/wallpapers/ubuntu-1.svg
@@ -216,6 +216,13 @@ totalSensors=["cpu/all/usage"]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][2][Applets][36]
+immutability=1
+plugin=org.kde.plasma.volume
+
+[Containments][2][Applets][36][Configuration][General]
+migrated=true
+
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -246,7 +253,7 @@ DialogHeight=82
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=3;5;33;6;31;30;32;19;7;;29;28;26;20
+AppletOrder=3;5;33;6;31;30;32;19;7;29;28;26;20;36
 
 [Containments][8]
 activityId=
