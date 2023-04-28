@@ -1,5 +1,6 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
+switch-to-activity-7e9db541-855e-47b2-a439-d0c9e7f97845=none,none,Switch to activity "Default"
 switch-to-activity-9fa015a6-09c6-4409-aad1-40e5c76a0d8c=none,none,Switch to activity "KDE"
 switch-to-activity-cb11ed76-f89a-4f4e-ab50-2208795fac89=none,none,Switch to activity "Default"
 switch-to-activity-cb1c343a-3ba9-42f4-8687-13885e2a5410=none,none,Switch to activity "Ubuntu"
@@ -30,7 +31,7 @@ _k_friendly_name=Accessibility
 [kcm_touchpad]
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
-Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Toggle Touchpad
+Toggle Touchpad=Touchpad Toggle,Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Toggle Touchpad
 _k_friendly_name=Touchpad
 
 [kded5]
@@ -77,7 +78,7 @@ Invert Screen Colors=none,none,Invert Screen Colours
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Kill Window
 MinimizeAll=Meta+Shift+D,none,MinimizeAll
 Move Tablet to Next Output=none,none,Move the tablet to the next output
-MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
+MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Centre
 MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
 MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
@@ -133,7 +134,7 @@ Switch to Screen Below=none,,Switch to Screen Below
 Switch to Screen to the Left=none,,Switch to Screen to the Left
 Switch to Screen to the Right=none,,Switch to Screen to the Right
 Toggle=none,none,Toggle Show Paint
-Toggle Night Color=none,none,Toggle Night Color
+Toggle Night Color=none,none,Toggle Night Colour
 Toggle Window Raise/Lower=none,,Toggle Window Raise/Lower
 ToggleCurrentThumbnail=none,Meta+Ctrl+T,Toggle Thumbnail for Current Window
 Walk Through Desktop List=none,,Walk Through Desktop List
@@ -142,25 +143,25 @@ Walk Through Desktops=none,,Walk Through Desktops
 Walk Through Desktops (Reverse)=none,,Walk Through Desktops (Reverse)
 Walk Through Windows=Alt+Tab,Alt+Tab,Walk Through Windows
 Walk Through Windows (Reverse)=Alt+Shift+Backtab,Alt+Shift+Backtab,Walk Through Windows (Reverse)
-Walk Through Windows Alternative=,,Walk Through Windows Alternative
-Walk Through Windows Alternative (Reverse)=,,Walk Through Windows Alternative (Reverse)
+Walk Through Windows Alternative=none,,Walk Through Windows Alternative
+Walk Through Windows Alternative (Reverse)=none,,Walk Through Windows Alternative (Reverse)
 Walk Through Windows of Current Application=Meta+Tab,Alt+`,Walk Through Windows of Current Application
 Walk Through Windows of Current Application (Reverse)=Meta+Shift+Tab,Alt+~,Walk Through Windows of Current Application (Reverse)
-Walk Through Windows of Current Application Alternative=,,Walk Through Windows of Current Application Alternative
-Walk Through Windows of Current Application Alternative (Reverse)=,,Walk Through Windows of Current Application Alternative (Reverse)
-Window Above Other Windows=none,,Keep Window Above Others
+Walk Through Windows of Current Application Alternative=none,,Walk Through Windows of Current Application Alternative
+Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Through Windows of Current Application Alternative (Reverse)
+Window Above Other Windows=Meta+Shift+PgUp,,Keep Window Above Others
 Window Below Other Windows=none,,Keep Window Below Others
 Window Close=Meta+Shift+Q\tMeta+Q\tAlt+F4,Alt+F4,Close Window
 Window Fullscreen=none,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
 Window Lower=none,,Lower Window
-Window Maximize=Meta+PgUp\tMeta+F,Meta+PgUp,Maximize Window
-Window Maximize Horizontal=none,,Maximize Window Horizontally
-Window Maximize Vertical=none,,Maximize Window Vertically
-Window Minimize=Meta+W\tMeta+PgDown,Meta+PgDown,Minimize Window
+Window Maximize=Meta+PgUp\tMeta+F,Meta+PgUp,Maximise Window
+Window Maximize Horizontal=none,,Maximise Window Horizontally
+Window Maximize Vertical=none,,Maximise Window Vertically
+Window Minimize=Meta+W\tMeta+PgDown,Meta+PgDown,Minimise Window
 Window Move=none,,Move Window
-Window Move Center=none,,Move Window to the Center
+Window Move Center=Meta+Shift+F,,Move Window to the Centre
 Window No Border=none,,Toggle Window Titlebar and Frame
 Window On All Desktops=none,,Keep Window on All Desktops
 Window One Desktop Down=Meta+Ctrl+Shift+Down,Meta+Ctrl+Shift+Down,Window One Desktop Down
@@ -243,7 +244,7 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
-_launch=none,Meta+E,Dolphin
+_launch=Meta+E,Meta+E,Dolphin
 
 [org.kde.kcalc.desktop]
 _k_friendly_name=KCalc
@@ -306,7 +307,7 @@ activate widget 159=none,none,Activate Redshift Control Widget
 activate widget 164=Meta+B,none,Activate Web browser Widget
 activate widget 168=Meta+A,none,Activate Audio Volume (Win7 Mixer) Widget
 activate widget 3=Alt+F1,none,Activate Application Launcher Widget
-activate widget 31=,none,Activate Application Launcher Widget
+activate widget 31=none,none,Activate Application Launcher Widget
 activate widget 41=Meta+C,none,Activate Colour Picker Widget
 activate widget 5=none,none,Activate Application Launcher Widget
 activate widget 52=none,none,Activate Quicklaunch Widget
@@ -353,10 +354,6 @@ Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Toggle the Stylus Tool Relative/Absol
 Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Enable/Disable the Touch Tool
 _k_friendly_name=Wacom Tablet
 
-[xdg-open.desktop]
-_k_friendly_name=xdg-open ~/
-_launch=,none,xdg-open ~/
-
 [yakuake]
 _k_friendly_name=Yakuake
-toggle-window-state=Alt+`\tMeta+Esc,F12,Open/Retract Yakuake
+toggle-window-state=Meta+Esc\tAlt+`,F12,Open/Retract Yakuake

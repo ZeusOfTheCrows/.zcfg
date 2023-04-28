@@ -9,7 +9,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="powerlevel10k/powerlevel10ksuoaeirnst
-ZSH_THEME="fishy"
+# ZSH_THEME="fishy"
+ZSH_THEME="sunaku"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -105,11 +106,14 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 
-alias dir="ls -l -F -h"
+# alias dir="ls -l -F -h"
+alias dir="exa --long --classify --colour=always --group-directories-first --header"
 alias start=xdg-open
+alias where="which -a"
+alias cls=clear
 alias aar="sudo add-apt-repository"
 alias serve="bundle exec jekyll serve"
-alias cls=clear
+alias find-recent="find . -type f -mmin -1"
 
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"

@@ -100,14 +100,14 @@ History Items[$e]=file:$HOME/Games/Emulators/Duckstation,file:$HOME,file:$HOME/G
 [General]
 AllowKDEAppsToRememberWindowPositions=false
 BrowserApplication=firefox.desktop
-ColorScheme=Kontinuance
+ColorScheme=kontinuance
 ColorSchemeHash=38305961f9990d78e8cb46a09b3356df5261fde4
 LastUsedCustomAccentColor=233,100,58
 TerminalApplication=yakuake
 TerminalService=org.kde.yakuake.desktop
 XftHintStyle=hintslight
-XftSubPixel=rgb
-fixed=Cascadia Code PL,10,-1,5,50,0,0,0,0,0
+XftSubPixel=none
+fixed=CaskaydiaCove Nerd Font,10,-1,5,50,0,0,0,0,0
 font=Ubuntu,10,-1,5,50,0,0,0,0,0
 menuFont=Ubuntu,10,-1,5,50,0,0,0,0,0
 smallestReadableFont=Ubuntu,8,-1,5,50,0,0,0,0,0
