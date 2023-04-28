@@ -1,0 +1,29 @@
+[Desktop Entry]
+DefaultProfile=ZSH.profile
+
+[General]
+ConfigVersion=1
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/disco-crash.txt,file:$HOME/disco-crash.txt
+Recent URLs[$e]=file:$HOME/
+detailViewIconSize=16
+
+[MainWindow]
+1920x1080 screen: Height=991
+1920x1080 screen: Width=958
+1920x1080 screen: XPosition=1
+1920x1080 screen: YPosition=30
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAT8A////+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAAA7AD///8AAAO+AAADpgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAFD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+eDP-1 Height 1920x1080 eDP-1=1007
+eDP-1 Width 1920x1080 eDP-1=960
+eDP-1 XPosition 1920x1080 eDP-1=560
+eDP-1 YPosition 1920x1080 eDP-1=283
+
+[SaveHistory Settings]
+Recent URLs[$e]=file:$HOME
+
+[UiSettings]
+ColorScheme=
