@@ -28,6 +28,20 @@ ToolBoxButtonX=554
 Image=/home/zeus/.local/share/wallpapers/ubuntu-1.svg
 SlidePaths=/home/zeus/.local/share/wallpapers/,/usr/share/wallpapers/
 
+[Containments][113][Applets][128]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][113][Applets][128][Configuration]
+PreloadWeight=42
+
+[Containments][187][Applets][202]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][187][Applets][202][Configuration]
+PreloadWeight=42
+
 [Containments][2]
 activityId=
 formfactor=2
@@ -249,11 +263,41 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
-DialogHeight=82
+DialogHeight=74
 DialogWidth=1920
 
 [Containments][2][General]
 AppletOrder=3;5;33;6;31;30;32;19;7;29;28;26;20;36
+
+[Containments][227][Applets][242]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][227][Applets][242][Configuration]
+PreloadWeight=42
+
+[Containments][262][Applets][278]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][262][Applets][278][Configuration]
+PreloadWeight=42
+
+[Containments][287][Applets][303]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][287][Applets][303][Configuration]
+PreloadWeight=42
+
+[Containments][313]
+activityId=31c52f92-f257-4f0c-8a30-67d6f0af7946
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
 
 [Containments][8]
 activityId=
@@ -290,6 +334,9 @@ plugin=org.kde.plasma.keyboardlayout
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
 
+[Containments][8][Applets][159][Configuration][Advanced]
+nightBrightness=0.75
+
 [Containments][8][Applets][16]
 immutability=1
 plugin=org.kde.plasma.notifications
@@ -310,10 +357,10 @@ PreloadWeight=34
 
 [Containments][8][Applets][22]
 immutability=1
-plugin=org.kde.plasma.battery
+plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=55
+PreloadWeight=47
 
 [Containments][8][Applets][23]
 immutability=1
@@ -358,5 +405,5 @@ knownItems=org.kde.kdeconnect,org.kde.kscreen,org.kde.kupapplet,org.kde.plasma.b
 shownItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.nightcolorcontrol,org.kde.plasma.addons.katesessions
 
 [ScreenMapping]
-itemsOnDisabledScreens=
+itemsOnDisabledScreens=0,cb11ed76-f89a-4f4e-ab50-2208795fac89,7,file:///home/zeus/Warpinator,file:///home/zeus/Templates,file:///home/zeus/Desktop,file:///home/zeus/Documents,file:///home/zeus/Downloads,file:///home/zeus/Music,file:///home/zeus/Pictures
 screenMapping=desktop:/siduction-manual.desktop,0,7e9db541-855e-47b2-a439-d0c9e7f97845,desktop:/calamares.desktop,0,7e9db541-855e-47b2-a439-d0c9e7f97845,desktop:/siduction-irc.desktop,0,7e9db541-855e-47b2-a439-d0c9e7f97845,desktop:/chroot-helper.desktop,0,7e9db541-855e-47b2-a439-d0c9e7f97845

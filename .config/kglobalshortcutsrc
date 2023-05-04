@@ -1,9 +1,10 @@
 [ActivityManager]
-_k_friendly_name=Activity Manager
+_k_friendly_name=System Settings
+switch-to-activity-=,none,
+switch-to-activity-31c52f92-f257-4f0c-8a30-67d6f0af7946=,none,Switch to activity "Default"
 switch-to-activity-7e9db541-855e-47b2-a439-d0c9e7f97845=none,none,Switch to activity "Default"
 switch-to-activity-9fa015a6-09c6-4409-aad1-40e5c76a0d8c=none,none,Switch to activity "KDE"
 switch-to-activity-cb11ed76-f89a-4f4e-ab50-2208795fac89=none,none,Switch to activity "Default"
-switch-to-activity-cb1c343a-3ba9-42f4-8687-13885e2a5410=none,none,Switch to activity "Ubuntu"
 switch-to-activity-fa757950-5a9a-42eb-9e6c-544f89ea46c9=none,none,Switch to activity "Default"
 
 [Clementine]
@@ -66,7 +67,7 @@ Reboot Without Confirmation=none,,Reboot Without Confirmation
 _k_friendly_name=Session Management
 
 [kwin]
-Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Activate Window Demanding Attention
+Activate Window Demanding Attention=Meta+A\tMeta+Ctrl+A,Meta+Ctrl+A,Activate Window Demanding Attention
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
 Edit Tiles=Meta+Shift+T,Meta+T,Toggle Tiles Editor
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
@@ -150,8 +151,8 @@ Walk Through Windows of Current Application (Reverse)=Meta+Shift+Tab,Alt+~,Walk 
 Walk Through Windows of Current Application Alternative=none,,Walk Through Windows of Current Application Alternative
 Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Through Windows of Current Application Alternative (Reverse)
 Window Above Other Windows=Meta+Shift+PgUp,,Keep Window Above Others
-Window Below Other Windows=none,,Keep Window Below Others
-Window Close=Meta+Shift+Q\tMeta+Q\tAlt+F4,Alt+F4,Close Window
+Window Below Other Windows=Meta+Shift+PgDown,,Keep Window Below Others
+Window Close=Meta+Q\tAlt+F4,Alt+F4,Close Window
 Window Fullscreen=none,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
@@ -161,7 +162,7 @@ Window Maximize Horizontal=none,,Maximise Window Horizontally
 Window Maximize Vertical=none,,Maximise Window Vertically
 Window Minimize=Meta+W\tMeta+PgDown,Meta+PgDown,Minimise Window
 Window Move=none,,Move Window
-Window Move Center=Meta+Shift+F,,Move Window to the Centre
+Window Move Center=none,,Move Window to the Centre
 Window No Border=none,,Toggle Window Titlebar and Frame
 Window On All Desktops=none,,Keep Window on All Desktops
 Window One Desktop Down=Meta+Ctrl+Shift+Down,Meta+Ctrl+Shift+Down,Window One Desktop Down
@@ -251,9 +252,9 @@ _k_friendly_name=KCalc
 _launch=Launch (1),Launch (1),KCalc
 
 [org.kde.krunner.desktop]
-RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
+RunClipboard=Alt+Shift+F2\tMeta+Ctrl+Space,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner
-_launch=Ctrl+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
+_launch=Meta+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [org.kde.plasma-systemmonitor.desktop]
 _k_friendly_name=System Monitor
@@ -287,7 +288,7 @@ Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
 [plasmashell]
-_k_friendly_name=Plasma
+_k_friendly_name=Activity switching
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
@@ -305,9 +306,15 @@ activate widget 155=none,none,Activate Icons-only Task Manager Widget
 activate widget 157=none,none,Activate Quicklaunch Widget
 activate widget 159=none,none,Activate Redshift Control Widget
 activate widget 164=Meta+B,none,Activate Web browser Widget
-activate widget 168=Meta+A,none,Activate Audio Volume (Win7 Mixer) Widget
+activate widget 168=Meta+Shift+A,none,Activate Audio Volume (Win7 Mixer) Widget
+activate widget 209=none,none,Activate Home Widget
+activate widget 222=none,none,Activate Application Launcher Widget
+activate widget 257=none,none,Activate Application Launcher Widget
+activate widget 282=none,none,Activate Application Launcher Widget
 activate widget 3=Alt+F1,none,Activate Application Launcher Widget
+activate widget 309=none,none,Activate Minimise All Windows Widget
 activate widget 31=none,none,Activate Application Launcher Widget
+activate widget 312=,none,Activate Pager Widget
 activate widget 41=Meta+C,none,Activate Colour Picker Widget
 activate widget 5=none,none,Activate Application Launcher Widget
 activate widget 52=none,none,Activate Quicklaunch Widget
@@ -354,6 +361,10 @@ Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Toggle the Stylus Tool Relative/Absol
 Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Enable/Disable the Touch Tool
 _k_friendly_name=Wacom Tablet
 
+[xdg-open.desktop]
+_k_friendly_name=xdg-open ~/
+_launch=none,none,xdg-open ~/
+
 [yakuake]
 _k_friendly_name=Yakuake
-toggle-window-state=Meta+Esc\tAlt+`,F12,Open/Retract Yakuake
+toggle-window-state=Alt+`\tMeta+Esc,F12,Open/Retract Yakuake

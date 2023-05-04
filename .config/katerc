@@ -43,8 +43,8 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=extend.kbd,file:$HOME/.mozilla/firefox/qno22uyx.default-release/chrome/autohide-menubar.css,file:$HOME/.mozilla/firefox/qno22uyx.default-release/chrome/compact.css,file:$HOME/.mozilla/firefox/qno22uyx.default-release/chrome/inline-menubar.css,file:$HOME/.local/share/applications/aseprite.desktop,file:$HOME/.screenlayout/main.sh,file:$HOME/.screenlayout/bed.sh
-Recent URLs[$e]=file:///usr/share/applications/,file:$HOME/.screenlayout/,file:$HOME/.local/share/applications/,file:///usr/share/mime/image/,file:$HOME/.local/share/mime/packages/,file:$HOME/.mozilla/firefox/qno22uyx.default-release/chrome/
+Recent Files[$e]=extend.kbd,file:$HOME/aagh,file:$HOME/.local/share/applications/aseprite.desktop,file:$HOME/.screenlayout/main.sh,file:$HOME/.screenlayout/bed.sh
+Recent URLs[$e]=file:///usr/share/applications/,file:$HOME/.screenlayout/,file:$HOME/.local/share/applications/,file:///usr/share/mime/image/,file:$HOME/.local/share/mime/packages/,file:$HOME/
 detailViewIconSize=16
 iconViewIconSize=64
 
@@ -75,7 +75,7 @@ Indentation Width=2
 Keep Extra Spaces=false
 Line Length Limit=10000
 Newline at End of File=true
-On-The-Fly Spellcheck=true
+On-The-Fly Spellcheck=false
 Overwrite Mode=false
 PageUp/PageDown Moves Cursor=false
 Remove Spaces=1

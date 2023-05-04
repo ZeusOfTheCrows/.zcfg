@@ -6,8 +6,9 @@ OpenGLIsUnsafe=false
 
 [Desktops]
 Id_1=7c389367-9ed5-4f71-92f5-73124d975784
-Number=1
-Rows=1
+Id_2=0945eeb1-3df4-4677-8543-33a83f752047
+Number=2
+Rows=2
 
 [Effect-PresentWindows]
 BorderActivateAll=9
@@ -29,6 +30,9 @@ LayoutName=thumbnail_grid
 
 [Tiling]
 padding=4
+
+[Tiling][020908a3-58e3-5408-8b30-945e58ab7ef9]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
