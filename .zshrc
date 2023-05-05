@@ -112,9 +112,12 @@ alias start=xdg-open
 alias where="which -a"
 alias cls=clear
 alias aar="sudo add-apt-repository"
-alias serve="bundle exec jekyll serve"
+alias jserve="bundle exec jekyll serve"
+alias jhost="bundle exec jekyll serve --host $(hostname -I)"
 alias find-recent="find . -type f -mmin -1"
 
 # Install Ruby Gems to ~/gems
-export GEM_HOME="$HOME/gems"
-export PATH="$HOME/gems/bin:$PATH"
+# export GEM_HOME="$HOME/gems"
+# export PATH="$HOME/gems/bin:$PATH"
+export GEM_HOME="$HOME/.gems"
+export PATH="$HOME/.gems/bin:$PATH"

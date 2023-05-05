@@ -5,28 +5,12 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=7e9db541-855e-47b2-a439-d0c9e7f97845
-formfactor=0
+[Containments][113][Applets][127]
 immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+plugin=org.kde.plasma.mediacontroller
 
-[Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][1][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=554
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/zeus/.local/share/wallpapers/ubuntu-1.svg
-SlidePaths=/home/zeus/.local/share/wallpapers/,/usr/share/wallpapers/
+[Containments][113][Applets][127][Configuration]
+PreloadWeight=18
 
 [Containments][113][Applets][128]
 immutability=1
@@ -42,6 +26,13 @@ plugin=org.kde.plasma.nightcolorcontrol
 [Containments][187][Applets][202][Configuration]
 PreloadWeight=42
 
+[Containments][187][Applets][205]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][187][Applets][205][Configuration]
+PreloadWeight=18
+
 [Containments][2]
 activityId=
 formfactor=2
@@ -51,12 +42,20 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][2][Applets][144][Configuration]
+PreloadWeight=70
+popupHeight=320
+popupWidth=320
+
+[Containments][2][Applets][163][Configuration]
+PreloadWeight=60
+
 [Containments][2][Applets][19]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][19][Configuration]
-PreloadWeight=60
+PreloadWeight=54
 popupHeight=450
 popupWidth=396
 
@@ -64,28 +63,29 @@ popupWidth=396
 autoFontAndSize=false
 dateFormat=custom
 fontFamily=Ubuntu
+fontSize=36
+fontStyleName=Regular
 
 [Containments][2][Applets][19][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][2][Applets][20]
-immutability=1
-plugin=org.kde.plasma.minimizeall
+[Containments][2][Applets][209][Configuration]
+PreloadWeight=55
 
 [Containments][2][Applets][26]
 immutability=1
 plugin=org.kde.plasma.colorpicker
 
 [Containments][2][Applets][26][Configuration]
-PreloadWeight=60
+PreloadWeight=54
 
 [Containments][2][Applets][26][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][26][Configuration][General]
-history=#4b4945,#635d56
+history=#5e4234,#3c3b37,#4b4945,#635d56
 
 [Containments][2][Applets][26][Shortcuts]
 global=Meta+C
@@ -100,6 +100,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=
 
 [Containments][2][Applets][28][Configuration]
+PreloadWeight=59
 activityId=
 formfactor=0
 immutability=1
@@ -108,9 +109,21 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=
 
+[Containments][2][Applets][28][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][2][Applets][28][Configuration][General]
+positions={"1920x1080":[]\\,"2560x1440":[]}
+url=file:///home/zeus
+viewMode=1
+
 [Containments][2][Applets][29]
 immutability=1
 plugin=org.kde.plasma.quicklaunch
+
+[Containments][2][Applets][29][Configuration]
+PreloadWeight=34
 
 [Containments][2][Applets][29][Configuration][ConfigDialog]
 DialogHeight=540
@@ -126,7 +139,7 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=720
+popupHeight=640
 popupWidth=669
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
@@ -154,10 +167,10 @@ plugin=org.kde.plasma.systemmonitor.cpu
 
 [Containments][2][Applets][30][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=55
+PreloadWeight=44
 
 [Containments][2][Applets][30][Configuration][Appearance]
-chartFace=org.kde.ksysguard.piechart
+chartFace=notmart.ksysguard.steampunkgauge
 title=Memory Usage
 
 [Containments][2][Applets][30][Configuration][ConfigDialog]
@@ -179,9 +192,10 @@ plugin=org.kde.plasma.systemmonitor.cpu
 
 [Containments][2][Applets][31][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
+PreloadWeight=39
 
 [Containments][2][Applets][31][Configuration][Appearance]
-chartFace=org.kde.ksysguard.piechart
+chartFace=notmart.ksysguard.steampunkgauge
 title=Total CPU Use
 
 [Containments][2][Applets][31][Configuration][ConfigDialog]
@@ -196,16 +210,23 @@ highPrioritySensorIds=["cpu/all/usage"]
 lowPrioritySensorIds=["cpu/all/cpuCount","cpu/all/coreCount"]
 totalSensors=["cpu/all/usage"]
 
+[Containments][2][Applets][312][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][2][Applets][312][Configuration][General]
+wrapPage=true
+
 [Containments][2][Applets][32]
 immutability=1
 plugin=org.kde.plasma.systemmonitor.cpu
 
 [Containments][2][Applets][32][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=60
+PreloadWeight=44
 
 [Containments][2][Applets][32][Configuration][Appearance]
-chartFace=org.kde.ksysguard.piechart
+chartFace=notmart.ksysguard.steampunkgauge
 title=Total CPU Use
 
 [Containments][2][Applets][32][Configuration][ConfigDialog]
@@ -226,13 +247,36 @@ highPrioritySensorIds=["gpu/all/usage"]
 lowPrioritySensorIds=["gpu/all/totalVram"]
 totalSensors=["cpu/all/usage"]
 
+[Containments][2][Applets][325]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][2][Applets][325][Configuration]
+PreloadWeight=42
+
+[Containments][2][Applets][325][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][2][Applets][325][Configuration][General]
+currentDesktopSelected=ShowDesktop
+wrapPage=true
+
 [Containments][2][Applets][33]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][2][Applets][33][Configuration]
+PreloadWeight=74
+popupHeight=320
+popupWidth=320
+
 [Containments][2][Applets][36]
 immutability=1
 plugin=org.kde.plasma.volume
+
+[Containments][2][Applets][36][Configuration]
+PreloadWeight=34
 
 [Containments][2][Applets][36][Configuration][General]
 migrated=true
@@ -241,18 +285,25 @@ migrated=true
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][2][Applets][5][Configuration]
+PreloadWeight=34
+
 [Containments][2][Applets][5][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
+forceStripes=true
 iconSpacing=0
-launchers=applications:telegramdesktop.desktop,preferred://browser,applications:spotify.desktop,applications:steam.desktop,applications:org.kde.discover.desktop,preferred://filemanager
+launchers=applications:telegramdesktop.desktop,preferred://browser,applications:spotify.desktop,applications:steam.desktop
 wheelEnabled=false
 
 [Containments][2][Applets][6]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
+
+[Containments][2][Applets][6][Configuration]
+PreloadWeight=34
 
 [Containments][2][Applets][7]
 immutability=1
@@ -263,11 +314,14 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
-DialogHeight=74
-DialogWidth=1920
+DialogHeight=89
+DialogWidth=2560
+
+[Containments][2][Configuration]
+PreloadWeight=34
 
 [Containments][2][General]
-AppletOrder=3;5;33;6;31;30;32;19;7;29;28;26;20;36
+AppletOrder=3;5;33;325;6;31;30;32;7;29;19;28;26;36
 
 [Containments][227][Applets][242]
 immutability=1
@@ -276,12 +330,33 @@ plugin=org.kde.plasma.nightcolorcontrol
 [Containments][227][Applets][242][Configuration]
 PreloadWeight=42
 
+[Containments][227][Applets][244]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][227][Applets][244][Configuration]
+PreloadWeight=18
+
+[Containments][262][Applets][277]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][262][Applets][277][Configuration]
+PreloadWeight=18
+
 [Containments][262][Applets][278]
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][262][Applets][278][Configuration]
 PreloadWeight=42
+
+[Containments][287][Applets][302]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][287][Applets][302][Configuration]
+PreloadWeight=18
 
 [Containments][287][Applets][303]
 immutability=1
@@ -291,6 +366,9 @@ plugin=org.kde.plasma.nightcolorcontrol
 PreloadWeight=42
 
 [Containments][313]
+ItemGeometries-1920x1080=Applet-316:36,684,324,324,0;Applet-318:360,684,324,324,0;
+ItemGeometries-2560x1440=Applet-316:38,38,304,342,0;Applet-318:380,38,304,342,0;
+ItemGeometriesHorizontal=Applet-316:36,684,324,324,0;Applet-318:360,684,324,324,0;
 activityId=31c52f92-f257-4f0c-8a30-67d6f0af7946
 formfactor=0
 immutability=1
@@ -298,6 +376,88 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][313][Applets][316]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][313][Applets][316][Configuration]
+PreloadWeight=34
+
+[Containments][313][Applets][318]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][313][Applets][318][Configuration]
+PreloadWeight=34
+
+[Containments][313][Applets][318][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][313][Applets][318][Configuration][General]
+color=translucent-light
+fontSize=10
+noteId=17498075-5fd5-439c-a342-1641354351
+
+[Containments][313][Applets][320][Configuration]
+PreloadWeight=34
+activityId=
+formfactor=0
+immutability=1
+lastScreen=-1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=
+
+[Containments][313][Applets][320][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][313][Applets][320][Configuration][General]
+iconSize=1
+positions={"1920x1080":[]}
+textLines=1
+url=file:///home/zeus
+viewMode=1
+
+[Containments][313][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][313][Configuration]
+PreloadWeight=34
+
+[Containments][313][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=761
+alignment=1
+arrangement=1
+positions={"2560x1440":[]\\,"1920x1080":[]}
+
+[Containments][313][Wallpaper][org.kde.image][General]
+Image=/home/zeus/Pictures/Wallpapers/ubuntu-2.svg
+SlidePaths=/home/zeus/.local/share/wallpapers/,/usr/share/plasma/wallpapers/,/usr/share/wallpapers/
+
+[Containments][326]
+activityId=31c52f92-f257-4f0c-8a30-67d6f0af7946
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][326][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][326][Configuration]
+PreloadWeight=42
+
+[Containments][326][Wallpaper][org.kde.image][General]
+Image=/home/zeus/Pictures/Wallpapers/ubuntu-1.svg
+SlidePaths=/home/zeus/.local/share/wallpapers/,/usr/share/plasma/wallpapers/,/usr/share/wallpapers/
 
 [Containments][8]
 activityId=
@@ -314,25 +474,43 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.kscreen
 
+[Containments][8][Applets][10][Configuration]
+PreloadWeight=34
+
 [Containments][8][Applets][11]
 immutability=1
 plugin=org.kde.plasma.clipboard
+
+[Containments][8][Applets][11][Configuration]
+PreloadWeight=34
 
 [Containments][8][Applets][12]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][8][Applets][12][Configuration]
+PreloadWeight=44
+
 [Containments][8][Applets][13]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
+
+[Containments][8][Applets][13][Configuration]
+PreloadWeight=34
 
 [Containments][8][Applets][14]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
+[Containments][8][Applets][14][Configuration]
+PreloadWeight=34
+
 [Containments][8][Applets][15]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
+
+[Containments][8][Applets][15][Configuration]
+PreloadWeight=34
 
 [Containments][8][Applets][159][Configuration][Advanced]
 nightBrightness=0.75
@@ -341,9 +519,15 @@ nightBrightness=0.75
 immutability=1
 plugin=org.kde.plasma.notifications
 
+[Containments][8][Applets][16][Configuration]
+PreloadWeight=44
+
 [Containments][8][Applets][17]
 immutability=1
 plugin=org.kde.plasma.vault
+
+[Containments][8][Applets][17][Configuration]
+PreloadWeight=34
 
 [Containments][8][Applets][18][Configuration]
 PreloadWeight=42
@@ -360,21 +544,21 @@ immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=47
+PreloadWeight=23
 
 [Containments][8][Applets][23]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=80
+PreloadWeight=64
 
 [Containments][8][Applets][24]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=57
+PreloadWeight=62
 
 [Containments][8][Applets][25]
 immutability=1
@@ -383,27 +567,75 @@ plugin=org.kde.plasma.mediacontroller
 [Containments][8][Applets][25][Configuration]
 PreloadWeight=0
 
+[Containments][8][Applets][26]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][8][Applets][26][Configuration]
+PreloadWeight=0
+
+[Containments][8][Applets][321]
+immutability=1
+plugin=org.kde.plasma.volumewin7mixer
+
+[Containments][8][Applets][321][Configuration]
+PreloadWeight=34
+
+[Containments][8][Applets][322]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
+[Containments][8][Applets][322][Configuration]
+PreloadWeight=34
+
+[Containments][8][Applets][323]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][8][Applets][323][Configuration]
+PreloadWeight=39
+
+[Containments][8][Applets][327]
+immutability=1
+plugin=de.davidhi.ddcci-brightness
+
+[Containments][8][Applets][327][Configuration]
+PreloadWeight=67
+
+[Containments][8][Applets][327][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
 [Containments][8][Applets][35]
 immutability=1
 plugin=org.kde.plasma.addons.katesessions
+
+[Containments][8][Applets][35][Configuration]
+PreloadWeight=39
 
 [Containments][8][Applets][9]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][8][Applets][9][Configuration]
-PreloadWeight=65
+PreloadWeight=49
 
 [Containments][8][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
+[Containments][8][Configuration]
+PreloadWeight=34
+
 [Containments][8][General]
-extraItems=org.kde.kdeconnect,org.kde.kscreen,org.kde.kupapplet,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.addons.katesessions
+extraItems=org.kde.kdeconnect,org.kde.kscreen,org.kde.kupapplet,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.addons.katesessions,org.kde.plasma.volumewin7mixer,org.kde.plasma.printmanager,de.davidhi.ddcci-brightness
 hiddenItems=org.kde.plasma.clipboard,org.kde.plasma.mediacontroller
-knownItems=org.kde.kdeconnect,org.kde.kscreen,org.kde.kupapplet,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.volume
-shownItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.nightcolorcontrol,org.kde.plasma.addons.katesessions
+knownItems=org.kde.kdeconnect,org.kde.kscreen,org.kde.kupapplet,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.volumewin7mixer,org.kde.plasma.printmanager
+shownItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.nightcolorcontrol,org.kde.plasma.addons.katesessions,de.davidhi.ddcci-brightness
+
+[Containments313Appletsts][318][Configuration][General]
+color=pink
 
 [ScreenMapping]
 itemsOnDisabledScreens=0,cb11ed76-f89a-4f4e-ab50-2208795fac89,7,file:///home/zeus/Warpinator,file:///home/zeus/Templates,file:///home/zeus/Desktop,file:///home/zeus/Documents,file:///home/zeus/Downloads,file:///home/zeus/Music,file:///home/zeus/Pictures
-screenMapping=desktop:/siduction-manual.desktop,0,7e9db541-855e-47b2-a439-d0c9e7f97845,desktop:/calamares.desktop,0,7e9db541-855e-47b2-a439-d0c9e7f97845,desktop:/siduction-irc.desktop,0,7e9db541-855e-47b2-a439-d0c9e7f97845,desktop:/chroot-helper.desktop,0,7e9db541-855e-47b2-a439-d0c9e7f97845
+screenMapping=file:///home/zeus/gems,0,31c52f92-f257-4f0c-8a30-67d6f0af7946,file:///home/zeus/Applications,0,31c52f92-f257-4f0c-8a30-67d6f0af7946,file:///home/zeus/Temp,0,31c52f92-f257-4f0c-8a30-67d6f0af7946,desktop:/siduction-irc.desktop,0,7e9db541-855e-47b2-a439-d0c9e7f97845,file:///home/zeus/Videos,0,31c52f92-f257-4f0c-8a30-67d6f0af7946,desktop:/siduction-manual.desktop,0,7e9db541-855e-47b2-a439-d0c9e7f97845,file:///home/zeus/Games,0,31c52f92-f257-4f0c-8a30-67d6f0af7946,desktop:/calamares.desktop,0,7e9db541-855e-47b2-a439-d0c9e7f97845,desktop:/chroot-helper.desktop,0,7e9db541-855e-47b2-a439-d0c9e7f97845
