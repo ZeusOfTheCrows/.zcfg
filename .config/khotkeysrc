@@ -999,6 +999,7 @@ History Items[$d]
 
 [General]
 AccentColor[$d]
+AllowKDEAppsToRememberWindowPositions[$d]
 BrowserApplication[$d]
 ColorScheme[$d]
 ColorSchemeHash[$d]

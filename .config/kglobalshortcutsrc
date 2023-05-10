@@ -1,7 +1,7 @@
 [ActivityManager]
-_k_friendly_name=System Settings
-switch-to-activity-=,none,
-switch-to-activity-31c52f92-f257-4f0c-8a30-67d6f0af7946=,none,Switch to activity "Default"
+_k_friendly_name=Activity Manager
+switch-to-activity-=none,none,
+switch-to-activity-31c52f92-f257-4f0c-8a30-67d6f0af7946=none,none,Switch to activity "Default"
 switch-to-activity-7e9db541-855e-47b2-a439-d0c9e7f97845=none,none,Switch to activity "Default"
 switch-to-activity-9fa015a6-09c6-4409-aad1-40e5c76a0d8c=none,none,Switch to activity "KDE"
 switch-to-activity-cb11ed76-f89a-4f4e-ab50-2208795fac89=none,none,Switch to activity "Default"
@@ -38,7 +38,7 @@ _k_friendly_name=Touchpad
 [kded5]
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Show System Activity
 _k_friendly_name=KDE Daemon
-display=Display\tMeta+P,Display\tMeta+P,Switch Display
+display=Display,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
@@ -50,7 +50,7 @@ decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decreas
 decrease_volume=Alt+Num+-\tVolume Down,Volume Down,Decrease Volume
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
 increase_volume=Alt+Num++\tVolume Up,Volume Up,Increase Volume
-mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
+mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
 
 [konversation]
@@ -225,7 +225,7 @@ Window to Screen 6=none,,Window to Screen 6
 Window to Screen 7=none,,Window to Screen 7
 _k_friendly_name=KWin
 view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
-view_zoom_in=Meta+=,Meta++,Zoom In
+view_zoom_in=Meta+=,Meta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [main.sh.desktop]
@@ -288,7 +288,7 @@ Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
 [plasmashell]
-_k_friendly_name=Activity switching
+_k_friendly_name=Plasma
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
@@ -310,13 +310,17 @@ activate widget 168=Meta+Shift+A,none,Activate Audio Volume (Win7 Mixer) Widget
 activate widget 209=none,none,Activate Home Widget
 activate widget 222=none,none,Activate Application Launcher Widget
 activate widget 257=none,none,Activate Application Launcher Widget
+activate widget 26=Meta+C,none,Activate Colour Picker Widget
+activate widget 28=none,none,Activate Home Widget
 activate widget 282=none,none,Activate Application Launcher Widget
 activate widget 3=Alt+F1,none,Activate Application Launcher Widget
 activate widget 309=none,none,Activate Minimise All Windows Widget
 activate widget 31=none,none,Activate Application Launcher Widget
-activate widget 312=,none,Activate Pager Widget
-activate widget 41=Meta+C,none,Activate Colour Picker Widget
-activate widget 5=none,none,Activate Application Launcher Widget
+activate widget 312=none,none,Activate Pager Widget
+activate widget 320=none,none,Activate Home Widget
+activate widget 325=none,none,Activate Pager Widget
+activate widget 41=none,none,Activate Colour Picker Widget
+activate widget 5=none,none,Activate Icons-only Task Manager Widget
 activate widget 52=none,none,Activate Quicklaunch Widget
 activate widget 64=none,none,Activate Individual Core Usage Widget
 clear-history=none,,Clear Clipboard History

@@ -1,7 +1,21 @@
 [Audio Preview Settings]
 Autoplay=false
 
+[ColorPicker]
+HexLengths=3,6
+NamedColors=true
+PreviewAfterColor=true
+
+[ColoredBrackets]
+color1=#ffff00
+color2=#ff4797
+color3=#67f058
+color4=#fc834a
+color5=#3a86ff
+
 [FileDialogSize]
+1920x1080 screen: Height=978
+1920x1080 screen: Width=958
 2 screens: Height=955
 2 screens: Width=1375
 
@@ -32,7 +46,7 @@ Show Tab Bar=true
 Show Tabs Close Button=true
 Show Url Nav Bar=true
 Show output view for message type=1
-Show text for left and right sidebar=false
+Show text for left and right sidebar=true
 Show welcome view for new window=false
 Startup Session=new
 Stash new unsaved files=true
@@ -43,8 +57,8 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=extend.kbd,file:$HOME/aagh,file:$HOME/.local/share/applications/aseprite.desktop,file:$HOME/.screenlayout/main.sh,file:$HOME/.screenlayout/bed.sh
-Recent URLs[$e]=file:///usr/share/applications/,file:$HOME/.screenlayout/,file:$HOME/.local/share/applications/,file:///usr/share/mime/image/,file:$HOME/.local/share/mime/packages/,file:$HOME/
+Recent Files[$e]=extend.kbd,file:///usr/share/katexmltools/html4-loose.dtd.xml,file:$HOME/Documents/Website/_site/index.html,file:$HOME/Documents/Website/stadt/assets/css/global.scss,file:$HOME/Downloads/userChrome.css,file:$HOME/.local/share/applications/aseprite.desktop,file:$HOME/.screenlayout/main.sh,file:$HOME/.screenlayout/bed.sh
+Recent URLs[$e]=file:$HOME/.screenlayout/,file:$HOME/.local/share/applications/,file:///usr/share/mime/image/,file:$HOME/.local/share/mime/packages/,file:$HOME/,file:$HOME/Documents/,file:$HOME/Downloads/,file:$HOME/Documents/Website/_site/,file:$HOME/Documents/Website/stadt/assets/css/,file:$HOME/Documents/Website/,file:///usr/share/katexmltools/
 detailViewIconSize=16
 iconViewIconSize=64
 
@@ -77,7 +91,7 @@ Line Length Limit=10000
 Newline at End of File=true
 On-The-Fly Spellcheck=false
 Overwrite Mode=false
-PageUp/PageDown Moves Cursor=false
+PageUp/PageDown Moves Cursor=true
 Remove Spaces=1
 ReplaceTabsDyn=false
 Show Spaces=1
@@ -134,7 +148,7 @@ Line Numbers=true
 Max Clipboard History Entries=20
 Maximum Search History Size=100
 Mouse Paste At Cursor Position=false
-Multiple Cursor Modifier=134217728
+Multiple Cursor Modifier=67108864
 Persistent Selection=false
 Scroll Bar Marks=true
 Scroll Bar Mini Map All=true
@@ -164,11 +178,11 @@ Vi Input Mode Steal Keys=false
 Vi Relative Line Numbers=false
 Word Completion=true
 Word Completion Minimal Word Length=3
-Word Completion Remove Tail=true
+Word Completion Remove Tail=false
 
 [KTextEditor::Search]
-Replace History=\\0
-Search History=menu,close,window,\\\\bv\\\\b,\\\\b,activeclient,function,apng,libpng,compose,volume,audio,redshift -o,.*iance$,.*iance^,.*iance,.*g.*ance,.*c.*iance,.*k.*iance,iance,ance,*ance,*c*ance,extend,desc
+Replace History=--inset-text-colour,--inset-text,--inset-txt,
+Search History=textarea,indent-9x,selection,--txt-2,txt-2,--ins-txt,--inset-text-btm,---ins-txt,--inset-text,--ubuntu-inset-text,#,hr,ztodo,gem,menu,close,window,\\\\bv\\\\b,\\\\b,activeclient,function,apng,libpng,compose,volume,audio,redshift -o,.*iance$,.*iance^,.*iance,.*g.*ance,.*c.*iance,.*k.*iance,iance,ance,*ance,*c*ance,extend,desc
 
 [Konsole]
 AutoSyncronize=true
@@ -179,18 +193,41 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1920x1080 screen: Height=980
-1920x1080 screen: Width=952
-1920x1080 screen: Window-Maximized=true
-2 screens: Height=1343
-2 screens: Width=1278
+1920x1080 screen: Height=983
+1920x1080 screen: Width=1090
+2 screens: Height=848
+2 screens: Width=1262
 eDP-1 Height 1920x1080 eDP-1=1017
 eDP-1 Width 1920x1080 eDP-1=958
 
 [Shortcuts]
-kate_mdi_focus_toolview_kate_private_plugin_katefileselectorplugin=none
-kate_mdi_focus_toolview_kateproject=none
-kate_mdi_focus_toolview_kateprojectinfo=none
+kate_mdi_focus_toolview_kate_plugin_katesearch=none
+kate_mdi_focus_toolview_kate_plugin_xmlcheck_ouputview=none
+kate_mdi_focus_toolview_kate_private_plugin_katefiletreeplugin=none
+kate_mdi_focus_toolview_kate_private_plugin_katekonsoleplugin=none
+kate_mdi_focus_toolview_kateprojectgit=none
+kate_mdi_focus_toolview_ktexteditorpreviewplugin=none
+kate_mdi_focus_toolview_output=none
+kate_mdi_show_toolview_button_kate_plugin_katesearch=none
+kate_mdi_show_toolview_button_kate_plugin_xmlcheck_ouputview=none
+kate_mdi_show_toolview_button_kate_private_plugin_katefileselectorplugin=none
+kate_mdi_show_toolview_button_kate_private_plugin_katefiletreeplugin=none
+kate_mdi_show_toolview_button_kate_private_plugin_katekonsoleplugin=none
+kate_mdi_show_toolview_button_kateproject=none
+kate_mdi_show_toolview_button_kateprojectgit=none
+kate_mdi_show_toolview_button_kateprojectinfo=none
+kate_mdi_show_toolview_button_ktexteditorpreviewplugin=none
+kate_mdi_show_toolview_button_output=none
+kate_mdi_toolview_kate_plugin_katesearch=none
+kate_mdi_toolview_kate_plugin_xmlcheck_ouputview=none
+kate_mdi_toolview_kate_private_plugin_katefileselectorplugin=none
+kate_mdi_toolview_kate_private_plugin_katefiletreeplugin=none
+kate_mdi_toolview_kate_private_plugin_katekonsoleplugin=none
+kate_mdi_toolview_kateproject=none
+kate_mdi_toolview_kateprojectgit=none
+kate_mdi_toolview_kateprojectinfo=none
+kate_mdi_toolview_ktexteditorpreviewplugin=none
+kate_mdi_toolview_output=none
 
 [filebrowser]
 toolbar actions=back,forward,up,bookmarks,show hidden,sync_dir,configure
