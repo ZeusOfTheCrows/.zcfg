@@ -17,6 +17,9 @@ BorderActivateAll=9
 [Effect-presentwindows]
 BorderActivateAll=9
 
+[Effect-windowview]
+BorderActivateAll=9
+
 [ElectricBorders]
 TopLeft=None
 
@@ -64,6 +67,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
+ElectricBorderCornerRatio=0.05
 FocusStealingPreventionLevel=2
 
 [org.kde.kdecoration2]
