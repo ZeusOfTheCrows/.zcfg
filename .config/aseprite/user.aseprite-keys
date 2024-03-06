@@ -108,6 +108,7 @@
             <param name="units" value="pixel" />
             <param name="wrap" value="1" />
         </key>
+        <key command="UndoHistory" shortcut="Ctrl+Shift+Y" />
     </commands>
     <tools>
         <key tool="rectangular_marquee" shortcut="M" removed="true" />

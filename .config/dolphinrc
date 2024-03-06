@@ -1,8 +1,17 @@
 [$Version]
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
+[Baloo KEditCommentDialog]
+2 screens: Height=251
+2 screens: Width=276
+
+[ContextMenu]
+ShowAddToPlaces=false
+ShowCopyToOtherSplitView=false
+ShowMoveToOtherSplitView=false
+ShowSortBy=false
+
 [General]
-BrowseThroughArchives=true
 CloseActiveSplitView=false
 ConfirmClosingMultipleTabs=false
 GlobalViewProps=false
@@ -12,15 +21,21 @@ UseTabForSwitchingSplitView=true
 Version=202
 ViewPropsTimestamp=2023,4,24,11,31,25.964
 
+[IconsMode]
+MaximumTextLines=2
+
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
+Recent Files[$e]=gb,file:$HOME/.%23/usr/share/X11/xkb/symbols/gb
+Recent URLs[$e]=file:$HOME/.%23/usr/share/X11/xkb/symbols/
+iconViewIconSize=64
 
 [KPropertiesDialog]
-1920x1080 screen: Height=471
-1920x1080 screen: Width=379
-2 screens: Height=576
-2 screens: Width=428
+1920x1080 screen: Height=468
+1920x1080 screen: Width=460
+2 screens: Height=489
+2 screens: Width=453
 eDP-1 Height 1920x1080 eDP-1=636
 eDP-1 Width 1920x1080 eDP-1=457
 
@@ -28,13 +43,12 @@ eDP-1 Width 1920x1080 eDP-1=457
 ToolBarsMovable=Disabled
 
 [PreviewSettings]
-Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail
-
-[VersionControl]
-enabledPlugins=Git
+Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail
 
 [ViewPropertiesDialog]
 1920x1080 screen: Height=421
 1920x1080 screen: Width=374
+2 screens: Height=721
+2 screens: Width=402
 eDP-1 Height 1920x1080 eDP-1=663
 eDP-1 Width 1920x1080 eDP-1=374

@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered,bismuth_new_logger.upd:bismuth-new-logger
 
 [Compositing]
 LatencyPolicy=Medium
@@ -14,29 +14,69 @@ Rows=2
 [Effect-PresentWindows]
 BorderActivateAll=9
 
+[Effect-blur]
+BlurStrength=4
+NoiseStrength=12
+
+[Effect-magiclamp]
+AnimationDuration=150
+
+[Effect-overview]
+BlurBackground=false
+LayoutMode=0
+
 [Effect-presentwindows]
 BorderActivateAll=9
 
+[Effect-slide]
+HorizontalGap=0
+VerticalGap=0
+
+[Effect-thumbnailaside]
+Opacity=100
+
 [Effect-windowview]
 BorderActivateAll=9
+
+[Effect-wobblywindows]
+AdvancedMode=true
+MoveFactor=5
+Stiffness=50
 
 [ElectricBorders]
 TopLeft=None
 
 [MouseBindings]
+CommandActiveTitlebar2=Lower
+CommandTitlebarWheel=Change Opacity
 CommandWindow2=Activate, raise and pass click
 CommandWindow3=Activate, raise and pass click
 
 [NightColor]
 Active=true
-NightTemperature=3400
+LatitudeAuto=51.4091
+LatitudeFixed=50.68
+LongitudeAuto=-0.3091
+Mode=Location
+NightTemperature=2600
 
 [Plugins]
+NoBorderFirefoxWhenMaximizedEnabled=true
+blurEnabled=true
 glideEnabled=true
 kwin4_effect_dialogparentEnabled=false
 kwin4_effect_scaleEnabled=false
+kwin4_effect_squashEnabled=false
+kwin4_effects_foldpopupsEnabled=false
+magiclampEnabled=true
 magnifierEnabled=true
 zoomEnabled=false
+
+[Script-bismuth]
+maximizeSoleTile=true
+newWindowAsMaster=true
+noTileBorder=true
+tileLayoutGap=1
 
 [SubSession: 66dc521d-20ee-432b-a472-5d77fdb296d7]
 active=-1
@@ -60,19 +100,47 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][30b51a9b-ae93-5e95-9302-f6879235d6f2]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][4015f70a-54fd-554d-b036-3132e51d21e2]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][479190fd-6d73-5953-9fac-86ad03e79e7f]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][51b3b3bb-ef93-5b47-8d97-f8df8f814616]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][58ca410b-ce44-58d6-82b9-fefe44aba0e3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][5a13aa2b-182e-57ca-b992-6327cd06dc7f]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][5b7a5ba4-43cc-5910-8e98-f358f9d54b43]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][685d3348-2eb6-52ee-8385-fb8fa08982bc]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][81fd9dc8-5d13-56e0-bddb-2b0fc49c1b3f]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][aefcdf17-aa07-5159-8d2f-55fc8fa5edf5]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Windows]
+ActiveMouseScreen=false
+BorderlessMaximizedWindows=false
 ElectricBorderCornerRatio=0.05
 FocusStealingPreventionLevel=2
 
+[Xwayland]
+Scale=1
+
 [org.kde.kdecoration2]
-BorderSizeAuto=false
 ButtonsOnLeft=MSF
-ButtonsOnRight=IAX
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__kontinuance
+ShowToolTips=true
+library=org.kde.oxygen
+theme=Oxygen

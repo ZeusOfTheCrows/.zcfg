@@ -2,7 +2,7 @@
 Categories=Graphics;
 Comment[en_GB]=
 Comment=
-Exec=/media/zeus/93be1955-ee6a-4524-84db-70e76901fccb/zeus/.steam/debian-installation/steamapps/common/Aseprite/aseprite
+Exec=/home/zeus/Games/Steam/steamapps/common/Aseprite/aseprite
 GenericName[en_GB]=Pixel Editor
 GenericName=Pixel Editor
 Icon=/home/zeus/.local/share/applications/aseprite.svg
@@ -14,5 +14,6 @@ StartupNotify=true
 Terminal=false
 TerminalOptions=
 Type=Application
+X-KDE-RunOnDiscreteGpu=false
 X-KDE-SubstituteUID=false
 X-KDE-Username=

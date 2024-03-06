@@ -1,0 +1,35 @@
+[Added Associations]
+application/x-bittorrent=org.qbittorrent.qBittorrent.desktop;
+application/xml=org.kde.kate.desktop;
+image/aseprite=aseprite.desktop;
+image/png=XnViewMP.desktop;
+text/markdown=marktext.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-SRWQJ2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-SRWQJ2.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-HPT6H2.desktop;
+x-scheme-handler/webcal=userapp-Thunderbird-L1MRJ2.desktop;
+x-scheme-handler/webcals=userapp-Thunderbird-L1MRJ2.desktop;
+
+[Added KDE Service Associations]
+application/xhtml+xml=webenginepart;kwebkitpart;khtmlpart;
+application/xml=webenginepart;kwebkitpart;khtmlpart;
+text/html=webenginepart;kwebkitpart;khtmlpart;
+
+[Default Applications]
+application/x-bittorrent=org.qbittorrent.qBittorrent.desktop;
+application/x-extension-ics=userapp-Thunderbird-L1MRJ2.desktop
+application/x-ms-dos-executable=wine.desktop
+application/xml=org.kde.kate.desktop;
+image/aseprite=aseprite.desktop;
+image/png=XnViewMP.desktop;
+message/rfc822=userapp-Thunderbird-SRWQJ2.desktop
+text/calendar=userapp-Thunderbird-L1MRJ2.desktop
+text/markdown=marktext.desktop;
+x-scheme-handler/bitwarden=Bitwarden.desktop
+x-scheme-handler/heroic=HeroicGamesLauncher.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-SRWQJ2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-SRWQJ2.desktop
+x-scheme-handler/obsidian=Obsidian.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-HPT6H2.desktop
+x-scheme-handler/webcal=userapp-Thunderbird-L1MRJ2.desktop
+x-scheme-handler/webcals=userapp-Thunderbird-L1MRJ2.desktop

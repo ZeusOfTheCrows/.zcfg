@@ -1,5 +1,5 @@
 [Desktop Entry]
-DefaultProfile=ZSH.profile
+DefaultProfile=zeus.profile
 
 [General]
 ConfigVersion=1
@@ -9,12 +9,30 @@ Recent Files[$e]=file:$HOME/disco-crash.txt,file:$HOME/disco-crash.txt
 Recent URLs[$e]=file:$HOME/
 detailViewIconSize=16
 
+[KonsoleWindow]
+AllowMenuAccelerators=true
+ShowWindowTitleOnTitleBar=true
+
 [MainWindow]
-1920x1080 screen: Height=991
-1920x1080 screen: Width=958
-1920x1080 screen: XPosition=1
-1920x1080 screen: YPosition=30
-State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAT8A////+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAAA7AD///8AAAO+AAADpgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAFD/////AAAAAAAAAAA=
+1920x1080 screen: Height=644
+1920x1080 screen: Width=956
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=4
+1920x1080 screen: YPosition=370
+2 screens: Height=1346
+2 screens: Width=2446
+2 screens: Window-Maximized=true
+2 screens: XPosition=2560
+2 screens: YPosition=32
+2560x1440 screen: Height=983
+2560x1440 screen: Width=1276
+2560x1440 screen: XPosition=1284
+2560x1440 screen: YPosition=32
+:0.0=:0.0
+DisplayPort-0 DisplayPort-1=DisplayPort-0
+DisplayPort-1=DisplayPort-1
+HDMI-A-0=HDMI-A-0
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEaAAABtvwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAABCAAABtgAAAYgBAAAF+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAABGAEAAAUAAAoAAAAFAAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAFT/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 eDP-1=eDP-1
 eDP-1 Height 1920x1080 eDP-1=1007

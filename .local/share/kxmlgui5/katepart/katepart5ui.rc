@@ -1,193 +1,203 @@
 <!DOCTYPE gui SYSTEM 'kpartgui.dtd'>
-<gui version="101" name="KatePartView" translationDomain="ktexteditor5">
+<gui name="KatePartView" translationDomain="ktexteditor6" version="105">
  <MenuBar>
   <Menu name="file" noMerge="1">
    <text>&amp;File</text>
-   <Action name="file_save" group="save_merge"/>
-   <Action name="file_save_as" group="save_merge"/>
-   <Action name="file_save_as_with_encoding" group="save_merge"/>
-   <Action name="file_save_copy_as" group="save_merge"/>
-   <Action name="file_reload" group="revert_merge"/>
-   <Menu name="file_export" group="print_merge">
-    <text>Export/Print</text>
-    <Action name="file_print" group="print_merge"/>
-    <Action name="file_print_preview" group="print_merge"/>
-    <Action name="file_export_html" group="print_merge"/>
+   <Action group="save_merge" name="file_save"/>
+   <Action group="save_merge" name="file_save_as"/>
+   <Action group="save_merge" name="file_save_as_with_encoding"/>
+   <Action group="save_merge" name="file_save_copy_as"/>
+   <Action group="revert_merge" name="file_reload"/>
+   <Menu group="print_merge" name="file_export">
+    <text>Print/Export</text>
+    <Action group="print_merge" name="file_print"/>
+    <Action group="print_merge" name="file_print_preview"/>
+    <Action group="print_merge" name="file_export_html"/>
    </Menu>
   </Menu>
   <Menu name="edit" noMerge="1">
    <text>&amp;Edit</text>
-   <Action name="edit_undo" group="edit_undo_merge"/>
-   <Action name="edit_redo" group="edit_undo_merge"/>
+   <Action group="edit_undo_merge" name="edit_undo"/>
+   <Action group="edit_undo_merge" name="edit_redo"/>
    <Separator group="edit_undo_merge"/>
-   <Action name="edit_cut" group="edit_paste_merge"/>
-   <Action name="edit_copy" group="edit_paste_merge"/>
-   <Action name="edit_copy_html" group="edit_paste_merge"/>
-   <Action name="edit_paste" group="edit_paste_merge"/>
-   <Action name="edit_paste_selection" group="edit_paste_merge"/>
-   <Action name="edit_swap_with_clipboard" group="edit_paste_merge"/>
-   <Action name="clipboard_history_paste" group="edit_paste_merge"/>/>
+   <Action group="edit_paste_merge" name="edit_cut"/>
+   <Action group="edit_paste_merge" name="edit_copy"/>
+   <Action group="edit_paste_merge" name="edit_copy_html"/>
+   <Action group="edit_paste_merge" name="edit_paste"/>
+   <Action group="edit_paste_merge" name="edit_paste_selection"/>
+   <Action group="edit_paste_merge" name="edit_swap_with_clipboard"/>
+   <Action group="edit_paste_merge" name="clipboard_history_paste"/>/>
     <Separator group="edit_select_merge"/>
-   <Action name="view_input_modes" group="edit_select_merge"/>
-   <Action name="set_insert" group="edit_select_merge"/>
-   <Action name="tools_toggle_write_lock" group="edit_select_merge"/>
+   <Action group="edit_select_merge" name="view_input_modes"/>
+   <Action group="edit_select_merge" name="set_insert"/>
+   <Action group="edit_select_merge" name="tools_toggle_write_lock"/>
    <Separator group="edit_select_merge"/>
-   <Action name="edit_find" group="edit_find_merge"/>
-   <Menu name="edit_find_menu" group="edit_find_merge">
+   <Action group="edit_find_merge" name="edit_find"/>
+   <Menu group="edit_find_merge" name="edit_find_menu">
     <text>Find Variants</text>
-    <Action name="edit_find_next" group="edit_find_merge"/>
-    <Action name="edit_find_prev" group="edit_find_merge"/>
-    <Action name="edit_find_selected" group="edit_find_merge"/>
-    <Action name="edit_find_selected_backwards" group="edit_find_merge"/>
+    <Action group="edit_find_merge" name="edit_find_next"/>
+    <Action group="edit_find_merge" name="edit_find_prev"/>
+    <Action group="edit_find_merge" name="edit_find_selected"/>
+    <Action group="edit_find_merge" name="edit_find_selected_backwards"/>
    </Menu>
-   <Action name="edit_replace" group="edit_find_merge"/>
+   <Action group="edit_find_merge" name="edit_replace"/>
    <Separator group="edit_find_merge"/>
   </Menu>
   <Menu name="selection" noMerge="1">
    <text>Selection</text>
-   <Action name="edit_select_all" group="edit_selection"/>
-   <Action name="edit_deselect" group="edit_selection"/>
-   <Action name="set_verticalSelect" group="edit_selection"/>
+   <Action group="edit_selection" name="edit_select_all"/>
+   <Action group="edit_selection" name="edit_deselect"/>
+   <Action group="edit_selection" name="set_verticalSelect"/>
    <Separator group="edit_selection"/>
-   <Action name="tools_toggle_comment" group="edit_selection"/>
-   <Action name="tools_join_lines" group="edit_selection"/>
-   <Menu name="capitalization" group="edit_selection">
+   <Action group="edit_selection" name="tools_toggle_comment"/>
+   <Action group="edit_selection" name="tools_join_lines"/>
+   <Menu group="edit_selection" name="capitalization">
     <text>Capitalization</text>
-    <Action name="tools_uppercase" group="edit_selection"/>
-    <Action name="tools_lowercase" group="edit_selection"/>
-    <Action name="tools_capitalize" group="edit_selection"/>
+    <Action group="edit_selection" name="tools_uppercase"/>
+    <Action group="edit_selection" name="tools_lowercase"/>
+    <Action group="edit_selection" name="tools_capitalize"/>
    </Menu>
    <Separator group="edit_selection"/>
-   <Action name="tools_cleanIndent" group="edit_selection"/>
-   <Action name="tools_formatIndent" group="edit_selection"/>
-   <Action name="tools_alignOn" group="edit_selection"/>
-   <Action name="tools_apply_wordwrap" group="edit_selection"/>
+   <Action group="edit_selection" name="tools_cleanIndent"/>
+   <Action group="edit_selection" name="tools_formatIndent"/>
+   <Action group="edit_selection" name="tools_alignOn"/>
+   <Action group="edit_selection" name="tools_apply_wordwrap"/>
    <Separator group="edit_selection"/>
-   <Action name="edit_create_multi_cursor_up" group="edit_selection"/>
-   <Action name="edit_create_multi_cursor_down" group="edit_selection"/>
-   <Action name="edit_create_multi_cursor_from_sel" group="edit_selection"/>
-   <Action name="edit_find_multicursor_next_occurrence" group="edit_selection"/>
-   <Action name="edit_find_multicursor_all_occurrences" group="edit_selection"/>
+   <Action group="edit_selection" name="edit_create_multi_cursor_up"/>
+   <Action group="edit_selection" name="edit_create_multi_cursor_down"/>
+   <Action group="edit_selection" name="edit_create_multi_cursor_from_sel"/>
+   <Action group="edit_selection" name="edit_find_multicursor_next_occurrence"/>
+   <Action group="edit_selection" name="edit_find_multicursor_all_occurrences"/>
   </Menu>
   <Menu name="view" noMerge="1">
    <text>&amp;View</text>
-   <Action name="view_inc_font_sizes" group="view_operations"/>
-   <Action name="view_dec_font_sizes" group="view_operations"/>
-   <Action name="view_reset_font_sizes" group="view_operations"/>
+   <Action group="view_operations" name="view_inc_font_sizes"/>
+   <Action group="view_operations" name="view_dec_font_sizes"/>
+   <Action group="view_operations" name="view_reset_font_sizes"/>
    <Separator group="view_operations"/>
-   <Menu name="view_menu_word_wrap" group="view_operations">
+   <Menu group="view_operations" name="view_menu_word_wrap">
     <text>Word Wrap</text>
-    <Action name="view_dynamic_word_wrap" group="view_operations"/>
-    <Action name="dynamic_word_wrap_indicators" group="view_operations"/>
-    <Action name="view_static_word_wrap" group="view_operations"/>
-    <Action name="view_word_wrap_marker" group="view_operations"/>
+    <Action group="view_operations" name="view_dynamic_word_wrap"/>
+    <Action group="view_operations" name="dynamic_word_wrap_indicators"/>
+    <Action group="view_operations" name="view_static_word_wrap"/>
+    <Action group="view_operations" name="view_word_wrap_marker"/>
    </Menu>
-   <Menu name="view_menu_borders" group="view_operations">
+   <Menu group="view_operations" name="view_menu_borders">
     <text>Borders</text>
-    <Action name="view_border" group="view_operations"/>
-    <Action name="view_line_numbers" group="view_operations"/>
-    <Action name="view_scrollbar_marks" group="view_operations"/>
-    <Action name="view_scrollbar_minimap" group="view_operations"/>
-    <Action name="view_scrollbar_minimap_all" group="view_operations"/>
+    <Action group="view_operations" name="view_border"/>
+    <Action group="view_operations" name="view_line_numbers"/>
+    <Action group="view_operations" name="view_scrollbar_marks"/>
+    <Action group="view_operations" name="view_scrollbar_minimap"/>
+    <Action group="view_operations" name="view_scrollbar_minimap_all"/>
    </Menu>
    <Separator group="view_operations"/>
-   <Menu name="codefolding" group="view_operations">
+   <Menu group="view_operations" name="codefolding">
     <text>&amp;Code Folding</text>
-    <Action name="view_folding_markers" group="view_operations"/>
+    <Action group="view_operations" name="view_folding_markers"/>
     <Separator group="view_operations"/>
-    <Action name="folding_toggle_current" group="view_operations"/>
-    <Action name="folding_toggle_in_current" group="view_operations"/>
-    <Action name="folding_expandall" group="view_operations"/>
+    <Action group="view_operations" name="folding_toggle_current"/>
+    <Action group="view_operations" name="folding_toggle_in_current"/>
+    <Action group="view_operations" name="folding_expandall"/>
     <Separator group="view_operations"/>
-    <Action name="folding_toplevel" group="view_operations"/>
-    <Action name="folding_expandtoplevel" group="view_operations"/>
+    <Action group="view_operations" name="folding_toplevel"/>
+    <Action group="view_operations" name="folding_expandtoplevel"/>
    </Menu>
    <Separator group="view_operations"/>
-   <Action name="view_auto_reload" group="view_operations"/>
-   <Action name="view_non_printable_spaces" group="view_operations"/>
-   <Action name="view_word_count" group="view_operations"/>
+   <Action group="view_operations" name="view_auto_reload"/>
+   <Action group="view_operations" name="view_non_printable_spaces"/>
+   <Action group="edit_select_merge" name="force_rtl_direction"/>
+   <Action group="view_operations" name="view_word_count"/>
   </Menu>
   <Menu name="go" noMerge="1">
    <text>&amp;Go</text>
-   <Action name="go_goto_line" group="edit_goto"/>
+   <Action group="edit_goto" name="go_goto_line"/>
    <Separator group="edit_goto"/>
-   <Action name="Previous Editing Line" group="edit_goto2"/>
-   <Action name="Next Editing Line" group="edit_goto2"/>
+   <Action group="edit_goto2" name="Previous Editing Line"/>
+   <Action group="edit_goto2" name="Next Editing Line"/>
    <Separator group="edit_goto2"/>
-   <Action name="modified_line_up" group="edit_goto2"/>
-   <Action name="modified_line_down" group="edit_goto2"/>
+   <Action group="edit_goto2" name="modified_line_up"/>
+   <Action group="edit_goto2" name="modified_line_down"/>
    <Separator group="edit_goto2"/>
-   <Action name="to_matching_bracket" group="edit_goto2"/>
-   <Action name="select_matching_bracket" group="edit_goto2"/>
+   <Action group="edit_goto2" name="to_matching_bracket"/>
+   <Action group="edit_goto2" name="select_matching_bracket"/>
    <Separator group="edit_goto2"/>
-   <Action name="bookmarks" group="edit_goto2"/>
+   <Action group="edit_goto2" name="bookmarks"/>
   </Menu>
   <Menu name="tools" noMerge="1">
    <text>&amp;Tools</text>
-   <Action name="tools_mode" group="tools_operations"/>
-   <Action name="tools_highlighting" group="tools_operations"/>
-   <Action name="tools_indentation" group="tools_operations"/>
+   <Action group="tools_operations" name="tools_mode"/>
+   <Action group="tools_operations" name="tools_highlighting"/>
+   <Action group="tools_operations" name="tools_indentation"/>
    <Separator group="tools_operations"/>
-   <Action name="set_encoding" group="tools_operations"/>
-   <Action name="add_bom" group="tools_operations"/>
-   <Action name="set_eol" group="tools_operations"/>
+   <Action group="tools_operations" name="set_encoding"/>
+   <Action group="tools_operations" name="add_bom"/>
+   <Action group="tools_operations" name="set_eol"/>
    <Separator group="tools_operations"/>
-   <Action name="tools_scripts" group="tools_operations2"/>
+   <Action group="tools_operations2" name="tools_scripts"/>
    <Separator group="tools_operations2"/>
-   <Action name="switch_to_cmd_line" group="tools_operations2"/>
+   <Action group="tools_operations2" name="switch_to_cmd_line"/>
    <Separator group="tools_operations2"/>
-   <Action name="tools_invoke_code_completion" group="tools_operations2"/>
-   <Menu name="wordcompletion" group="tools_operations2">
+   <Action group="tools_operations2" name="tools_invoke_code_completion"/>
+   <Menu group="tools_operations2" name="wordcompletion">
     <text>Word Completion</text>
     <Action name="doccomplete_fw"/>
     <Action name="doccomplete_bw"/>
     <Action name="doccomplete_sh"/>
    </Menu>
    <Separator group="tools_operations2"/>
-   <Menu name="spelling" group="tools_spelling">
+   <Menu group="tools_spelling" name="spelling">
     <text>Spelling</text>
-    <Action name="tools_toggle_automatic_spell_checking" group="tools_spelling"/>
-    <Action name="tools_spelling" group="tools_spelling"/>
-    <Action name="tools_spelling_from_cursor" group="tools_spelling"/>
-    <Action name="tools_spelling_selection" group="tools_spelling"/>
-    <Action name="tools_change_dictionary" group="tools_spelling"/>
-    <Action name="tools_clear_dictionary_ranges" group="tools_spelling"/>
+    <Action group="tools_spelling" name="tools_toggle_automatic_spell_checking"/>
+    <Action group="tools_spelling" name="tools_spelling"/>
+    <Action group="tools_spelling" name="tools_spelling_from_cursor"/>
+    <Action group="tools_spelling" name="tools_spelling_selection"/>
+    <Action group="tools_spelling" name="tools_change_dictionary"/>
+    <Action group="tools_spelling" name="tools_clear_dictionary_ranges"/>
+   </Menu>
+   <Separator group="tools_operations2"/>
+   <Menu group="tools_speech" name="speech">
+    <text>Text to Speech</text>
+    <Action group="tools_speech" name="tools_speech_say"/>
+    <Action group="tools_speech" name="tools_speech_stop"/>
+    <Action group="tools_speech" name="tools_speech_pause"/>
+    <Action group="tools_speech" name="tools_speech_resume"/>
    </Menu>
   </Menu>
   <Menu name="settings" noMerge="1">
    <text>&amp;Settings</text>
-   <Action name="view_schemas" group="color"/>
-   <Action name="set_confdlg" group="configure_merge"/>
+   <Action group="color" name="view_schemas"/>
+   <Action group="configure_merge" name="set_confdlg"/>
   </Menu>
  </MenuBar>
- <Menu name="ktexteditor_popup" noMerge="0">
-  <Action name="spelling_suggestions" group="popup_operations"/>
-  <Separator group="popup_operations"/>
-  <Action name="edit_cut" group="popup_operations"/>
-  <Action name="edit_copy" group="popup_operations"/>
-  <Action name="edit_paste" group="popup_operations"/>
-  <Action name="edit_paste_selection" group="popup_operations"/>
-  <Action name="edit_swap_with_clipboard" group="popup_operations"/>
-  <Separator group="popup_operations"/>
-  <Action name="tools_scripts_Editing" group="popup_operations"/>
-  <Separator group="popup_operations"/>
-  <Action name="bookmarks" group="popup_operations"/>
-  <Separator group="popup_operations"/>
-  <Action name="tools_create_snippet" group="popup_operations"/>
-  <Separator group="popup_operations"/>
- </Menu>
  <ToolBar name="mainToolBar" noMerge="1">
   <text>Main Toolbar</text>
-  <Action name="file_save" group="file_operations"/>
-  <Action name="file_save_as" group="file_operations"/>
-  <Action name="edit_undo" group="edit_operations"/>
-  <Action name="edit_redo" group="edit_operations"/>
+  <Action group="file_operations" name="file_save"/>
+  <Action group="file_operations" name="file_save_as"/>
+  <Action group="edit_operations" name="edit_undo"/>
+  <Action group="edit_operations" name="edit_redo"/>
  </ToolBar>
- <ActionProperties scheme="Default">
+ <Menu name="ktexteditor_popup" noMerge="0">
+  <Action group="popup_operations" name="spelling_suggestions"/>
+  <Separator group="popup_operations"/>
+  <Action group="popup_operations" name="edit_cut"/>
+  <Action group="popup_operations" name="edit_copy"/>
+  <Action group="popup_operations" name="edit_paste"/>
+  <Action group="popup_operations" name="edit_paste_selection"/>
+  <Action group="popup_operations" name="edit_swap_with_clipboard"/>
+  <Action group="popup_operations" name="text_screenshot_selection"/>
+  <Separator group="popup_operations"/>
+  <Action group="popup_operations" name="tools_scripts_Editing"/>
+  <Separator group="popup_operations"/>
+  <Action group="popup_operations" name="bookmarks"/>
+  <Separator group="popup_operations"/>
+  <Action group="popup_operations" name="tools_create_snippet"/>
+  <Separator group="popup_operations"/>
+ </Menu>
+ <ActionProperties>
+  <Action name="edit_find_next" shortcut=""/>
   <Action name="tools_comment" shortcut=""/>
+  <Action name="tools_scripts_duplicateLinesDown" shortcut="Ctrl+D"/>
   <Action name="tools_scripts_duplicateLinesUp" shortcut="Ctrl+Shift+D"/>
   <Action name="tools_uncomment" shortcut=""/>
-  <Action name="tools_scripts_duplicateLinesDown" shortcut="Ctrl+D"/>
-  <Action name="edit_find_next" shortcut=""/>
  </ActionProperties>
 </gui>

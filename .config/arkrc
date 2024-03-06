@@ -2,21 +2,25 @@
 2 screens: YPosition=490
 DP-0 DP-2=DP-2
 State=AAAA/wAAAAD9AAAAAAAAA7YAAAIhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
-StatusBar=Disabled
 
 [Audio Preview Settings]
 Autoplay=false
 
 [ExtractDialog]
-DirHistory[$e]=/opt/,$HOME/.themes/,$HOME/Pictures/,$HOME/Downloads/,$HOME/Applications/APNG/,$HOME/,$HOME/Games/Roms/PS1/BIOS/,$HOME/Games/Roms/PS1/,$HOME/.local/share/,$HOME/.local/share/plasma/desktoptheme/
+1920x1080 screen: Height=794
+1920x1080 screen: Width=951
+DirHistory[$e]=$HOME/Games/Roms/N64/,$HOME/Games/Roms/SDC/,$HOME/Games/Roms/WII/,$HOME/.local/bin/,$HOME/Documents/Temp/,/opt/,$HOME/.themes/,$HOME/Pictures/,$HOME/Downloads/,$HOME/Applications/APNG/
 
 [Extraction]
-closeAfterExtraction=true
-extractToSubfolder=false
+openDestinationFolderAfterExtraction=true
+
+[General]
+LockSidebar=true
+ShowSidebar=true
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME,file:///opt,file:$HOME/Downloads,file:$HOME/Pictures,file:$HOME/.local/share/icons
-Recent URLs[$e]=file:$HOME/.local/,file:$HOME/.local/share/plasma/,recentlyused:/,file:$HOME/,file:$HOME/Downloads/,file:$HOME/Pictures/,file:$HOME/.themes/,file:///opt/
+Recent Files[$e]=file:$HOME,file:$HOME/Games/Roms/N64,file:$HOME/Games/Roms,file:$HOME/.local/bin,file:$HOME/Documents/Temp,file:///opt,file:$HOME/Downloads,file:$HOME/Pictures,file:$HOME/.local/share/icons
+Recent URLs[$e]=recentlyused:/,file:$HOME/,file:$HOME/Downloads/,file:$HOME/Pictures/,file:$HOME/.themes/,file:///opt/,file:$HOME/Documents/Temp/,file:$HOME/.local/bin/,file:$HOME/Games/Roms/WII/,file:$HOME/Games/Roms/SDC/,file:$HOME/Games/Roms/N64/
 detailViewIconSize=16
 iconViewIconSize=64
 
@@ -68,7 +72,7 @@ Fallback Encoding=ISO 8859-15
 Animate Bracket Matching=false
 Auto Color Theme Selection=true
 Color Theme=Breeze Dark
-Font=Cascadia Code PL,10,-1,5,50,0,0,0,0,0
+Font=Ubuntu Mono,14,-1,5,50,0,0,0,0,0
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -135,38 +139,43 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [MainWindow]
-1920x1080 screen: Height=607
-1920x1080 screen: Width=964
-1920x1080 screen: XPosition=478
-1920x1080 screen: YPosition=216
-2 screens: Height=614
-2 screens: Width=1020
-2 screens: XPosition=3454
-2 screens: YPosition=359
+1920x1080 screen: Height=891
+1920x1080 screen: Width=958
+1920x1080 screen: XPosition=512
+1920x1080 screen: YPosition=77
+2 screens: Height=859
+2 screens: Width=1413
+2 screens: XPosition=2832
+2 screens: YPosition=313
 DP-0 DP-2=DP-0
+DisplayPort-0 DisplayPort-1=DisplayPort-0
 HDMI-0=HDMI-0
+HDMI-A-0=HDMI-A-0
 MenuBar=Enabled
-State=AAAA/wAAAAD9AAAAAAAAA74AAAOjAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAQAAAAEAAADWAAADGfwCAAAAAfsAAAAWAGEAcgBrAF8AcwBpAGQAZQBiAGEAcgEAAABCAAADGQAAAK8BAAAEAAAErAAAAxkAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+StatusBar=Disabled
 ToolBarsMovable=Disabled
 eDP-1=eDP-1
 eDP-1 Height 1920x1080 eDP-1=1017
 eDP-1 Width 1920x1080 eDP-1=958
 eDP-1 XPosition 1920x1080 eDP-1=961
 eDP-1 YPosition 1920x1080 eDP-1=30
-splitterSizes=634,318
+splitterSizes=850,425
 
 [Viewer]
-1920x1080 screen: Height=975
-1920x1080 screen: Width=966
-1920x1080 screen: XPosition=937
-1920x1080 screen: YPosition=35
-2 screens: Height=729
-2 screens: Width=1608
-2 screens: XPosition=829
-2 screens: YPosition=580
+1920x1080 screen: Height=978
+1920x1080 screen: Width=958
+1920x1080 screen: XPosition=843
+1920x1080 screen: YPosition=66
+2 screens: Height=1338
+2 screens: Width=1278
+2 screens: XPosition=3723
+2 screens: YPosition=36
 DP-0 DP-2=DP-2
+DisplayPort-0 DisplayPort-1=DisplayPort-0
 HDMI-0=HDMI-0
-State=AAAA/wAAAAD9AAAAAAAAA74AAAPCAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAQAAAAAAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+HDMI-A-0=HDMI-A-0
+State=AAAA/wAAAAD9AAAAAAAABP4AAAU+AAAABAAAAAQAAAAIAAAACPwAAAACAAAAAQAAAAAAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 StatusBar=Disabled
 ToolBarsMovable=Disabled
 eDP-1=eDP-1

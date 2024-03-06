@@ -1,17 +1,17 @@
 [Appearance]
 ColorScheme=Clone Of Ubuntu
 Font=Ubuntu Mono,11,-1,5,50,0,0,0,0,0
-TabColor=69,67,61,0
+TabColor=42,40,38,0
 
 [Cursor Options]
 CursorShape=2
 
 [General]
-Command=/bin/zsh
-LocalTabTitleFormat=%d : %n - %d
-Name=ZSH
+Command=$SHELL
+LocalTabTitleFormat=%n: %d
+Name=zeus
 Parent=FALLBACK/
-TerminalCenter=false
+TerminalCenter=true
 TerminalMargin=8
 
 [Interaction Options]
@@ -21,3 +21,4 @@ UnderlineFilesEnabled=true
 
 [Terminal Features]
 BlinkingCursorEnabled=true
+UrlHintsModifiers=201326592
