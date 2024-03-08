@@ -1,0 +1,36 @@
+# miscellaneous assorted typographical symbols
+
+<Multi_key> <b> <l>                     : "↯" # bliksemschicht, lightning
+	# There's multiple unicode bliksems:
+	#      - ↯ : U+21AF DOWNWARDS ZIGZAG ARROW
+	#            (in "Arrows" block. unicode comment: "electrolysis")
+	#            The other one (line below) messes with spacing after, apparently
+	#      - ⭍ : U+2B4D Downwards Triangle-Headed Zigzag Arrow
+	#            (in "Miscellaneous Symbols and Arrows" block. no comment)
+	#      - ☡ : Bourbaki dangerous bend (U+2621 CAUTION SIGN)
+	#      - 🗲 : not rendered in browsers on linux
+	#      - ⚡ : shows in colour on most programmes
+<Multi_key> <n> <o>                     : "№" # number sign / numero
+<Multi_key> <s> <t>                     : "ﬆ" # st ligature
+<Multi_key> <l> <l>                     : "₤" # pound sign
+<Multi_key> <v> <v>                     : "✔" # tick
+<Multi_key> <x> <x>                     : "✗" # cross
+<Multi_key> <r> <q>                     : "⸮" # reversed question mark
+<Multi_key> <question> <less>           : "⸮"
+<Multi_key> <asterisk> <asterisk>       : "×" # multiply
+<Multi_key> <grave> <grave>             : "“" # like ``...'' in old *nix docs
+<Multi_key> <apostrophe> <apostrophe>   : "”" # closing quote
+<Multi_key> <quotedbl> <quotedbl>       : "’" # apostrophe / right single quote
+<Multi_key> <o> <underscore>            : "º" # superscript o (№)
+<Multi_key> <period> <bar>              : "⋮" # vertical elipsis
+<Multi_key> <minus> <bar>               : "¬" # logical not sign
+# <Multi_key> <space> <space>           : " " # non-breaking space, default
+
+<Multi_key> <Up> <Up>                   : "↑" # arrow up
+<Multi_key> <Down> <Down>               : "↓" # arrow down
+<Multi_key> <Left> <Left>               : "←" # arrow left
+<Multi_key> <Right> <Right>             : "→" # arrow right
+
+<Multi_key> <0> <s> <p>                 : "​" U200B # zero width space
+<Multi_key> <0> <n> <j>                 : "‌" U200C # zero width non-joiner
+<Multi_key> <0> <j> <n>                 : "‍" U200D # zero width joiner

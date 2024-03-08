@@ -1,0 +1,74 @@
+# cyrillic alphabet
+
+<Multi_key> <ampersand> <a>             : "а" # cyrillic small letter a
+<Multi_key> <ampersand> <b>             : "б" # cyrillic small letter be
+<Multi_key> <ampersand> <c>             : "ц" # cyrillic small letter tse
+<Multi_key> <ampersand> <d>             : "д" # cyrillic small letter de
+<Multi_key> <ampersand> <e>             : "е" # cyrillic small letter ie
+<Multi_key> <ampersand> <f>             : "ф" # cyrillic small letter ef
+<Multi_key> <ampersand> <g>             : "г" # cyrillic small letter ghe
+<Multi_key> <ampersand> <h>             : "ч" # cyrillic small letter che
+<Multi_key> <ampersand> <i>             : "и" # cyrillic small letter i
+<Multi_key> <ampersand> <j>             : "й" # cyrillic small letter short i
+<Multi_key> <ampersand> <k>             : "к" # cyrillic small letter ka
+<Multi_key> <ampersand> <l>             : "л" # cyrillic small letter el
+<Multi_key> <ampersand> <m>             : "м" # cyrillic small letter em
+<Multi_key> <ampersand> <n>             : "н" # cyrillic small letter en
+<Multi_key> <ampersand> <o>             : "о" # cyrillic small letter o
+<Multi_key> <ampersand> <p>             : "п" # cyrillic small letter pe
+<Multi_key> <ampersand> <q>             : "я" # cyrillic small letter ya
+<Multi_key> <ampersand> <r>             : "р" # cyrillic small letter er
+<Multi_key> <ampersand> <s>             : "с" # cyrillic small letter es
+<Multi_key> <ampersand> <t>             : "т" # cyrillic small letter te
+<Multi_key> <ampersand> <u>             : "у" # cyrillic small letter u
+<Multi_key> <ampersand> <v>             : "в" # cyrillic small letter ve
+<Multi_key> <ampersand> <w>             : "ж" # cyrillic small letter zhe
+<Multi_key> <ampersand> <x>             : "х" # cyrillic small letter ha
+<Multi_key> <ampersand> <y>             : "ю" # cyrillic small letter yu
+<Multi_key> <ampersand> <z>             : "з" # cyrillic small letter ze
+<Multi_key> <ampersand> <semicolon>     : "ш" # cyrillic small letter sha
+<Multi_key> <ampersand> <slash>         : "щ" # cyrillic small letter shcha
+<Multi_key> <ampersand> <bracketleft>   : "ш" # cyrillic small letter sha
+<Multi_key> <ampersand> <bracketright>  : "щ" # cyrillic small letter shcha
+<Multi_key> <ampersand> <backslash>     : "э" # cyrillic small letter e
+<Multi_key> <ampersand> <comma>         : "ъ" # cyrillic small letter hard
+<Multi_key> <ampersand> <period>        : "ь" # cyrillic small letter soft
+
+<Multi_key> <ampersand> <A>             : "А" # cyrillic capital letter a
+<Multi_key> <ampersand> <B>             : "Б" # cyrillic capital letter be
+<Multi_key> <ampersand> <C>             : "Ц" # cyrillic capital letter tse
+<Multi_key> <ampersand> <D>             : "Д" # cyrillic capital letter de
+<Multi_key> <ampersand> <E>             : "Е" # cyrillic capital letter ie
+<Multi_key> <ampersand> <F>             : "Ф" # cyrillic capital letter ef
+<Multi_key> <ampersand> <G>             : "Г" # cyrillic capital letter ghe
+<Multi_key> <ampersand> <H>             : "Ч" # cyrillic capital letter che
+<Multi_key> <ampersand> <I>             : "И" # cyrillic capital letter i
+<Multi_key> <ampersand> <J>             : "Й" # cyrillic capital letter short i
+<Multi_key> <ampersand> <K>             : "К" # cyrillic capital letter ka
+<Multi_key> <ampersand> <L>             : "Л" # cyrillic capital letter el
+<Multi_key> <ampersand> <M>             : "М" # cyrillic capital letter em
+<Multi_key> <ampersand> <N>             : "Н" # cyrillic capital letter en
+<Multi_key> <ampersand> <O>             : "О" # cyrillic capital letter o
+<Multi_key> <ampersand> <P>             : "П" # cyrillic capital letter pe
+<Multi_key> <ampersand> <Q>             : "Я" # cyrillic capital letter ya
+<Multi_key> <ampersand> <R>             : "Р" # cyrillic capital letter er
+<Multi_key> <ampersand> <S>             : "С" # cyrillic capital letter es
+<Multi_key> <ampersand> <T>             : "Т" # cyrillic capital letter te
+<Multi_key> <ampersand> <U>             : "У" # cyrillic capital letter u
+<Multi_key> <ampersand> <V>             : "В" # cyrillic capital letter ve
+<Multi_key> <ampersand> <W>             : "Ж" # cyrillic capital letter zhe
+<Multi_key> <ampersand> <X>             : "Х" # cyrillic capital letter ha
+<Multi_key> <ampersand> <Y>             : "Ю" # cyrillic capital letter yu
+<Multi_key> <ampersand> <Z>             : "З" # cyrillic capital letter ze
+<Multi_key> <ampersand> <colon>         : "Ш" # cyrillic capital letter sha
+<Multi_key> <ampersand> <question>      : "Щ" # cyrillic capital letter shcha
+<Multi_key> <ampersand> <braceleft>     : "Ш" # cyrillic capital letter sha
+<Multi_key> <ampersand> <braceright>    : "Щ" # cyrillic capital letter shcha
+<Multi_key> <ampersand> <bar>           : "Э" # cyrillic capital letter e
+<Multi_key> <ampersand> <less>          : "Ъ" # cyrillic capital letter hard
+<Multi_key> <ampersand> <greater>       : "Ь" # cyrillic capital letter soft
+
+<Multi_key> <2> <O>                     : "Ꚙ" # cyrillic capital letter double o
+<Multi_key> <2> <o>                     : "ꚙ" # cyrillic small letter double o
+<Multi_key> <7> <O>                     : "ꙮ" # multiocular o
+<Multi_key> <7> <o>                     : "ꙮ" # multiocular o
