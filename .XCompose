@@ -1,10 +1,10 @@
 # include system compose file
 include "%L"
 # "%H" is equivalent to shell "$HOME"
-include "%H/.compose.d/cyrillic.compose"
-include "%H/.compose.d/greek.compose"
-include "%H/.compose.d/multichar.compose"
-include "%H/.compose.d/symbols.compose"
+include "%H/.cmps.d/cyrillic.compose"
+include "%H/.cmps.d/greek.compose"
+include "%H/.cmps.d/multichar.compose"
+include "%H/.cmps.d/symbols.compose"
 
 <Multi_key> <z> <z>                     : "ɀ" # swash z
 <Multi_key> <Z> <Z>                     : "Ɀ" # swash z (capital)
