@@ -1,0 +1,299 @@
+//!\ keyboard preview in systemsettings WILL NOT WORK, however the keyboard
+//   layout should work fine once applied
+//   https://xkbcommon.org/doc/current/user-configuration.html
+
+default partial alphanumeric_keys
+xkb_symbols "zeusmak" {
+
+	include "zeus(zeusmak_alpha)"
+	name[Group1]= "Zeus Colemak";
+
+	// key <ESC> { [     Caps_Lock,    Caps_Lock ] };
+	// key <ESC> { [  BackSpace ] };
+	key <ESC> { [    Multi_key,    Multi_key ] };
+
+
+	// key <TLDE> { [     Escape, NoSymbol, NoSymbol, NoSymbol ], type[group1] = "ONE_LEVEL" };
+	// replace key <TLDE> { [     Escape ], type[group1] = "ONE_LEVEL" };
+	// key <TLDE> { [     Escape ], type[group1] = "ONE_LEVEL" };
+	// key <CAPS> { [     Escape ], type[group1] = "ONE_LEVEL" };
+
+	key <TLDE> { [     Escape ], type[group1] = "ONE_LEVEL" };
+	key <BKSP> { [      grave,   asciitilde ] };
+	key <CAPS> { [  BackSpace ] };
+	key <LFSH> { [      Alt_L,     Meta_L ] };
+	// key <LCTL> { [  Multi_key,    Multi_key ] };
+
+
+	key <LCTL> { [    Alt_L,     Meta_L ] };
+	key <LSGT> { [  Shift_L,  Caps_Lock,  NoSymbol,  NoSymbol], type[group1]="ALPHABETIC" };
+	key <RTSH> { [  Shift_R,  Caps_Lock,  NoSymbol,  NoSymbol], type[group1]="ALPHABETIC" };
+
+	// key <LFSH> { [    Multi_key,    Multi_key ] };
+	replace key <LALT> { [    Control_L,    Control_L ] };
+
+	replace key <RCTL> { [        Alt_R,        Alt_R ] };
+	replace key <RALT> { [    Control_R,    Control_R ] };
+
+	//             None       NumLock    AltGr
+	// symbol row
+	key <KPDL> { [ KP_Delete,   KP_Decimal,   NoSymbol,  NoSymbol ] };
+	key <KP0>  { [ numbersign,        KP_0,   NoSymbol,  NoSymbol ] };
+	key <KP1>  { [ A,                 KP_1,   NoSymbol,  NoSymbol ] };
+	key <KP2>  { [ B,                 KP_2,   NoSymbol,  NoSymbol ] };
+	key <KP3>  { [ C,                 KP_3,   NoSymbol,  NoSymbol ] };
+	key <KP4>  { [ D,                 KP_4,   NoSymbol,  NoSymbol ] };
+	key <KP5>  { [ E,                 KP_5,   NoSymbol,  NoSymbol ] };
+	key <KP6>  { [ F,                 KP_6,   NoSymbol,  NoSymbol ] };
+	key <KP7>  { [ equal,             KP_7,   NoSymbol,  NoSymbol ] };
+	key <KP8>  { [ x,                 KP_8,   NoSymbol,  NoSymbol ] };
+	key <KP9>  { [ colon,             KP_9,   NoSymbol,  NoSymbol ] };
+	key <KPDV> { [ parenleft,    KP_Divide,   NoSymbol,  NoSymbol ] };
+	key <KPMU> { [ parenright, KP_Multiply,   NoSymbol,  NoSymbol ] };
+	key <KPSU> { [ dollar,     KP_Subtract,   NoSymbol,  NoSymbol ] };
+	key <KPAD> { [ comma,           KP_Add,   NoSymbol,  NoSymbol ] };
+	// key <KPEN> { [ KP_Enter                     ] };
+	// key <KPEQ> { [ KP_Equal                     ] };  // mac keyboard only
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "zeusmak_alpha" {
+
+	include "latin"
+
+	name[Group1]= "Zeus Colemak (No Modifiers)";
+
+	// key <CAPS> { [ BackSpace ], type[group1] = "ONE_LEVEL" };
+
+	key <AE01> { [            1,       exclam ] };
+	key <AE02> { [            2,           at ] };
+	key <AE03> { [            3,   numbersign ] };
+	key <AE04> { [            4,       dollar ] };
+	key <AE05> { [            5,      percent ] };
+	key <AE06> { [            6,  asciicircum ] };
+	key <AE07> { [            7,    ampersand ] };
+	key <AE08> { [            8,     asterisk ] };
+	key <AE09> { [            9,    parenleft ] };
+	key <AE10> { [            0,   parenright ] };
+	key <AE11> { [        minus,   underscore ] };
+	key <AE12> { [        equal,         plus ] };
+
+	key <AD01> { [            q,            Q ] };
+	key <AD02> { [            w,            W ] };
+	key <AD03> { [            f,            F ] };
+	key <AD04> { [            p,            P ] };
+	key <AD05> { [            g,            G ] };
+	key <AD06> { [  bracketleft,    braceleft ] };
+	key <AD07> { [            j,            J ] };
+	key <AD08> { [            l,            L ] };
+	key <AD09> { [            u,            U ] };
+	key <AD10> { [            y,            Y ] };
+	key <AD11> { [    semicolon,        colon ] };
+	key <AD12> { [        slash,     question ] };
+
+	key <AC01> { [            a,            A ] };
+	key <AC02> { [            r,            R ] };
+	key <AC03> { [            s,            S ] };
+	key <AC04> { [            t,            T ] };
+	key <AC05> { [            d,            D ] };
+	key <AC06> { [ bracketright,   braceright ] };
+	key <AC07> { [            h,            H ] };
+	key <AC08> { [            n,            N ] };
+	key <AC09> { [            e,            E ] };
+	key <AC10> { [            i,            I ] };
+	key <AC11> { [            o,            O ] };
+	key <BKSL> { [   apostrophe,     quotedbl ] };
+
+	key <AB01> { [            z,            Z ] };
+	key <AB02> { [            x,            X ] };
+	key <AB03> { [            c,            C ] };
+	key <AB04> { [            v,            V ] };
+	key <AB05> { [            b,            B ] };
+	key <AB06> { [    backslash,          bar ] };
+	key <AB07> { [            k,            K ] };
+	key <AB08> { [            m,            M ] };
+	key <AB09> { [        comma,         less ] };
+	key <AB10> { [       period,      greater ] };
+};
+
+
+partial alphanumeric_keys
+xkb_symbols "colemak_us" {
+
+	name[Group1]= "Colemak US";
+
+	key <CAPS> { [ BackSpace ] };
+
+	key <TLDE> { [        grave,   asciitilde,      dead_tilde,       asciitilde ] };
+	key <AE01> { [            1,       exclam,      exclamdown,      onesuperior ] };
+	key <AE02> { [            2,           at,       masculine,      twosuperior ] };
+	key <AE03> { [            3,   numbersign,     ordfeminine,    threesuperior ] };
+	key <AE04> { [            4,       dollar,            cent,         sterling ] };
+	key <AE05> { [            5,      percent,        EuroSign,              yen ] };
+	key <AE06> { [            6,  asciicircum,         hstroke,          Hstroke ] };
+	key <AE07> { [            7,    ampersand,             eth,              ETH ] };
+	key <AE08> { [            8,     asterisk,           thorn,            THORN ] };
+	key <AE09> { [            9,    parenleft,  leftsinglequotemark,  leftdoublequotemark ] };
+	key <AE10> { [            0,   parenright, rightsinglequotemark,  rightdoublequotemark ] };
+	key <AE11> { [        minus,   underscore,          endash,           emdash ] };
+	key <AE12> { [        equal,         plus,        multiply,         division ] };
+
+	key <AD01> { [            q,            Q,      adiaeresis,       Adiaeresis ] };
+	key <AD02> { [            w,            W,           aring,            Aring ] };
+	key <AD03> { [            f,            F,          atilde,           Atilde ] };
+	key <AD04> { [            p,            P,          oslash,           Oslash ] };
+	key <AD05> { [            g,            G,     dead_ogonek,       asciitilde ] };
+	key <AD06> { [            j,            J,         dstroke,          Dstroke ] };
+	key <AD07> { [            l,            L,         lstroke,          Lstroke ] };
+	key <AD08> { [            u,            U,          uacute,           Uacute ] };
+	key <AD09> { [            y,            Y,      udiaeresis,       Udiaeresis ] };
+	key <AD10> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
+	key <AD11> { [  bracketleft,    braceleft,   guillemotleft,        0x1002039 ] };
+	key <AD12> { [ bracketright,   braceright,  guillemotright,        0x100203a ] };
+	key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
+
+	key <AC01> { [            a,            A,          aacute,           Aacute ] };
+	key <AC02> { [            r,            R,      dead_grave,       asciitilde ] };
+	key <AC03> { [            s,            S,          ssharp,        0x1001e9e ] };
+	key <AC04> { [            t,            T,      dead_acute, dead_doubleacute ] };
+	key <AC05> { [            d,            D,  dead_diaeresis,       asciitilde ] };
+	key <AC06> { [            h,            H,      dead_caron,       asciitilde ] };
+	key <AC07> { [            n,            N,          ntilde,           Ntilde ] };
+	key <AC08> { [            e,            E,          eacute,           Eacute ] };
+	key <AC09> { [            i,            I,          iacute,           Iacute ] };
+	key <AC10> { [            o,            O,          oacute,           Oacute ] };
+	key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
+
+	key <AB01> { [            z,            Z,              ae,               AE ] };
+	key <AB02> { [            x,            X, dead_circumflex,       asciitilde ] };
+	key <AB03> { [            c,            C,        ccedilla,         Ccedilla ] };
+	key <AB04> { [            v,            V,              oe,               OE ] };
+	key <AB05> { [            b,            B,      dead_breve,       asciitilde ] };
+	key <AB06> { [            k,            K,  dead_abovering,       asciitilde ] };
+	key <AB07> { [            m,            M,     dead_macron,       asciitilde ] };
+	key <AB08> { [        comma,         less,    dead_cedilla,       asciitilde ] };
+	key <AB09> { [       period,      greater,   dead_abovedot,       asciitilde ] };
+	key <AB10> { [        slash,     question,    questiondown,       asciitilde ] };
+
+	key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
+	key <SPCE> { [        space,        space,           space,     nobreakspace ] };
+
+	// include "level3(ralt_switch)"
+};
+
+
+partial alphanumeric_keys
+xkb_symbols "zeusmak_nonmod" {
+
+	include "latin"
+
+	name[Group1]="Zeus Colemak NonModular";
+
+	key <ESC> { [     Caps_Lock,    Caps_Lock ] };
+
+	// key <TLDE> { [     Escape, NoSymbol, NoSymbol, NoSymbol ], type[group1] = "ONE_LEVEL" };
+	key <TLDE> { [     Escape ], type[group1] = "ONE_LEVEL" };
+	key <AE01> { [            1,       exclam ] };
+	key <AE02> { [            2,           at ] };
+	key <AE03> { [            3,   numbersign ] };
+	key <AE04> { [            4,       dollar ] };
+	key <AE05> { [            5,      percent ] };
+	key <AE06> { [            6,  asciicircum ] };
+	key <AE07> { [            7,    ampersand ] };
+	key <AE08> { [            8,     asterisk ] };
+	key <AE09> { [            9,    parenleft ] };
+	key <AE10> { [            0,   parenright ] };
+	key <AE11> { [        minus,   underscore ] };
+	key <AE12> { [        equal,         plus ] };
+	key <BKSP> { [        grave,   asciitilde ] };
+
+	key <AD01> { [            q,            Q ] };
+	key <AD02> { [            w,            W ] };
+	key <AD03> { [            f,            F ] };
+	key <AD04> { [            p,            P ] };
+	key <AD05> { [            g,            G ] };
+	key <AD06> { [  bracketleft,    braceleft ] };
+	key <AD07> { [            j,            J ] };
+	key <AD08> { [            l,            L ] };
+	key <AD09> { [            u,            U ] };
+	key <AD10> { [            y,            Y ] };
+	key <AD11> { [    semicolon,        colon ] };
+	key <AD12> { [        slash,     question ] };
+
+	// key <CAPS> { [    BackSpace,    BackSpace,       BackSpace,        BackSpace ] };
+	key <CAPS> { [ BackSpace ], type[group1] = "ONE_LEVEL" };
+	key <AC01> { [            a,            A ] };
+	key <AC02> { [            r,            R ] };
+	key <AC03> { [            s,            S ] };
+	key <AC04> { [            t,            T ] };
+	key <AC05> { [            d,            D ] };
+	key <AC06> { [ bracketright,   braceright ] };
+	key <AC07> { [            h,            H ] };
+	key <AC08> { [            n,            N ] };
+	key <AC09> { [            e,            E ] };
+	key <AC10> { [            i,            I ] };
+	key <AC11> { [            o,            O ] };
+	key <BKSL> { [   apostrophe,     quotedbl ] };
+
+	key <AB01> { [            z,            Z ] };
+	key <AB02> { [            x,            X ] };
+	key <AB03> { [            c,            C ] };
+	key <AB04> { [            v,            V ] };
+	key <AB05> { [            b,            B ] };
+	key <AB06> { [    backslash,          bar ] };
+	key <AB07> { [            k,            K ] };
+	key <AB08> { [            m,            M ] };
+	key <AB09> { [        comma,         less ] };
+	key <AB10> { [       period,      greater ] };
+
+	key <LFSH> { [        Alt_L,       Meta_L ] };
+	// key <LSGT> { [      Shift_L ], type[group1] = "ONE_LEVEL" };
+	// key <RTSH> { [      Shift_R ] };
+	// replace "TWO_LEVEL" w/ "ALPHABETIC" for single shift release
+	// two_level is release same as engage
+	// key <LSGT> {[  Shift_L,  Caps_Lock  ], type[group1]="ALPHABETIC" };
+	// key <RTSH> {[  Shift_R,  Caps_Lock  ], type[group1]="ALPHABETIC" };
+	key <LSGT> {[  Shift_L,  Caps_Lock,  NoSymbol,  NoSymbol], type[group1]="ALPHABETIC" };
+	key <RTSH> {[  Shift_R,  Caps_Lock,  NoSymbol,  NoSymbol], type[group1]="ALPHABETIC" };
+
+	key <LCTL> { [    Multi_key,    Multi_key ] };
+	key <LALT> { [    Control_L,    Control_L ] };
+
+	key <SPCE> { [        space,        space,           space,     nobreakspace ] };
+
+	key <RCTL> { [        Alt_R,        Alt_R ] };
+	key <RALT> { [    Control_R,    Control_R ] };
+
+	// key <LSGT> {
+	//     type = "ALPHABETIC",
+	//     actions [Group1] = [
+	//         SetMods(modifiers=Shift),
+	//         SetMods(modifiers=Shift+Lock,clearLocks)
+	//     ]
+	// };
+	// key <RTSH> {
+	//     type = "ALPHABETIC",
+	//     actions [Group1] = [
+	//         SetMods(modifiers=Shift),
+	//         SetMods(modifiers=Shift+Lock,clearLocks)
+	//     ]
+	// };
+
+	//             None       NumLock    AltGr
+	// symbol row
+	key <KP0>  { [        0,       numbersign, NoSymbol,  NoSymbol ] };
+	key <KP1>  { [        1,       A,          NoSymbol,  NoSymbol ] };
+	key <KP2>  { [        2,       B,          NoSymbol,  NoSymbol ] };
+	key <KP3>  { [        3,       C,          NoSymbol,  NoSymbol ] };
+	key <KP4>  { [        4,       D,          NoSymbol,  NoSymbol ] };
+	key <KP5>  { [        5,       E,          NoSymbol,  NoSymbol ] };
+	key <KP6>  { [        6,       F,          NoSymbol,  NoSymbol ] };
+	key <KP7>  { [        7,       equal,      NoSymbol,  NoSymbol ] };
+	key <KP8>  { [        8,       x,          NoSymbol,  NoSymbol ] };
+	key <KP9>  { [        9,       colon,      NoSymbol,  NoSymbol ] };
+	key <KPDV> { [    slash,       parenleft,  NoSymbol,  NoSymbol ] };
+	key <KPMU> { [ asterisk,       parenright, NoSymbol,  NoSymbol ] };
+	key <KPSU> { [    minus,       dollar,     NoSymbol,  NoSymbol ] };
+	key <KPAD> { [     plus,       comma,      NoSymbol,  NoSymbol ] };
+};

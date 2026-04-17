@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamecontroller configversion="19" appversion="3.5.1">
+    <!--The SDL name for a joystick is included for informational purposes only.-->
+    <sdlname>Afterglow Prismatic Controller</sdlname>
+    <!--The Unique ID for a joystick is included for informational purposes only.-->
+    <uniqueID>030062f36f0e00003901000000430000369531300008F90488C9952</uniqueID>
+    <stickAxisAssociation index="1" xAxis="1" yAxis="2"/>
+    <stickAxisAssociation index="2" xAxis="3" yAxis="4"/>
+    <vdpadButtonAssociations index="1">
+        <vdpadButtonAssociation axis="0" button="12" direction="1"/>
+        <vdpadButtonAssociation axis="0" button="13" direction="4"/>
+        <vdpadButtonAssociation axis="0" button="14" direction="8"/>
+        <vdpadButtonAssociation axis="0" button="15" direction="2"/>
+    </vdpadButtonAssociations>
+    <names>
+        <controlstickname index="1">L Stick</controlstickname>
+        <controlstickname index="2">R Stick</controlstickname>
+    </names>
+    <sets>
+        <set index="1">
+            <trigger index="5">
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <trigger index="6">
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <button index="6">
+                <setselect>2</setselect>
+                <setselectcondition>while-held</setselectcondition>
+            </button>
+        </set>
+        <set index="2">
+            <dpad index="1">
+                <dpadbutton index="4">
+                    <slots>
+                        <slot>
+                            <code>0x1000070</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="8">
+                    <slots>
+                        <slot>
+                            <code>0x1000080</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>0x1000072</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>0x1000083</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+            </dpad>
+            <trigger index="5">
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <trigger index="6">
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <button index="6">
+                <setselect>1</setselect>
+                <setselectcondition>while-held</setselectcondition>
+            </button>
+        </set>
+    </sets>
+</gamecontroller>

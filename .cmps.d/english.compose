@@ -1,0 +1,34 @@
+# old english / old latin alphabet extension / ipa characters
+
+# ---------- old english letters --------------
+<Multi_key> <d> <h>                     : "ð"  # eth (default)
+<Multi_key> <D> <H>                     : "Ð"  # ETH (default)
+<Multi_key> <g> <h>                     : "ȝ"  # yogh
+<Multi_key> <G> <H>                     : "Ȝ"  # YOGH
+<Multi_key> <g> <i>                     : "ᵹ"  # insular g
+<MULTI_KEY> <G> <I>                     : "Ᵹ"  # INSULAR G
+<Multi_key> <r> <r>                     : "ꝛ"  # r rotunda
+<MULTI_KEY> <R> <R>                     : "Ꝛ"  # R ROTUNDA
+<Multi_key> <f> <s>                     : "ſ"  # long s
+<Multi_key> <l> <s>                     : "ſ"  # long s
+<Multi_key> <t> <h>                     : "þ"  # thorn (default)
+<Multi_key> <T> <H>                     : "Þ"  # THORN (default)
+<Multi_key> <w> <w>                     : "ƿ"  # wynn
+<Multi_key> <W> <W>                     : "Ƿ"  # WYNN
+
+<Multi_key> <o> <n> <d>                 : "⁊"  # tironian ond
+
+# --------- ipa / phonetic symbols ------------
+<Multi_key> <e> <s>                     : "ʃ"  # esh
+<Multi_key> <E> <S>                     : "Ʃ"  # ESH
+<Multi_key> <e> <z>                     : "ʒ"  # ezh
+<Multi_key> <E> <Z>                     : "Ʒ"  # EZH
+<Multi_key> <e> <e>                     : "ə"  # schwa
+<Multi_key> <E> <E>                     : "Ə"  # SCHWA
+
+<Multi_key> <p> <h>                     : "ɸ"  # voiceless bilabial fricative
+<Multi_key> <b> <h>                     : "β"  # voiced bilabial fricative
+<Multi_key> <t> <e>                     : "θ"  # voiced dental fricative
+<Multi_key> <u> <u>                     : "ʊ"  # near-close near-back rounded
+<Multi_key> <i> <u>                     : "ɪ"  # near-close near-front unrounded
+<Multi_key> <c> <o>                     : "ɔ"  # open-mid back rounded

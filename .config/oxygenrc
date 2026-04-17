@@ -1,0 +1,7 @@
+[ActiveShadow]
+Enabled=false
+
+[Style]
+MenuHighlightMode=MM_STRONG
+ScrollBarAddLineButtons=0
+ScrollBarSubLineButtons=0

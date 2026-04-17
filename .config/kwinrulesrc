@@ -1,0 +1,114 @@
+[0c922086-4b22-4a14-a936-9bcbf5adc453]
+Description=Application settings for steam
+clientmachine=localhost
+decocolor=KvAdaptaDark
+decocolorrule=2
+noborderrule=3
+wmclass=steamwebhelper steam
+wmclasscomplete=true
+wmclassmatch=1
+
+[404ec0f4-3e96-404d-8fff-1543ae4a8e72]
+Description=Window settings for steam_app_default
+clientmachine=localhost
+fullscreen=true
+fullscreenrule=2
+title=Batman™: Arkham Knight
+titlematch=1
+types=1
+wmclass=steam_app_default
+wmclassmatch=1
+
+[4f990e66-4465-4767-a32d-8737530aa3d6]
+Description=Xinerama-esque widescreen for gamescope
+above=true
+aboverule=3
+noborder=true
+noborderrule=3
+position=0,0
+positionrule=3
+size=5120,1440
+sizerule=3
+wmclass=dont_match_me
+wmclassmatch=1
+
+[6e391c16-25db-4d1e-b6b9-a83b8014c163]
+Description=CopyQ clipboard manager
+aboverule=3
+clientmachine=localhost
+ignoregeometry=true
+ignoregeometryrule=3
+noborder=true
+noborderrule=1
+placement=7
+placementrule=2
+tearingrule=2
+wmclass=copyq
+wmclassmatch=1
+
+[72475ece-1296-4c61-971b-ac7a5b04f649]
+Description=Application settings for batmanac.exe
+ignoregeometry=true
+ignoregeometryrule=3
+position=2560,0
+positionrule=3
+screen=1
+screenrule=3
+wmclass=wine-preloader batmanac.exe
+wmclasscomplete=true
+wmclassmatch=1
+
+[89b23648-0102-40cd-93f7-521d003dffd9]
+Description=Window settings for firefox
+above=true
+aboverule=3
+title=Picture-in-Picture
+titlematch=1
+types=1
+wmclass=firefox
+wmclassmatch=1
+
+[General]
+count=10
+rules=c67b7d3a-68e0-4d48-8da6-6a5d3a338e00,404ec0f4-3e96-404d-8fff-1543ae4a8e72,afd15643-c0ea-4316-b0f0-49d84d1d805e,cda1a7ef-6f3d-438c-a284-6ee6f1b70807,72475ece-1296-4c61-971b-ac7a5b04f649,c1f68259-2436-4609-b91d-fc1863ca011e,4f990e66-4465-4767-a32d-8737530aa3d6,6e391c16-25db-4d1e-b6b9-a83b8014c163,89b23648-0102-40cd-93f7-521d003dffd9,0c922086-4b22-4a14-a936-9bcbf5adc453
+
+[afd15643-c0ea-4316-b0f0-49d84d1d805e]
+Description=Application settings for net.lutris.Lutris
+noborderrule=1
+types=1
+wmclass=python3.13 net.lutris.Lutris
+wmclasscomplete=true
+wmclassmatch=1
+
+[c1f68259-2436-4609-b91d-fc1863ca011e]
+Description=Application settings for org.telegram.desktop
+position=2560,0
+positionrule=3
+size=733,860
+sizerule=3
+types=1
+wmclass=Telegram org.telegram.desktop
+wmclasscomplete=true
+wmclassmatch=1
+
+[c67b7d3a-68e0-4d48-8da6-6a5d3a338e00]
+Description=Application settings for org.kde.yakuake
+above=true
+aboverule=2
+ignoregeometryrule=2
+layer=overlay
+layerrule=2
+sizerule=4
+types=1
+wmclass=yakuake org.kde.yakuake
+wmclasscomplete=true
+wmclassmatch=1
+
+[cda1a7ef-6f3d-438c-a284-6ee6f1b70807]
+Description=Don't maximise new windows
+clientmachine=localhost
+maximizehorizrule=3
+maximizevertrule=3
+size=1600,960
+sizerule=1
+types=1

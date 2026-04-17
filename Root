@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=drive-harddisk-root
+Name[en_GB]=Root
+Name=Root
+Type=Link
+URL[$e]=file:///

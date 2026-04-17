@@ -1,0 +1,9 @@
+{
+    "colorcolumn": 79,
+    "colorscheme": "gruvbox",
+    "divchars": "¦-",
+    "hlsearch": true,
+    "mkparents": true,
+    "rmtrailings": true,
+    "tabsize": 2
+}

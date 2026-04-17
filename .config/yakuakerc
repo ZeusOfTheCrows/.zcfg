@@ -1,0 +1,37 @@
+[Appearance]
+Skin=kde4
+SkinInstalledWithKns=true
+
+[Desktop Entry]
+DefaultProfile=zeus.profile
+
+[Dialogs]
+FirstRun=false
+
+[KFileDialog Settings]
+iconViewIconSize=64
+
+[Notification Messages]
+hinding_title_bar=false
+
+[Shortcuts]
+close-session=none
+decrease-window-height=none
+decrease-window-width=none
+help_report_bug=none
+increase-window-height=none
+increase-window-width=none
+keep-open=Alt+Shift+Esc; Meta+Alt+Esc
+next-session=Ctrl+Tab
+next-terminal=Alt+Tab
+options_configure_notifications=none
+previous-session=Ctrl+Shift+Tab
+previous-terminal=Alt+Shift+Tab
+
+[Window]
+DynamicTabTitles=true
+KeepOpen=false
+Screen=1
+ShowOnAllDesktops=false
+ToggleToFocus=true
+Width=70

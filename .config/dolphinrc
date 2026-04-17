@@ -1,0 +1,58 @@
+[CompactMode]
+PreviewSize=144
+
+[ContentDisplay]
+UsePermissionsFormat=CombinedFormat
+
+[ContextMenu]
+ShowAddToPlaces=false
+ShowCopyLocation=false
+ShowCopyToOtherSplitView=false
+ShowDuplicateHere=false
+ShowMoveToOtherSplitView=false
+ShowSortBy=false
+ShowViewMode=false
+
+[ExtractDialog]
+2 screens: Height=676
+2 screens: Width=1347
+DirHistory[$e]=$HOME/.local/share/icons/,$HOME/Games/Roms/PS4/CUSA03173/dvdroot_ps4/MODS/zips/
+
+[General]
+BrowseThroughArchives=true
+CloseActiveSplitView=false
+ConfirmClosingMultipleTabs=false
+DoubleClickViewAction=go_up
+DynamicView=true
+GlobalViewProps=false
+RememberOpenedTabs=false
+ShowFullPath=true
+ShowStatusBar=FullWidth
+ShowToolTips=true
+ShowZoomSlider=true
+UseTabForSwitchingSplitView=true
+Version=202
+ViewPropsTimestamp=2026,3,12,12,2,56.114
+
+[IconsMode]
+PreviewSize=96
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Notification Messages]
+ConfirmRenameFileType=false
+warnAboutRisksBeforeActingAsAdmin=false
+
+[PreviewSettings]
+Plugins=audiothumbnail,glycin-heif,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,fontthumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,quithumbnail,rawthumbnail,glycin-svg,svgthumbnail,ffmpegthumbs
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[VersionControl]
+enabledPlugins=Git

@@ -1,0 +1,53 @@
+[Desktop Entry]
+Actions=Store;Community;Library;Servers;Screenshots;News;Settings;BigPicture;Friends;
+Categories=Network;FileTransfer;Game;
+Comment=Application for managing and playing games on Steam
+Exec=/usr/bin/steam -console %U
+Icon=z-steam
+MimeType=x-scheme-handler/steam;x-scheme-handler/steamlink;
+Name=Steam
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=true
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+[Desktop Action BigPicture]
+Exec=/usr/bin/steam steam://open/bigpicture
+Name=Big Picture
+
+[Desktop Action Community]
+Exec=/usr/bin/steam steam://url/CommunityHome/
+Name=Community
+
+[Desktop Action Friends]
+Exec=/usr/bin/steam steam://open/friends
+Name=Friends
+
+[Desktop Action Library]
+Exec=/usr/bin/steam steam://open/games
+Name=Library
+
+[Desktop Action News]
+Exec=/usr/bin/steam steam://openurl/https://store.steampowered.com/news
+Name=News
+
+[Desktop Action Screenshots]
+Exec=/usr/bin/steam steam://open/screenshots
+Name=Screenshots
+
+[Desktop Action Servers]
+Exec=/usr/bin/steam steam://open/servers
+Name=Servers
+
+[Desktop Action Settings]
+Exec=/usr/bin/steam steam://open/settings
+Name=Settings
+
+[Desktop Action Store]
+Exec=/usr/bin/steam steam://store
+Name=Store

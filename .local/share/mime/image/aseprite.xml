@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="image/aseprite">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>Aseprite Editor file</comment>
+  <icon name="image-x-krita"/>
+  <glob-deleteall/>
+  <glob pattern="*.ase"/>
+  <glob pattern="*.aseprite"/>
+</mime-type>

@@ -1,0 +1,38 @@
+$include /etc/inputrc
+
+# ----- zsh like tab completion -----
+set completion-ignore-case On
+
+TAB:menu-complete
+"\e[Z":menu-complete-backward # is shift tab
+set show-all-if-ambiguous On
+set show-all-if-unmodified Off # testing
+set menu-complete-display-prefix On
+set colored-completion-prefix On
+set colored-stats On
+
+set completion-display-width 2
+
+# ----- better history -----
+# Cycle through history based on characters already typed on the line
+# (PgUp/PgDn by default)
+"\e[A":history-search-backward
+"C-p":history-search-backward
+"\e[B":history-search-forward
+
+# Keep Ctrl-Left and Ctrl-Right working when the above are used
+"\e[1;5C":forward-word
+"\e[1;5D":backward-word
+
+# ----- ctrl+backspace/delete -----
+"\C-h":backward-kill-word
+"\e[3;5~": kill-word
+
+# ----- testing -----
+# https://www.topbug.net/blog/2017/07/31/inputrc-for-humans/
+set colored-stats On
+set visible-stats On
+
+# ----- editing -----
+# insert last used argument
+"\C-w":yank-last-arg

@@ -1,0 +1,59 @@
+{
+	// theme settings
+	"theme": "gruvbox.sublime-theme",
+	"dark_theme": "Default Dark.sublime-theme",
+	"light_theme": "Default.sublime-theme",
+	"color_scheme": "gruvbox (Dark) (Medium).sublime-color-scheme",
+	"gruvbox_accent_orange": true,
+	"gruvbox_autocomplete_border_thick": true,
+	"gruvbox_sideline_autocomplete_row_thick": true,
+	"gruvbox_statusbar_font_size_12": true,
+	"gruvbox_tabs_xs": true,
+	"gruvbox_tabs_font_size_12": true,
+	"gruvbox_underline_modified_tabs": true,
+	"gruvbox_underline_modified_tabs_thick": true,
+	"gruvbox_panel_xs": true,
+	"gruvbox_highlight_active_tree_row": true,
+	"gruvbox_scrollbar_width_l": true,
+	"gruvbox_tabs_bold": true,
+
+	"font_size": 12,
+	// apparently _ is a "subword" now?
+	// "word_separators": "./\\()\"'-_:,.;<>~!@#$%^&*|+=[]{}`~?",
+	"fade_fold_buttons": false,
+	"rulers": [80],
+	"tab_size": 2,
+	"detect_indentation": false,
+
+	"highlight_line": true,
+	"caret_style": "smooth",
+	"caret_extra_top": 2,
+	"caret_extra_bottom": 2,
+	"caret_extra_width": 2,
+
+	"scroll_past_end": 0.3,
+	"scroll_context_lines": 3,
+	"move_to_limit_on_up_down": false,
+	"draw_white_space": ["selection", "leading_spaces", "isolated"],
+
+	// not working?:
+	"indent_guide_options": ["draw_normal", "draw_active_single_solid"],
+	"trim_trailing_white_space_on_save": "all",
+	"ensure_newline_at_eof_on_save": true,
+
+	"auto_complete_cycle": true,
+
+	"find_selected_text": false,
+	"auto_find_in_selection": true,
+
+	"hot_exit": "disabled",
+	"close_windows_when_empty": true,
+	"always_prompt_for_file_reload": true,
+
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_files": true,
+	"font_face": "Noto Sans Mono",
+}

@@ -1,0 +1,32 @@
+[Desktop Entry]
+Actions=new-window;PrivateBrowsing;ProfileManager
+Categories=Network;WebBrowser;GTK;
+Comment=Browse the Web
+Encoding=UTF-8
+Exec=firefox %u
+GenericName=Web Browser
+Icon=z-firefox
+MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;application/x-xpinstall;x-scheme-handler/http;x-scheme-handler/https;
+Name=Firefox
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+TryExec=firefox
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+[Desktop Action PrivateBrowsing]
+Exec=firefox --private-window %u
+Name=New Private Browsing Window
+
+[Desktop Action ProfileManager]
+Exec=firefox --ProfileManager
+Name=Profile Manager
+
+[Desktop Action new-window]
+Exec=firefox --new-window %u
+Name=New Window

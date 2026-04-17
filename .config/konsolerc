@@ -1,0 +1,17 @@
+[Desktop Entry]
+DefaultProfile=zeus.profile
+
+[General]
+ConfigVersion=1
+
+[KonsoleWindow]
+RememberWindowSize=false
+
+[MainWindow]
+MenuBar=Enabled
+
+[TabBar]
+TabBarVisibility=AlwaysShowTabBar
+
+[UiSettings]
+ColorScheme=

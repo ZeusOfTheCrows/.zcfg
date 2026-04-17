@@ -1,0 +1,215 @@
+2 screens: Height=684
+2 screens: Width=1276
+2 screens: XPosition=3202
+2 screens: YPosition=376
+DP-0 DP-2=DP-2
+DisplayPort-0 DisplayPort-1=DisplayPort-1
+State=AAAA/wAAAAD9AAAAAQAAAAEAAADWAAACavwCAAAAAfsAAAAWAGEAcgBrAF8AcwBpAGQAZQBiAGEAcgEAAABCAAACagAAAIMBAAAEAAAEIwAAAmoAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+StatusBar=Disabled
+
+[Audio Preview Settings]
+Autoplay=false
+
+[ExtractDialog]
+1920x1080 screen: Height=794
+1920x1080 screen: Width=1103
+DirHistory[$e]=$HOME/Downloads/,$HOME/.local/share/themes/Yaru-Cinnamon/,$HOME/Games/emulators/Primehack/,/run/media/zeus/3DS/,$HOME/Documents/Temp/bios/,$HOME/Pictures/Art/Pixels/fonts/,$HOME/Documents/Temp/metroid/,/run/media/zeus/sdg1/roms/Nintendo Super Famicom - SNES/,$HOME/Games/itch/triggers-demo/,$HOME/Games/itch/haptics-demo-tps/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+Volume=1
+
+[KFileDialog Settings]
+iconViewIconSize=64
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
+Auto Save=false
+Auto Save Interval=0
+Auto Save On Focus Out=false
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Camel Cursor=true
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=1
+ReplaceTabsDyn=true
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Word Wrap=false
+Word Wrap Column=80
+
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO 8859-15
+
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Auto Color Theme Selection=true
+Color Theme=Breeze Dark
+Font=Ubuntu Mono,14,-1,5,50,0,0,0,0,0
+Line Height Multiplier=1
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[KTextEditor View]
+Allow Mark Menu=true
+Auto Brackets=true
+Auto Center Lines=0
+Auto Completion=true
+Auto Completion Preselect First Entry=true
+Backspace Remove Composed Characters=false
+Bookmark Menu Sorting=0
+Bracket Match Preview=false
+Chars To Enclose Selection=<>(){}[]'"
+Default Mark Type=1
+Dynamic Word Wrap=true
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap At Static Marker=false
+Dynamic Word Wrap Indicators=1
+Dynamic Wrap not at word boundaries=false
+Enable Tab completion=false
+Fold First Line=false
+Folding Bar=true
+Folding Preview=true
+Icon Bar=false
+Input Mode=0
+Keyword Completion=true
+Line Modification=true
+Line Numbers=true
+Max Clipboard History Entries=20
+Maximum Search History Size=100
+Mouse Paste At Cursor Position=false
+Multiple Cursor Modifier=134217728
+Persistent Selection=false
+Scroll Bar Marks=false
+Scroll Bar Mini Map All=true
+Scroll Bar Mini Map Width=60
+Scroll Bar MiniMap=true
+Scroll Bar Preview=true
+Scroll Past End=false
+Search/Replace Flags=140
+Shoe Line Ending Type in Statusbar=false
+Show Documentation With Completion=true
+Show File Encoding=true
+Show Focus Frame Around Editor=true
+Show Folding Icons On Hover Only=true
+Show Line Count=false
+Show Scrollbars=0
+Show Statusbar Dictionary=true
+Show Statusbar Highlighting Mode=true
+Show Statusbar Input Mode=true
+Show Statusbar Line Column=true
+Show Statusbar Tab Settings=true
+Show Word Count=false
+Smart Copy Cut=true
+Statusbar Line Column Compact Mode=true
+Text Drag And Drop=true
+User Sets Of Chars To Enclose Selection=
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[KTextEditor::Search]
+Search History=date,taxi
+
+[MainWindow]
+1920x1080 screen: Height=1048
+1920x1080 screen: Width=1276
+1920x1080 screen: XPosition=640
+1920x1080 screen: YPosition=327
+2 screens: Height=1342
+2 screens: Width=1276
+2 screens: XPosition=3840
+2 screens: YPosition=32
+2560x1440 screen: Height=1408
+2560x1440 screen: Width=1276
+2560x1440 screen: XPosition=0
+2560x1440 screen: YPosition=32
+:0.0=:0.0
+DP-0 DP-2=DP-0
+DisplayPort-0 DisplayPort-1=DisplayPort-1
+DisplayPort-1=DisplayPort-1
+HDMI-0=HDMI-0
+HDMI-A-0=HDMI-A-0
+MenuBar=Enabled
+StatusBar=Disabled
+eDP-1=eDP-1
+eDP-1 Height 1920x1080 eDP-1=1017
+eDP-1 Width 1920x1080 eDP-1=958
+eDP-1 XPosition 1920x1080 eDP-1=961
+eDP-1 YPosition 1920x1080 eDP-1=30
+splitterSizes=1189,88
+
+[Viewer]
+1920x1080 screen: Height=1048
+1920x1080 screen: Width=956
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=32
+2 screens: Height=1338
+2 screens: Width=1276
+2 screens: XPosition=3840
+2 screens: YPosition=32
+2560x1440 screen: Height=1408
+2560x1440 screen: Width=1126
+2560x1440 screen: XPosition=150
+2560x1440 screen: YPosition=32
+:0.0=:0.0
+DP-0 DP-2=DP-2
+DisplayPort-0 DisplayPort-1=DisplayPort-1
+DisplayPort-1=DisplayPort-1
+HDMI-0=HDMI-0
+HDMI-A-0=HDMI-A-0
+State=AAAA/wAAAAD9AAAAAAAABPwAAAT8AAAABAAAAAQAAAAIAAAACPwAAAACAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAACIAYQBuAG4AbwB0AGEAdABpAG8AbgBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+StatusBar=Disabled
+eDP-1=eDP-1
+eDP-1 Height 1920x1080 eDP-1=1017
+eDP-1 Width 1920x1080 eDP-1=958
+eDP-1 XPosition 1920x1080 eDP-1=1
+eDP-1 YPosition 1920x1080 eDP-1=30
+
+[file:///tmp/ark-vsQTRO/SAGE2024_splash_white.mp4]
+Brightness=0
+Contrast=0
+Date=2025,6,21
+Hue=0
+IsVideo=true
+Preferred Size=956,456
+Saturation=0
+Subtitle=0
+
+[file:///tmp/ark-wIKbXm/Driver 4 Speed Handling/x2/guide_x2.wmv]
+Brightness=0
+Contrast=0
+Date=2024,5,29
+Hue=0
+IsVideo=false
+Preferred Size=1276,1298
+Saturation=0

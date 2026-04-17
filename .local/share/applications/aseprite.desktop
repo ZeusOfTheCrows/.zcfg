@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=Graphics;
+Comment[en_GB]=
+Comment=
+Exec=/home/zeus/Games/SteamLibrary/steamapps/common/Aseprite/aseprite
+GenericName[en_GB]=Pixel Editor
+GenericName=Pixel Editor
+Icon=aseprite
+MimeType=image/webp;image/png;image/jpeg;image/gif;image/bmp;
+Name[en_GB]=Aseprite
+Name=Aseprite
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

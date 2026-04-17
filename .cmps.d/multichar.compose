@@ -1,0 +1,25 @@
+# multi-character string sequences
+
+<Multi_key> <s> <f> : "¯\\_(ツ)_/¯" # Shrug
+
+<Multi_key> <minus> <space> : " – " # padded n-dash
+<Multi_key> <minus> <minus> <space> : " – " # n-dash with punc spaces (U+2008)
+# <Multi_key> <minus> <minus> <space> : " – " # n-dash with thin spaces (U+2009)
+
+# ============== anti-censor workarounds ====================
+<Multi_key> <f> <u> : "fuck" #
+# alternatives:
+	# Mathematical Sans-Serif Small 𝗎 (best)
+	# Armenian Small Letter Seh ս
+	# Tai Le Letter Pa ᥙ
+	# Cyrillic Small Letter es: c (used)
+	# Greek lunate sigma symbol: ϲ
+	# Small roman numeral one hundred: ⅽ
+	# Mathematical sans-serif small k: 𝗄
+
+<Multi_key> <s> <h> : "ѕһіt" #
+# alternatives:
+	# Cyrillic small letter dze: ѕ (used)
+	# Cyrillic small letter shha: һ (used)
+	# Mathematical Sans-Serif Small h: 𝗁
+	# Cyrillic small letter byelorussian-ukrainian i: і

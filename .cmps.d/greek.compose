@@ -1,0 +1,53 @@
+# basic greek alphabet
+
+<Multi_key> <asterisk> <a>   : "α"     U03B1    # greek small letter alpha
+<Multi_key> <asterisk> <b>   : "β"     U03B2    # greek small letter beta
+<Multi_key> <asterisk> <c>   : "ξ"     U03BE    # greek small letter xi
+<Multi_key> <asterisk> <d>   : "δ"     U03B4    # greek small letter delta
+<Multi_key> <asterisk> <e>   : "ε"     U03B5    # greek small letter epsilon
+<Multi_key> <asterisk> <f>   : "φ"     U03C6    # greek small letter phi
+<Multi_key> <asterisk> <g>   : "γ"     U03B3    # greek small letter gamma
+<Multi_key> <asterisk> <h>   : "η"     U03B8    # greek small letter theta
+<Multi_key> <asterisk> <i>   : "ι"     U03B9    # greek small letter iota
+<Multi_key> <asterisk> <k>   : "κ"     U03BA    # greek small letter kappa
+<Multi_key> <asterisk> <l>   : "λ"     U03BB    # greek small letter lambda
+<Multi_key> <asterisk> <m>   : "μ"     U03BC    # greek small letter mu
+<Multi_key> <asterisk> <n>   : "ν"     U03BD    # greek small letter nu
+<Multi_key> <asterisk> <o>   : "ο"     U03BF    # greek small letter omicron
+<Multi_key> <asterisk> <p>   : "π"     U03C0    # greek small letter pi
+<Multi_key> <asterisk> <q>   : "ψ"     U03C8    # greek small letter psi
+<Multi_key> <asterisk> <r>   : "ρ"     U03C1    # greek small letter rho
+<Multi_key> <asterisk> <s>   : "σ"     U03C3    # greek small letter sigma
+<Multi_key> <asterisk> <t>   : "τ"     U03C4    # greek small letter tau
+<Multi_key> <asterisk> <u>   : "θ"     U03C5    # greek small letter upsilon
+<Multi_key> <asterisk> <v>   : "ς"     U03C2    # greek small letter final sigma
+<Multi_key> <asterisk> <w>   : "ω"     U03C9    # greek small letter omega
+<Multi_key> <asterisk> <x>   : "χ"     U03C7    # greek small letter chi
+<Multi_key> <asterisk> <y>   : "υ"     U03B7    # greek small letter eta
+<Multi_key> <asterisk> <z>   : "ζ"     U03B6    # greek small letter zeta
+
+<Multi_key> <asterisk> <A>   : "Α"     U0391    # greek capital letter alpha
+<Multi_key> <asterisk> <B>   : "Β"     U0392    # greek capital letter beta
+<Multi_key> <asterisk> <C>   : "Ξ"     U039E    # greek capital letter xi
+<Multi_key> <asterisk> <D>   : "Δ"     U0394    # greek capital letter delta
+<Multi_key> <asterisk> <E>   : "Ε"     U0395    # greek capital letter epsilon
+<Multi_key> <asterisk> <F>   : "Φ"     U03A6    # greek capital letter phi
+<Multi_key> <asterisk> <G>   : "Γ"     U0393    # greek capital letter gamma
+<Multi_key> <asterisk> <H>   : "Η"     U0398    # greek capital letter theta
+<Multi_key> <asterisk> <I>   : "Ι"     U0399    # greek capital letter iota
+<Multi_key> <asterisk> <K>   : "Κ"     U039A    # greek capital letter kappa
+<Multi_key> <asterisk> <L>   : "Λ"     U039B    # greek capital letter lambda
+<Multi_key> <asterisk> <M>   : "Μ"     U039C    # greek capital letter mu
+<Multi_key> <asterisk> <N>   : "Ν"     U039D    # greek capital letter nu
+<Multi_key> <asterisk> <O>   : "Ο"     U039F    # greek capital letter omicron
+<Multi_key> <asterisk> <P>   : "Π"     U03A0    # greek capital letter pi
+<Multi_key> <asterisk> <Q>   : "Ψ"     U03A8    # greek capital letter psi
+<Multi_key> <asterisk> <R>   : "Ρ"     U03A1    # greek capital letter rho
+<Multi_key> <asterisk> <S>   : "Σ"     U03A3    # greek capital letter sigma
+<Multi_key> <asterisk> <T>   : "Τ"     U03A4    # greek capital letter tau
+<Multi_key> <asterisk> <U>   : "Θ"     U03A5    # greek capital letter upsilon
+<Multi_key> <asterisk> <V>   : "Σ"     U03A3    # greek capital letter sigma
+<Multi_key> <asterisk> <W>   : "Ω"     U03A9    # greek capital letter omega
+<Multi_key> <asterisk> <X>   : "Χ"     U03A7    # greek capital letter chi
+<Multi_key> <asterisk> <Y>   : "Υ"     U0397    # greek capital letter eta
+<Multi_key> <asterisk> <Z>   : "Ζ"     U0396    # greek capital letter zeta

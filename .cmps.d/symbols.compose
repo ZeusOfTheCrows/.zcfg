@@ -1,0 +1,70 @@
+# miscellaneous assorted typographical symbols
+
+<Multi_key> <b> <l>                     : "↯" # bliksemschicht, lightning BoLt
+# There's multiple unicode bliksems:
+#      - ↯ : U+21AF DOWNWARDS ZIGZAG ARROW
+#            (in "Arrows" block. unicode comment: "electrolysis")
+#            The other one (line below) messes with spacing after, apparently
+#      - ⭍ : U+2B4D Downwards Triangle-Headed Zigzag Arrow
+#            (in "Miscellaneous Symbols and Arrows" block. no comment)
+#      - ☡ : Bourbaki dangerous bend (U+2621 CAUTION SIGN)
+#      - 🗲 : ~not rendered in browsers on linux~
+#      - ⚡️ : shows in colour on most programmes
+<Multi_key> <l> <b>                     : "🗲" # lightning bolt
+
+<Multi_key> <z> <grave>                 : "ɀ"
+<Multi_key> <z> <asciitilde>            : "ɀ"
+<Multi_key> <Z> <asciitilde>            : "Ɀ"
+<Multi_key> <z> <z>                     : "ɀ" # swash z
+<Multi_key> <Z> <Z>                     : "Ɀ" # swash z (capital)
+
+<Multi_key> <a> <k>                     : "␆"  # acknowledge representation sym
+<Multi_key> <n> <k>                     : "␕"  # negative ack representation sym
+
+<Multi_key> <l> <l>                     : "₤"  # pound sign
+<Multi_key> <l> <->                     : "₤"  # pound sign
+<Multi_key> <y> <y>                     : "✔"  # tick / yes
+<Multi_key> <n> <n>                     : "✗"  # cross / no
+<Multi_key> <j> <y>                     : "〇"  # maru / japanese yes
+<Multi_key> <j> <n>                     : "⨉"  # batsu / japanese no
+<Multi_key> <r> <q>                     : "⸮"  # reversed question mark
+<Multi_key> <question> <less>           : "⸮"
+<Multi_key> <less> <question>           : "⸮"
+<Multi_key> <x> <x>                     : "×"  # multiply
+<Multi_key> <asterisk> <asterisk>       : "⁂"  # asterism
+<Multi_key> <plus> <plus>               : "†"  # dagger
+<Multi_key> <plus> <asterisk>           : "‡"  # double dagger
+<Multi_key> <bar> <exclam>              : "¦"  # broken bar
+<Multi_key> <minus> <bar>               : "¬"  # logical not / drop pipe
+
+# ligatures
+<Multi_key> <n> <o>                     : "№"  # number sign / numero
+<Multi_key> <o> <underscore>            : "º"  # masculine ordinal
+<Multi_key> <s> <t>                     : "ﬆ"  # st ligature
+<Multi_key> <f> <t>                     : "ﬅ"  # long st ligature
+<Multi_key> <s> <t>                     : "ﬆ"  # st ligature
+<Multi_key> <f> <f>                     : "ﬀ"  # ff ligature
+<Multi_key> <f> <i>                     : "ﬁ"  # fi ligature
+
+# quotes:
+<Multi_key> <grave> <grave>             : "“"  # like ``...'' in old *nix docs
+<Multi_key> <apostrophe> <apostrophe>   : "”"  # closing quote
+<Multi_key> <quotedbl> <quotedbl>       : "’"  # apostrophe / right single quote
+<Multi_key> <quotedbl> <backslash>      : "〝"  # reversed double prime quote
+<Multi_key> <quotedbl> <slash>          : "〞"  # double prime quote
+
+<Multi_key> <o> <underscore>            : "º" #  superscript o (№)
+<Multi_key> <period> <bar>              : "⋮" #  vertical elipsis
+<Multi_key> <minus> <bar>               : "¬" #  logical not sign
+<Multi_key> <space> <space>             : " " #  non-breaking space, default
+
+<Multi_key> <Up> <Up>                   : "↑" #  arrow up
+<Multi_key> <Down> <Down>               : "↓" #  arrow down
+<Multi_key> <Left> <Left>               : "←" #  arrow left
+<Multi_key> <Right> <Right>             : "→" #  arrow right
+
+<Multi_key> <0> <s> <p>                 : "​" U200B  # zero width space
+<Multi_key> <0> <n> <j>                 : "‌" U200C  # zero width non-joiner
+<Multi_key> <0> <j> <n>                 : "‍" U200D  # zero width joiner
+<Multi_key> <s> <e> <c>                 : "§"       # section sign
+

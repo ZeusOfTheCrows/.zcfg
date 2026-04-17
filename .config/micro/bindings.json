@@ -1,0 +1,6 @@
+{
+	// (comments are not usually supported in json)
+	// OldBackspace is equivalent to Ctrl+Backspace, in Konsole at least
+	"OldBackspace": "DeleteWordLeft",
+	"CtrlDelete":  "DeleteWordRight"
+}
