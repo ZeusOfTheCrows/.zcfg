@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ffx_install="$HOME/.config/mozilla/firefox"
+ffx_profile="$(find * -maxdepth 1 -wholename *.default-release)"
+
+ln -s "$HOME/Local/firefox/chrome" "$ffx_profile/chrome"
+ln -s "$HOME/Local/firefox/user.js" "$ffx_profile/user.js"
+
+ln -s "$ffx_profile/" "$HOME/Local/firefox/profile"
