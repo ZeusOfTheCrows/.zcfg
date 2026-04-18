@@ -1,0 +1,34 @@
+.scrollbar,
+ scrollbar,
+ scrollbar button,
+ scrollbar slider {
+	 -GtkScrollbar-has-backward-stepper: true;
+	-GtkScrollbar-has-forward-stepper: true;
+	-GtkScrollbar-has-secondary-backward-stepper: true;
+}
+
+/* slightly less round urlbar */
+:root {
+	--border-radius-xsmall: 2px !important;  /*default: 2px */
+	--border-radius-small: 3px !important;  /*default: 4px */
+	--border-radius-medium: 6px !important;  /*default: 8px */
+	--border-radius-large: 12px !important;  /*default: 16px */
+}
+
+/* hide private browsing text (and slightly increase icon size) */
+.private-browsing-indicator-with-label {
+	margin-inline: 0px !important;
+}
+.private-browsing-indicator-icon {
+	width: 20px !important;
+	height: 20px !important;
+}
+.private-browsing-indicator-label {
+	display: none !important;
+}
+
+/* hide favicon for bookmarklets (they have no inbuilt favicon) */
+.bookmark-item[scheme="about"]      .toolbarbutton-icon,
+.bookmark-item[scheme="javascript"] .toolbarbutton-icon {
+	display: none;
+}

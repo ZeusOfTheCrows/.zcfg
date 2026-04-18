@@ -1,0 +1,8 @@
+/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/numbered_tabs.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+/* Show a number before tab text*/
+
+#tabbrowser-tabs{ counter-reset: nth-tab 0 } /* Change to -1 for 0-indexing */
+:not(tab-group[collapsed])>.tabbrowser-tab{ counter-increment: nth-tab }
+.tab-text::before{ content: counter(nth-tab); font-size: 0.8em; vertical-align: top; padding-right: 0.2em }
