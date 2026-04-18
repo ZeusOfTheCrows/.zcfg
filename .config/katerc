@@ -250,6 +250,7 @@ LineNumbers=false
 
 [Shortcuts]
 kate_mdi_focus_toolview_kate_plugin_xmlcheck_ouputview=none
+kate_mdi_focus_toolview_kate_private_plugin_katekonsoleplugin=Shift+F4
 kate_mdi_focus_toolview_ktexteditorpreviewplugin=none
 kate_mdi_focus_toolview_output=none
 kate_mdi_show_toolview_button_kate_plugin_xmlcheck_ouputview=none

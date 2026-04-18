@@ -1,6 +1,6 @@
 #!/bin/bash
 
-output_dir="$XDG_DATA_HOME/yadm/package-lists"
+output_dir="$XDG_CONFIG_HOME/yadm/synced-files"
 
 # list files in .local/bin
 find "$HOME/.local/bin/" -type f -executable -printf "\n%f\n" > "$output_dir/localbin-list.txt"
@@ -13,3 +13,7 @@ sed -i -e 's/i+ | //g' -e 's/ *| package//g' "$output_dir/zypper-packages.txt"
 
 # list autostart entries
 find "$HOME/.config/autostart/" -name "*.desktop" -type f -printf "\n%f\n" > "$output_dir/autostart-list.txt"
+
+# list locally installed fonts (/!\ NOT system or package manager)
+find "$HOME/.local/share/fonts/" -type f -not -name ".uuid" -printf "%f\n" |\
+sort | uniq --check-chars=10 > "$output_dir/fonts.txt"

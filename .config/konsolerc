@@ -13,5 +13,8 @@ MenuBar=Enabled
 [TabBar]
 TabBarVisibility=AlwaysShowTabBar
 
+[ThumbnailsSettings]
+ThumbnailCtrl=true
+
 [UiSettings]
 ColorScheme=

@@ -1,9 +1,24 @@
 #!/bin/bash
 
+# ============================= make xdg dirs ==================================
+mkdir -p "$HOME/Documents/Public"
+mkdir -p "$HOME/Documents/Templates"
+mkdir -p "$HOME/Temp"
+
+# ============================ copy root files =================================
+sudo cp "$XDG_CONFIG_HOME/yadm/synced-files/vconsole.conf" "/etc/vconsole.conf"
+
+# ============================ firefox profile =================================
 ffx_install="$HOME/.config/mozilla/firefox"
-ffx_profile="$(find * -maxdepth 1 -wholename *.default-release)"
+ffx_profile="$(find $ffx_install -maxdepth 1 -wholename *.default-release)"
 
 ln -s "$HOME/Local/firefox/chrome" "$ffx_profile/chrome"
 ln -s "$HOME/Local/firefox/user.js" "$ffx_profile/user.js"
 
 ln -s "$ffx_profile/" "$HOME/Local/firefox/profile"
+
+# ========================== keyboard layout ===================================
+# set via gui as i don't know a kde-compatible cli method
+kcmshell6 kcm_keyboard
+
+# ==============================================================================
