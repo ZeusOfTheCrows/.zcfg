@@ -1,0 +1,14 @@
+
+io.github.antimicrox.antimicrox.desktop
+
+org.kde.yakuake.desktop
+
+org.qbittorrent.qBittorrent.desktop
+
+nordvpn.desktop
+
+com.github.hluk.copyq.desktop
+
+org.telegram.desktop.desktop
+
+org.kde.kontact.desktop

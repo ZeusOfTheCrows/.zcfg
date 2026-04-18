@@ -1,0 +1,15 @@
+#!/bin/bash
+
+output_dir="$XDG_DATA_HOME/yadm/package-lists"
+
+# list files in .local/bin
+find "$HOME/.local/bin/" -type f -executable -printf "\n%f\n" > "$output_dir/localbin-list.txt"
+
+# list packages installed "manually" by zypper
+zypper se -i | grep -v "| product$" | grep -v "| pattern$" | grep "^i+" |\
+grep -v "^python3" | grep -v "^lib" |\
+grep -v "^patterns-" | grep -v "^qt6-" | grep -v "^yast2" |\
+sed -i -e 's/i+ | //g' -e 's/ *| package//g' "$output_dir/zypper-packages.txt"
+
+# list autostart entries
+find "$HOME/.config/autostart/" -name "*.desktop" -type f -printf "\n%f\n" > "$output_dir/autostart-list.txt"

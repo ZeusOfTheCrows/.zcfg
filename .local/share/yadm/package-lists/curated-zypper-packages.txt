@@ -1,0 +1,114 @@
+
+bat                                               | A cat(1) clone with syntax highlighting and Git integration
+
+catfish                                           | Versatile File Searching Tool
+
+copyq                                             | Advanced clipboard manager
+
+darkly                                            | A modern style for qt applications.
+
+dmz-icon-theme-cursors                            | DMZ Cursor Theme
+
+eza                                               | Replacement for ls written in Rust
+
+falkon                                            | Modern web browser
+
+filelight                                         | Graphical disk usage viewer
+
+fooyin                                            | A customisable music player built with Qt
+
+fortune                                           | Random Saying
+
+gh                                                | The official CLI for GitHub
+
+ghostwriter                                       | A distraction-free Markdown editor
+
+gimp                                              | The GNU Image Manipulation Program
+
+git-core                                          | Core git tools
+
+gnome-disk-utility                                | Disks application for dealing with storage devices
+
+haruna                                            | Video player built with Qt/QML on top of libmpv
+
+heroic-games-launcher                             | Native Games launcher for GOG, Epic and Amazon
+
+inkscape                                          | Vector Illustration Program
+
+input-remapper                                    | An easy to use tool to change the behaviour of your input devices
+
+kde-oxygen-fonts                                  | A desktop/gui font family for integrated use with the KDE desktop
+
+keyd                                              | A key remapping daemon for linux
+
+kfind                                             | KDE Find File Utility
+
+klassy                                            | Highly customizable theming for the KDE Plasma desktop
+
+krename                                           | A batch renamer by KDE
+
+krita                                             | Digital Painting Application
+
+meld                                              | Visual diff and merge tool
+
+micro-editor                                      | Micro is a terminal-based text editor that aims to be easy to use and intuitive
+
+MozillaFirefox                                    | Mozilla Firefox Web Browser
+
+MozillaThunderbird                                | An integrated email, news feeds, chat, and newsgroups client
+
+neowofetch                                        | CLI system information tool written in BASH
+
+nordvpn                                           | The NordVPN app for Linux protects your internet traffic with top-grade encryption and changes your IP address, so whatever you do online stays private and secure. Connect to over 7,100 high-speed servers covering 118 countries.
+
+okteta                                            | Hex Editor
+
+oxygen5-sounds                                    | Oxygen sounds
+oxygen6                                           | Oxygen style, KWin decoration and cursors
+oxygen6-cursors                                   | The KDE Plasma Workspace Cursors
+oxygen6-decoration                                | Oxygen's KWin decoration
+oxygen6-style                                     | Oxygen style
+
+
+ProtonPlus                                        | A Wine and Proton-based compatibility tools manager for GNOME
+
+protontricks                                      | Winetricks for Proton-enabled Games
+
+q4wine                                            | Qt GUI for WINE
+
+qbittorrent                                       | A BitTorrent client in Qt
+
+qownnotes                                         | Note-taking app and todo list manager with ownCloud/Nextcloud integration
+
+scrcpy                                            | Display and control your Android device
+
+smplayer                                          | Complete frontend for MPV
+
+steam                                             | Installer for Valve's digital software distribution service
+steam-devices                                     | Device support for Steam-related hardware
+
+sublime-text                                      | Sublime Text is a sophisticated text editor for code, markup and prose
+
+telegram-desktop                                  | Messaging application with a focus on speed and security
+
+tesseract-ocr                                     | Open Source OCR Engine used for kde spectacle
+
+torbrowser-launcher                               | Tool for launching and easy-updates of Tor Browser
+
+ubuntu-fonts                                      | A unique, custom designed font that has a very distinctive look and feel
+ubuntu-mate-icon-theme                            | Icon themes from Ubuntu MATE
+ubuntu-mono-icon-theme                            | Ubuntu Mono Icon theme
+
+unrar                                             | A program to extract, test, and view RAR archives for kde dolphin
+
+warpinator                                        | Share files across the LAN
+
+wl-clipboard                                      | Wayland Clipboard Utilities (maybe not necessary)
+
+xboxdrv                                           | Xbox/Xbox360 USB Gamepad Driver for Userspace
+
+yadm                                              | Yet Another Dotfiles Manager
+
+yakuake                                           | Drop-down terminal emulator based on Konsole technologies
+
+yt-dlp                                            | Enhanced fork of youtube-dl, a video site downloader for offline watching

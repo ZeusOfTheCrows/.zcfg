@@ -1,0 +1,12 @@
+
+apng2gif
+
+apngasm
+
+apngopt
+
+gif2apng
+
+apngdis
+
+kdotool

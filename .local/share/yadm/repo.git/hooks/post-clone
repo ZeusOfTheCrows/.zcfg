@@ -1,0 +1,7 @@
+#!/bin/bash
+
+output_dir="$XDG_DATA_HOME/yadm/package-lists"
+
+mkdir -p "$HOME/_NEW_INSTALL_/"
+cp "$output_dir/"* "$HOME/_NEW_INSTALL_/"
+cp "$output_dir/.directory" "$HOME/_NEW_INSTALL_/"
