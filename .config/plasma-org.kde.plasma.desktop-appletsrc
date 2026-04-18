@@ -46,12 +46,12 @@ arrangement=1
 changedPositions={"desktop:/ My Computer":["2560x1440,1920x1080","0","0"],"desktop:/desktop-files":["2560x1440,1920x1080","0","2"],"desktop:/firefox box-shadow urlbar":["2560x1440,1920x1080","0","3"],"desktop:/shortkeys 2":["2560x1440,1920x1080","0","5"],"desktop:/shortkeys firefox extension":["2560x1440,1920x1080","0","4"]}
 labelWidth=2
 lastResolution=2560x1440
-positions={"1920x1080":["3","7","desktop:/desktop-files","2","1","desktop:/shortkeys 2","0","2","desktop:/shortkeys firefox extension","0","5","desktop:/ Recycle Bin","0","1","desktop:/ My Computer","0","0","desktop:/firefox box-shadow urlbar","0","4"],"2560x1440":["1","10","desktop:/shortkeys 2","0","5","desktop:/desktop-files","0","2","desktop:/shortkeys firefox extension","0","4","desktop:/ My Computer","0","0","desktop:/addfiles.sh","0","7","desktop:/dots.md","0","6","desktop:/ Recycle Bin","0","1","desktop:/firefox box-shadow urlbar","0","3"]}
+positions={"1920x1080":["3","7","desktop:/desktop-files","2","1","desktop:/shortkeys 2","0","2","desktop:/shortkeys firefox extension","0","5","desktop:/ Recycle Bin","0","1","desktop:/ My Computer","0","0","desktop:/firefox box-shadow urlbar","0","4"],"2560x1440":["1","10","desktop:/shortkeys 2","0","5","desktop:/desktop-files","0","2","desktop:/shortkeys firefox extension","0","4","desktop:/ My Computer","0","0","desktop:/net.lutris.middle-earth-shadow-of-mordor-13.desktop","0","8","desktop:/addfiles.sh","0","7","desktop:/dots.md","0","6","desktop:/ Recycle Bin","0","1","desktop:/firefox box-shadow urlbar","0","3"]}
 sortMode=-1
 textLines=3
 
 [Containments][1][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/zeus/Pictures/Wallpapers/Pacific-Drive/wp13391401-pacific-drive-wallpapers.png
+Image=file:///home/zeus/Pictures/Wallpapers/Batman-Arkham/james-catterson-batman14.jpg
 SlidePaths=/home/zeus/Pictures/Wallpapers/
 
 [Containments][2]
@@ -70,7 +70,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/zeus/Pictures/Wallpapers/Aero-ish/sunset.jpg
+Image=file:///home/zeus/Pictures/Wallpapers/Plasma/ScarletTreeDark.png
 SlidePaths=/home/zeus/Pictures/Wallpapers/
 
 [Containments][3]
@@ -354,6 +354,9 @@ extraItems=com.github.korapp.nordvpn,org.kde.plasma.printmanager,org.kde.plasma.
 hiddenItems=NordVPN,org.kde.plasma.trash,org.kde.merkuro.contact.applet
 knownItems=com.github.korapp.nordvpn,org.kde.kdeconnect,org.kde.merkuro.contact.applet,org.kde.plasma.printmanager,org.kde.plasma.networkmanagement,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.kupapplet
 shownItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.clipboard,CopyQ_copyq,com.github.exequtic.apdatifier
+
+[Containments][3][Applets][15][Shortcuts]
+global=Meta+N
 
 [Containments][3][Applets][31]
 immutability=1
@@ -658,4 +661,4 @@ AppletOrder=65;34;35;123;106;37;38;54;55;33
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/shortkeys 2,0,,desktop:/ My Computer.desktop,0,,desktop:/dots.md,0,,desktop:/test2.txt,0,,desktop:/ My Computer,0,,desktop:/firefox box-shadow urlbar,0,,desktop:/desktop-files,0,,desktop:/addfiles.sh,0,,desktop:/tests.txt,0,,desktop:/shortkeys firefox extension,0,,desktop:/ Recycle Bin,0,
+screenMapping=desktop:/shortkeys 2,0,,desktop:/ My Computer.desktop,0,,desktop:/dots.md,0,,desktop:/test2.txt,0,,desktop:/ My Computer,0,,desktop:/firefox box-shadow urlbar,0,,desktop:/desktop-files,0,,desktop:/net.lutris.middle-earth-shadow-of-mordor-13.desktop,0,,desktop:/addfiles.sh,0,,desktop:/tests.txt,0,,desktop:/shortkeys firefox extension,0,,desktop:/ Recycle Bin,0,

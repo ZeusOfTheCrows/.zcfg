@@ -21,7 +21,7 @@ Switch to Next Keyboard Layout=Meta+Return,Meta+Alt+K,Switch to Next Keyboard La
 _k_friendly_name=Keyboard Layout Switcher
 
 [com.github.hluk.copyq]
-LOGO+V||Show main window under mouse cursor=Meta+V,Meta+V,CopyQ - Show main window under mouse cursor
+LOGO+V||Show main window under mouse cursor=,Meta+V,CopyQ - Show main window under mouse cursor
 _k_friendly_name=CopyQ
 
 [dev.aunetx.deezer]
@@ -319,7 +319,7 @@ powerProfile=Battery\t,Battery\tMeta+B,Switch Power Profile
 
 [plasmashell]
 Slideshow Wallpaper Next Image=none,,Next Wallpaper Image
-_k_friendly_name=plasmashell
+_k_friendly_name=System Settings
 activate application launcher=Alt+F1,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,,Activate Task Manager Entry 10
@@ -337,6 +337,7 @@ activate widget 121=,none,Activate Fancy Tasks NG Widget
 activate widget 122=,none,Activate Media Player Widget
 activate widget 123=,none,Activate Window List Widget
 activate widget 14=Meta+C,none,Activate Colour Picker Widget
+activate widget 15=Meta+N,none,Activate System Tray Widget
 activate widget 22=none,none,Activate Digital Clock Widget
 activate widget 3=,none,Activate Panel Widget
 activate widget 30=,none,Activate Panel Spacer Extended Widget
@@ -360,10 +361,10 @@ previous activity=none,none,Walk through activities (Reverse)
 repeat_action=Meta+Ctrl+A,,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=none,,Show Barcode…
-show-on-mouse-pos=none,Meta+V,Show Clipboard Items at Mouse Position
+show-on-mouse-pos=Meta+V,Meta+V,Show Clipboard Items at Mouse Position
 switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
-toggle do not disturb=none,,Toggle do not disturb
+toggle do not disturb=,,Toggle do not disturb
 
 [services][net.local.display.sh-2.desktop]
 _launch=Alt+F11

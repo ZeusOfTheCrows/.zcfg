@@ -31,7 +31,6 @@ previous-terminal=Alt+Shift+Tab
 [Window]
 DynamicTabTitles=true
 KeepOpen=false
-Screen=1
 ShowOnAllDesktops=false
 ToggleToFocus=true
 Width=70
