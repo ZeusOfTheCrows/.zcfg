@@ -26,8 +26,8 @@ xkb_symbols "zeusmak" {
 
 
 	key <LCTL> { [    Alt_L,     Meta_L ] };
-	key <LSGT> { [  Shift_L,  Caps_Lock,  NoSymbol,  NoSymbol], type[group1]="ALPHABETIC" };
-	key <RTSH> { [  Shift_R,  Caps_Lock,  NoSymbol,  NoSymbol], type[group1]="ALPHABETIC" };
+	key <LSGT> { [  Shift_L,  Caps_Lock,  NoSymbol,  NoSymbol], type[group1]="TWO_LEVEL" };
+	key <RTSH> { [  Shift_R,  Caps_Lock,  NoSymbol,  NoSymbol], type[group1]="TWO_LEVEL" };
 
 	// key <LFSH> { [    Multi_key,    Multi_key ] };
 	replace key <LALT> { [    Control_L,    Control_L ] };

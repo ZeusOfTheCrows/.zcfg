@@ -59,7 +59,7 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [89b23648-0102-40cd-93f7-521d003dffd9]
-Description=Window settings for firefox
+Description=Keep PIP above other windows Firefox
 above=true
 aboverule=3
 title=Picture-in-Picture
@@ -68,9 +68,28 @@ types=1
 wmclass=firefox
 wmclassmatch=1
 
+[92e30eac-f68e-4089-8a76-ee7e60e0bcf4]
+Description=small window size for dolphin
+ignoregeometryrule=3
+title=state — Dolphin
+types=1
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
 [General]
-count=10
-rules=c67b7d3a-68e0-4d48-8da6-6a5d3a338e00,404ec0f4-3e96-404d-8fff-1543ae4a8e72,afd15643-c0ea-4316-b0f0-49d84d1d805e,cda1a7ef-6f3d-438c-a284-6ee6f1b70807,72475ece-1296-4c61-971b-ac7a5b04f649,c1f68259-2436-4609-b91d-fc1863ca011e,4f990e66-4465-4767-a32d-8737530aa3d6,6e391c16-25db-4d1e-b6b9-a83b8014c163,89b23648-0102-40cd-93f7-521d003dffd9,0c922086-4b22-4a14-a936-9bcbf5adc453
+count=13
+rules=92e30eac-f68e-4089-8a76-ee7e60e0bcf4,a6786943-fa1d-40b4-b764-858bfce2fa14,b935fe9d-6e06-4d2e-a8c1-418ac39cac89,c67b7d3a-68e0-4d48-8da6-6a5d3a338e00,404ec0f4-3e96-404d-8fff-1543ae4a8e72,afd15643-c0ea-4316-b0f0-49d84d1d805e,cda1a7ef-6f3d-438c-a284-6ee6f1b70807,72475ece-1296-4c61-971b-ac7a5b04f649,c1f68259-2436-4609-b91d-fc1863ca011e,4f990e66-4465-4767-a32d-8737530aa3d6,6e391c16-25db-4d1e-b6b9-a83b8014c163,89b23648-0102-40cd-93f7-521d003dffd9,0c922086-4b22-4a14-a936-9bcbf5adc453
+
+[a6786943-fa1d-40b4-b764-858bfce2fa14]
+Description=Window settings for org.kde.kate
+size=1640,960
+sizerule=3
+title=katestaterc — Kate
+types=1
+wmclass=kate org.kde.kate
+wmclasscomplete=true
+wmclassmatch=1
 
 [afd15643-c0ea-4316-b0f0-49d84d1d805e]
 Description=Application settings for net.lutris.Lutris
@@ -78,6 +97,14 @@ noborderrule=1
 types=1
 wmclass=python3.13 net.lutris.Lutris
 wmclasscomplete=true
+wmclassmatch=1
+
+[b935fe9d-6e06-4d2e-a8c1-418ac39cac89]
+Description=Standard sized new window Firefox
+size=1640,960
+sizerule=3
+types=1
+wmclass=firefox
 wmclassmatch=1
 
 [c1f68259-2436-4609-b91d-fc1863ca011e]

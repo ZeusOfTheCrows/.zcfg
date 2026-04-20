@@ -1,5 +1,7 @@
 #!/bin/bash
 
+synced_dir="$XDG_CONFIG_HOME/yadm/synced-files"
+
 # ============================= make xdg dirs ==================================
 mkdir -p "$HOME/Documents/Public"
 mkdir -p "$HOME/Documents/Templates"
@@ -10,12 +12,29 @@ sudo cp "$XDG_CONFIG_HOME/yadm/synced-files/vconsole.conf" "/etc/vconsole.conf"
 
 # ============================ firefox profile =================================
 ffx_install="$HOME/.config/mozilla/firefox"
-ffx_profile="$(find $ffx_install -maxdepth 1 -wholename *.default-release)"
+ffx_profile="$(find "$ffx_install" -maxdepth 1 -wholename *.default-release)"
 
-ln -s "$HOME/Local/firefox/chrome" "$ffx_profile/chrome"
-ln -s "$HOME/Local/firefox/user.js" "$ffx_profile/user.js"
+ln -s "$synced_dir/firefox/chrome" "$ffx_profile/chrome"
+ln -s "$synced_dir/firefox/user.js" "$ffx_profile/user.js"
 
-ln -s "$ffx_profile/" "$HOME/Local/firefox/profile"
+ln -s "$ffx_profile/" "$HOME/Local/firefox"
+
+# ======================== install flatpak only apps ===========================
+mapfile -t flatpaks < "$synced_dir/flatpaks.txt"
+flatpak install "${flatpaks[@]}"
+
+# ==================== install nordvpn and add whitelists ======================
+sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
+
+nordvpn login
+nordvpn set autoconnect enabled albania
+nordvpn connect
+
+mapfile -t whitelists < "$synced_dir/nordvpn-whitelist.txt"
+
+for subnet in "${whitelists[@]}"; do
+	nordvpn whitelist add subnet "$subnet"
+done
 
 # ========================== keyboard layout ===================================
 # set via gui as i don't know a kde-compatible cli method

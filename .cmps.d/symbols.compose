@@ -22,7 +22,7 @@
 <Multi_key> <n> <k>                     : "␕"  # negative ack representation sym
 
 <Multi_key> <l> <l>                     : "₤"  # pound sign
-<Multi_key> <l> <->                     : "₤"  # pound sign
+<Multi_key> <l> <minus>                 : "₤"  # pound sign
 <Multi_key> <y> <y>                     : "✔"  # tick / yes
 <Multi_key> <n> <n>                     : "✗"  # cross / no
 <Multi_key> <j> <y>                     : "〇"  # maru / japanese yes

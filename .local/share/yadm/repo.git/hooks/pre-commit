@@ -17,3 +17,6 @@ find "$HOME/.config/autostart/" -name "*.desktop" -type f -printf "\n%f\n" > "$o
 # list locally installed fonts (/!\ NOT system or package manager)
 find "$HOME/.local/share/fonts/" -type f -not -name ".uuid" -printf "%f\n" |\
 sort | uniq --check-chars=10 > "$output_dir/fonts.txt"
+
+# save nordvpn whitelist
+nordvpn settings | grep "Allowlisted subnets:" -A 99 | tail -n +2 | sed "s/\t//g" > "$output_dir/nordvpn-whitelist.txt"

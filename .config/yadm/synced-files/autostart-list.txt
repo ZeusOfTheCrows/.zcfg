@@ -11,4 +11,6 @@ com.github.hluk.copyq.desktop
 
 org.telegram.desktop.desktop
 
-org.kde.kontact.desktop
+eu.betterbird.Betterbird.desktop
+
+it.mijorus.gearlever.desktop

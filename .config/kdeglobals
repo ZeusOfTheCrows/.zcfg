@@ -125,6 +125,7 @@ ScrollbarLeftClickNavigatesByPage=true
 ShowDeleteCommand=false
 contrast=4
 frameContrast=0.2
+widgetStyle=Oxygen
 
 [KFileDialog Settings]
 Allow Expansion=false

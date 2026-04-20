@@ -6,9 +6,9 @@
 <Multi_key> <g> <h>                     : "ȝ"  # yogh
 <Multi_key> <G> <H>                     : "Ȝ"  # YOGH
 <Multi_key> <g> <i>                     : "ᵹ"  # insular g
-<MULTI_KEY> <G> <I>                     : "Ᵹ"  # INSULAR G
+<Multi_key> <G> <I>                     : "Ᵹ"  # INSULAR G
 <Multi_key> <r> <r>                     : "ꝛ"  # r rotunda
-<MULTI_KEY> <R> <R>                     : "Ꝛ"  # R ROTUNDA
+<Multi_key> <R> <R>                     : "Ꝛ"  # R ROTUNDA
 <Multi_key> <f> <s>                     : "ſ"  # long s
 <Multi_key> <l> <s>                     : "ſ"  # long s
 <Multi_key> <t> <h>                     : "þ"  # thorn (default)

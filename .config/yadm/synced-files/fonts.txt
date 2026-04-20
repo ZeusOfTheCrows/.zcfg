@@ -7,7 +7,6 @@ CaskaydiaCoveNerdFont-BoldItalic.ttf
 Cooper_Black.ttf
 DEATH_FONT.ttf
 DSEG14ClassicMini_Regular.ttf
-fonts.txt
 Frint_Heavy_Regular.ttf
 Futura_Std_Bold_Oblique.ttf
 GameCube.ttf

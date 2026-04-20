@@ -1,0 +1,84 @@
+{
+    "TWFya1RleHQ=": {
+        "b64name": "TWFya1RleHQ=",
+        "website": "https://github.com/Tkaixiang/marktext",
+        "name": "MarkText",
+        "update_url": "https://github.com/Tkaixiang/marktext/releases/download/*/marktext-linux-*.AppImage",
+        "update_url_manager": "GithubUpdater",
+        "update_manager_config": {
+            "allow_prereleases": false,
+            "repo_url": "https://github.com/Tkaixiang/marktext",
+            "repo_filename": "marktext-linux-*.AppImage"
+        }
+    },
+    "bHV0cmlzIGdhbWVwYWQgdWkgKDAuMS4zNCk=": {
+        "b64name": "bHV0cmlzIGdhbWVwYWQgdWkgKDAuMS4zNCk=",
+        "website": "https://github.com/andrew-ld/lutris-gamepad-ui",
+        "name": "lutris gamepad ui (0.1.34)",
+        "update_url": "https://github.com/andrew-ld/lutris-gamepad-ui/releases/download/*/lutris-gamepad-ui-x64.AppImage",
+        "update_url_manager": "GithubUpdater",
+        "update_manager_config": {
+            "allow_prereleases": false,
+            "repo_url": "https://github.com/andrew-ld/lutris-gamepad-ui",
+            "repo_filename": "lutris-gamepad-ui-x64.AppImage"
+        }
+    },
+    "TWFya1RleHQr": {
+        "b64name": "TWFya1RleHQr",
+        "website": "https://github.com/wglubrigati/marktext-plus",
+        "name": "MarkText+",
+        "update_url": "https://github.com/wglubrigati/marktext-plus/releases/download/*/marktext-linux-*.AppImage",
+        "update_url_manager": "GithubUpdater",
+        "update_manager_config": {
+            "allow_prereleases": false,
+            "repo_url": "https://github.com/wglubrigati/marktext-plus",
+            "repo_filename": "marktext-linux-*.AppImage "
+        }
+    },
+    "T2JzaWRpYW4gKDEuMTEuNyk=": {
+        "b64name": "T2JzaWRpYW4gKDEuMTEuNyk=",
+        "website": "https://obsidian.md/",
+        "name": "Obsidian (1.11.7)",
+        "update_url": "https://github.com/obsidianmd/obsidian-releases/releases/download/*/Obsidian-*.AppImage",
+        "update_url_manager": "GithubUpdater",
+        "update_manager_config": {
+            "allow_prereleases": false,
+            "repo_url": "https://github.com/obsidianmd/obsidian-releases",
+            "repo_filename": "Obsidian-*.AppImage"
+        }
+    },
+    "UmFzcGJlcnJ5IFBpIEltYWdlcg==": {
+        "b64name": "UmFzcGJlcnJ5IFBpIEltYWdlcg==",
+        "update_url": "https://github.com/raspberrypi/rpi-imager/releases/download/*/Raspberry_Pi_Imager-*-desktop-x86_64.AppImage",
+        "update_url_manager": "GithubUpdater",
+        "update_manager_config": {
+            "allow_prereleases": false,
+            "repo_url": "https://github.com/raspberrypi/rpi-imager",
+            "repo_filename": "Raspberry_Pi_Imager-*-desktop-x86_64.AppImage"
+        },
+        "name": "Raspberry Pi Imager",
+        "website": "https://github.com/raspberrypi/rpi-imager"
+    },
+    "RWRlbg==": {
+        "b64name": "RWRlbg==",
+        "website": "https://eden-emu.dev/",
+        "name": "Eden",
+        "update_url": "https://git.eden-emu.dev/eden-emu/eden/releases/download/*/Eden-Linux-*-amd64-gcc-standard.AppImage",
+        "update_url_manager": "ForgejoUpdater",
+        "update_manager_config": {
+            "allow_prereleases": false,
+            "repo_url": "https://git.eden-emu.dev/eden-emu/eden",
+            "repo_filename": "Eden-Linux-*-amd64-gcc-standard.AppImage"
+        }
+    },
+    "c3BwbGljZSAoMi4wLjUp": {
+        "b64name": "c3BwbGljZSAoMi4wLjUp",
+        "website": "https://p2r3.com/spplice/",
+        "name": "spplice (2.0.5)",
+        "update_url": "https://p2r3.com/spplice/app/spplice.AppImage",
+        "update_url_manager": "StaticFileUpdater",
+        "update_manager_config": {
+            "url": "https://p2r3.com/spplice/app/spplice.AppImage"
+        }
+    }
+}

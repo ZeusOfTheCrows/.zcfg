@@ -192,6 +192,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Windows]
 ElectricBorderCornerRatio=0.1
+SeparateScreenFocus=false
 
 [Xwayland]
 Scale=1
