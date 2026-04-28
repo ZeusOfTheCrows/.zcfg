@@ -8,7 +8,7 @@ CursorShape=2
 
 [General]
 Command=/bin/bash
-LocalTabTitleFormat=%n || %d
+LocalTabTitleFormat=%n || %w || %d
 Name=zeus
 Parent=FALLBACK/
 SemanticInputClick=true
@@ -20,7 +20,11 @@ MiddleClickPasteMode=1
 TextEditorCmd=6
 UnderlineFilesEnabled=true
 
+[Keyboard]
+KeyBindings=zeus
+
 [Terminal Features]
 BellMode=1
 BlinkingCursorEnabled=true
-UrlHintsModifiers=201326592
+UrlHintsModifiers=100663296
+VerticalLine=true
