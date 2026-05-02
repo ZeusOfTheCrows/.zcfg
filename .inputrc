@@ -4,21 +4,25 @@ $include /etc/inputrc
 set completion-ignore-case On
 
 TAB:menu-complete
-"\e[Z":menu-complete-backward # is shift tab
+"\e[Z":menu-complete-backward # shift+tab
 set show-all-if-ambiguous On
 set show-all-if-unmodified Off # testing
 set menu-complete-display-prefix On
 set colored-completion-prefix On
 set colored-stats On
+set visible-stats On
 
+# https://www.topbug.net/blog/2017/07/31/inputrc-for-humans/
+# ellipsise common prefix characters on long filename length
+set completion-prefix-display-length 6
 set completion-display-width 2
 
 # ----- better history -----
 # Cycle through history based on characters already typed on the line
 # (PgUp/PgDn by default)
-"\e[A":history-search-backward
-"C-p":history-search-backward
-"\e[B":history-search-forward
+"\e[A":history-search-backward  # up
+"\C-p":history-search-backward  # ctrl+p (default?, previous)
+"\e[B":history-search-forward   # down
 
 # Keep Ctrl-Left and Ctrl-Right working when the above are used
 "\e[1;5C":forward-word
@@ -26,13 +30,17 @@ set completion-display-width 2
 
 # ----- ctrl+backspace/delete -----
 "\C-h":backward-kill-word
-"\e[3;5~": kill-word
-
-# ----- testing -----
-# https://www.topbug.net/blog/2017/07/31/inputrc-for-humans/
-set colored-stats On
-set visible-stats On
+"\e[3;5~":kill-word
 
 # ----- editing -----
-# insert last used argument
-"\C-w":yank-last-arg
+
+# insert last used argument (default alt+. / "\e[.")
+# (synonym for yank-last-arg)
+# would like to use "\C-w", but it seems to be unrebindable (backspace)
+"\C-f":insert-last-argument  # ctrl+f
+
+# undo
+"\ez":undo             # alt+z (ctrl+z is overridden by sleep job)
+"\ex":kill-whole-line  # alt+x effectively cut
+"\ec":yank-pop         # alt+c paste, and replace current clipboard (weird)
+"\ev":yank             # alt+v effectively paste

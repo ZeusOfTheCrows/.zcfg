@@ -39,7 +39,9 @@
 
 # ligatures
 <Multi_key> <n> <o>                     : "№"  # number sign / numero
-<Multi_key> <o> <underscore>            : "º"  # masculine ordinal
+<Multi_key> <m> <o>                     : "Nº" # masculine ordinal / alt numero
+<Multi_key> <w> <slash>                 : "̅c"  # combining overline / with sign
+<Multi_key> <w> <backslash>             : "̄c"  # combining macron / with sign
 <Multi_key> <s> <t>                     : "ﬆ"  # st ligature
 <Multi_key> <f> <t>                     : "ﬅ"  # long st ligature
 <Multi_key> <s> <t>                     : "ﬆ"  # st ligature

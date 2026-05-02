@@ -1,6 +1,7 @@
 # include system compose file
 include "%L"
 # # these are a nice idea, but they end up being buggy for some reason
+# # (i.e. don't work in firefox, spotify [electron])
 # # "%H" is equivalent to shell "$HOME"
 include "%H/.cmps.d/english.compose"
 include "%H/.cmps.d/cyrillic.compose"
@@ -12,3 +13,275 @@ include "%H/.cmps.d/symbols.compose"
 <Multi_key> <Z> <Z>                     : "Ɀ" # swash z (capital)
 
 # <Multi_key> <> <>                     : ""
+
+###############################################################################
+
+# miscellaneous assorted typographical symbols
+
+<Multi_key> <b> <l>                     : "↯" # bliksemschicht, lightning BoLt
+# There's multiple unicode bliksems:
+#      - ↯ : U+21AF DOWNWARDS ZIGZAG ARROW
+#            (in "Arrows" block. unicode comment: "electrolysis")
+#            The other one (line below) messes with spacing after, apparently
+#      - ⭍ : U+2B4D Downwards Triangle-Headed Zigzag Arrow
+#            (in "Miscellaneous Symbols and Arrows" block. no comment)
+#      - ☡ : Bourbaki dangerous bend (U+2621 CAUTION SIGN)
+#      - 🗲 : ~~not rendered in browsers on linux~~
+#      - ⚡️ : shows in colour on most programmes
+<Multi_key> <l> <b>                     : "🗲" # lightning bolt
+
+<Multi_key> <z> <grave>                 : "ɀ"
+<Multi_key> <z> <asciitilde>            : "ɀ"
+<Multi_key> <Z> <asciitilde>            : "Ɀ"
+<Multi_key> <z> <z>                     : "ɀ" # swash z
+<Multi_key> <Z> <Z>                     : "Ɀ" # swash z (capital)
+
+<Multi_key> <a> <k>                     : "␆"  # acknowledge representation sym
+<Multi_key> <n> <k>                     : "␕"  # negative ack representation sym
+
+<Multi_key> <l> <l>                     : "₤"  # pound sign
+<Multi_key> <l> <minus>                 : "₤"  # pound sign
+<Multi_key> <y> <y>                     : "✔"  # tick / yes
+<Multi_key> <n> <n>                     : "✗"  # cross / no
+<Multi_key> <j> <y>                     : "〇"  # maru / japanese yes
+<Multi_key> <j> <n>                     : "⨉"  # batsu / japanese no
+<Multi_key> <r> <q>                     : "⸮"  # reversed question mark
+<Multi_key> <question> <less>           : "⸮"
+<Multi_key> <less> <question>           : "⸮"
+<Multi_key> <x> <x>                     : "×"  # multiply
+<Multi_key> <asterisk> <asterisk>       : "⁂"  # asterism
+<Multi_key> <plus> <plus>               : "†"  # dagger
+<Multi_key> <plus> <asterisk>           : "‡"  # double dagger
+<Multi_key> <bar> <exclam>              : "¦"  # broken bar
+<Multi_key> <minus> <bar>               : "¬"  # logical not / drop pipe
+
+# ligatures
+<Multi_key> <n> <o>                     : "№"  # number sign / numero
+<Multi_key> <m> <o>                     : "Nº" # masculine ordinal / alt numero
+<Multi_key> <w> <slash>                 : "̅c"  # combining overline / with sign
+<Multi_key> <w> <backslash>             : "̄c"  # combining macron / with sign
+<Multi_key> <s> <t>                     : "ﬆ"  # st ligature
+<Multi_key> <f> <t>                     : "ﬅ"  # long st ligature
+<Multi_key> <s> <t>                     : "ﬆ"  # st ligature
+<Multi_key> <f> <f>                     : "ﬀ"  # ff ligature
+<Multi_key> <f> <i>                     : "ﬁ"  # fi ligature
+
+# quotes:
+<Multi_key> <grave> <grave>             : "“"  # like ``...'' in old *nix docs
+<Multi_key> <apostrophe> <apostrophe>   : "”"  # closing quote
+<Multi_key> <quotedbl> <quotedbl>       : "’"  # apostrophe / right single quote
+<Multi_key> <quotedbl> <backslash>      : "〝"  # reversed double prime quote
+<Multi_key> <quotedbl> <slash>          : "〞"  # double prime quote
+
+<Multi_key> <o> <underscore>            : "º" #  superscript o (№)
+<Multi_key> <period> <bar>              : "⋮" #  vertical elipsis
+<Multi_key> <minus> <bar>               : "¬" #  logical not sign
+<Multi_key> <space> <space>             : " " #  non-breaking space, default
+
+<Multi_key> <Up> <Up>                   : "↑" #  arrow up
+<Multi_key> <Down> <Down>               : "↓" #  arrow down
+<Multi_key> <Left> <Left>               : "←" #  arrow left
+<Multi_key> <Right> <Right>             : "→" #  arrow right
+
+<Multi_key> <0> <s> <p>                 : "​" U200B  # zero width space
+<Multi_key> <0> <n> <j>                 : "‌" U200C  # zero width non-joiner
+<Multi_key> <0> <j> <n>                 : "‍" U200D  # zero width joiner
+<Multi_key> <s> <e> <c>                 : "§"       # section sign
+
+###############################################################################
+
+# multi-character string sequences
+
+<Multi_key> <s> <f> : "¯\\_(ツ)_/¯" # Shrug
+
+<Multi_key> <minus> <space> : " – " # padded n-dash
+<Multi_key> <minus> <minus> <space> : " – " # n-dash with punc spaces (U+2008)
+# <Multi_key> <minus> <minus> <space> : " – " # n-dash with thin spaces (U+2009)
+
+# ============== anti-censor workarounds ====================
+<Multi_key> <f> <u> : "fuck" #
+# alternatives:
+	# Mathematical Sans-Serif Small 𝗎 (best)
+	# Armenian Small Letter Seh ս
+	# Tai Le Letter Pa ᥙ
+	# Cyrillic Small Letter es: c (used)
+	# Greek lunate sigma symbol: ϲ
+	# Small roman numeral one hundred: ⅽ
+	# Mathematical sans-serif small k: 𝗄
+
+<Multi_key> <s> <h> : "ѕһіt" #
+# alternatives:
+	# Cyrillic small letter dze: ѕ (used)
+	# Cyrillic small letter shha: һ (used)
+	# Mathematical Sans-Serif Small h: 𝗁
+	# Cyrillic small letter byelorussian-ukrainian i: і
+
+###############################################################################
+
+# old english / old latin alphabet extension / ipa characters
+
+# ---------- old english letters --------------
+<Multi_key> <d> <h>                     : "ð"  # eth (default)
+<Multi_key> <D> <H>                     : "Ð"  # ETH (default)
+<Multi_key> <g> <h>                     : "ȝ"  # yogh
+<Multi_key> <G> <H>                     : "Ȝ"  # YOGH
+<Multi_key> <g> <i>                     : "ᵹ"  # insular g
+<Multi_key> <G> <I>                     : "Ᵹ"  # INSULAR G
+<Multi_key> <r> <r>                     : "ꝛ"  # r rotunda
+<Multi_key> <R> <R>                     : "Ꝛ"  # R ROTUNDA
+<Multi_key> <f> <s>                     : "ſ"  # long s
+<Multi_key> <l> <s>                     : "ſ"  # long s
+<Multi_key> <t> <h>                     : "þ"  # thorn (default)
+<Multi_key> <T> <H>                     : "Þ"  # THORN (default)
+<Multi_key> <w> <w>                     : "ƿ"  # wynn
+<Multi_key> <W> <W>                     : "Ƿ"  # WYNN
+
+<Multi_key> <o> <n> <d>                 : "⁊"  # tironian ond
+
+# --------- ipa / phonetic symbols ------------
+<Multi_key> <e> <s>                     : "ʃ"  # esh
+<Multi_key> <E> <S>                     : "Ʃ"  # ESH
+<Multi_key> <e> <z>                     : "ʒ"  # ezh
+<Multi_key> <E> <Z>                     : "Ʒ"  # EZH
+<Multi_key> <e> <e>                     : "ə"  # schwa
+<Multi_key> <E> <E>                     : "Ə"  # SCHWA
+
+<Multi_key> <p> <h>                     : "ɸ"  # voiceless bilabial fricative
+<Multi_key> <b> <h>                     : "β"  # voiced bilabial fricative
+<Multi_key> <t> <e>                     : "θ"  # voiced dental fricative
+<Multi_key> <u> <u>                     : "ʊ"  # near-close near-back rounded
+<Multi_key> <i> <u>                     : "ɪ"  # near-close near-front unrounded
+<Multi_key> <c> <o>                     : "ɔ"  # open-mid back rounded
+
+###############################################################################
+
+# basic greek alphabet
+
+<Multi_key> <asterisk> <a>   : "α"     U03B1    # greek small letter alpha
+<Multi_key> <asterisk> <b>   : "β"     U03B2    # greek small letter beta
+<Multi_key> <asterisk> <c>   : "ξ"     U03BE    # greek small letter xi
+<Multi_key> <asterisk> <d>   : "δ"     U03B4    # greek small letter delta
+<Multi_key> <asterisk> <e>   : "ε"     U03B5    # greek small letter epsilon
+<Multi_key> <asterisk> <f>   : "φ"     U03C6    # greek small letter phi
+<Multi_key> <asterisk> <g>   : "γ"     U03B3    # greek small letter gamma
+<Multi_key> <asterisk> <h>   : "η"     U03B8    # greek small letter theta
+<Multi_key> <asterisk> <i>   : "ι"     U03B9    # greek small letter iota
+<Multi_key> <asterisk> <k>   : "κ"     U03BA    # greek small letter kappa
+<Multi_key> <asterisk> <l>   : "λ"     U03BB    # greek small letter lambda
+<Multi_key> <asterisk> <m>   : "μ"     U03BC    # greek small letter mu
+<Multi_key> <asterisk> <n>   : "ν"     U03BD    # greek small letter nu
+<Multi_key> <asterisk> <o>   : "ο"     U03BF    # greek small letter omicron
+<Multi_key> <asterisk> <p>   : "π"     U03C0    # greek small letter pi
+<Multi_key> <asterisk> <q>   : "ψ"     U03C8    # greek small letter psi
+<Multi_key> <asterisk> <r>   : "ρ"     U03C1    # greek small letter rho
+<Multi_key> <asterisk> <s>   : "σ"     U03C3    # greek small letter sigma
+<Multi_key> <asterisk> <t>   : "τ"     U03C4    # greek small letter tau
+<Multi_key> <asterisk> <u>   : "θ"     U03C5    # greek small letter upsilon
+<Multi_key> <asterisk> <v>   : "ς"     U03C2    # greek small letter final sigma
+<Multi_key> <asterisk> <w>   : "ω"     U03C9    # greek small letter omega
+<Multi_key> <asterisk> <x>   : "χ"     U03C7    # greek small letter chi
+<Multi_key> <asterisk> <y>   : "υ"     U03B7    # greek small letter eta
+<Multi_key> <asterisk> <z>   : "ζ"     U03B6    # greek small letter zeta
+
+<Multi_key> <asterisk> <A>   : "Α"     U0391    # greek capital letter alpha
+<Multi_key> <asterisk> <B>   : "Β"     U0392    # greek capital letter beta
+<Multi_key> <asterisk> <C>   : "Ξ"     U039E    # greek capital letter xi
+<Multi_key> <asterisk> <D>   : "Δ"     U0394    # greek capital letter delta
+<Multi_key> <asterisk> <E>   : "Ε"     U0395    # greek capital letter epsilon
+<Multi_key> <asterisk> <F>   : "Φ"     U03A6    # greek capital letter phi
+<Multi_key> <asterisk> <G>   : "Γ"     U0393    # greek capital letter gamma
+<Multi_key> <asterisk> <H>   : "Η"     U0398    # greek capital letter theta
+<Multi_key> <asterisk> <I>   : "Ι"     U0399    # greek capital letter iota
+<Multi_key> <asterisk> <K>   : "Κ"     U039A    # greek capital letter kappa
+<Multi_key> <asterisk> <L>   : "Λ"     U039B    # greek capital letter lambda
+<Multi_key> <asterisk> <M>   : "Μ"     U039C    # greek capital letter mu
+<Multi_key> <asterisk> <N>   : "Ν"     U039D    # greek capital letter nu
+<Multi_key> <asterisk> <O>   : "Ο"     U039F    # greek capital letter omicron
+<Multi_key> <asterisk> <P>   : "Π"     U03A0    # greek capital letter pi
+<Multi_key> <asterisk> <Q>   : "Ψ"     U03A8    # greek capital letter psi
+<Multi_key> <asterisk> <R>   : "Ρ"     U03A1    # greek capital letter rho
+<Multi_key> <asterisk> <S>   : "Σ"     U03A3    # greek capital letter sigma
+<Multi_key> <asterisk> <T>   : "Τ"     U03A4    # greek capital letter tau
+<Multi_key> <asterisk> <U>   : "Θ"     U03A5    # greek capital letter upsilon
+<Multi_key> <asterisk> <V>   : "Σ"     U03A3    # greek capital letter sigma
+<Multi_key> <asterisk> <W>   : "Ω"     U03A9    # greek capital letter omega
+<Multi_key> <asterisk> <X>   : "Χ"     U03A7    # greek capital letter chi
+<Multi_key> <asterisk> <Y>   : "Υ"     U0397    # greek capital letter eta
+<Multi_key> <asterisk> <Z>   : "Ζ"     U0396    # greek capital letter zeta
+
+###############################################################################
+
+# cyrillic alphabet
+
+<Multi_key> <ampersand> <a>              : "а" # cyrillic small letter a
+<Multi_key> <ampersand> <b>              : "б" # cyrillic small letter be
+<Multi_key> <ampersand> <c>              : "ц" # cyrillic small letter tse
+<Multi_key> <ampersand> <d>              : "д" # cyrillic small letter de
+<Multi_key> <ampersand> <e>              : "е" # cyrillic small letter ie
+<Multi_key> <ampersand> <f>              : "ф" # cyrillic small letter ef
+<Multi_key> <ampersand> <g>              : "г" # cyrillic small letter ghe
+<Multi_key> <ampersand> <h>              : "ч" # cyrillic small letter che
+<Multi_key> <ampersand> <i>              : "и" # cyrillic small letter i
+<Multi_key> <ampersand> <j>              : "й" # cyrillic small letter short i
+<Multi_key> <ampersand> <k>              : "к" # cyrillic small letter ka
+<Multi_key> <ampersand> <l>              : "л" # cyrillic small letter el
+<Multi_key> <ampersand> <m>              : "м" # cyrillic small letter em
+<Multi_key> <ampersand> <n>              : "н" # cyrillic small letter en
+<Multi_key> <ampersand> <o>              : "о" # cyrillic small letter o
+<Multi_key> <ampersand> <p>              : "п" # cyrillic small letter pe
+<Multi_key> <ampersand> <q>              : "я" # cyrillic small letter ya
+<Multi_key> <ampersand> <r>              : "р" # cyrillic small letter er
+<Multi_key> <ampersand> <s>              : "с" # cyrillic small letter es
+<Multi_key> <ampersand> <t>              : "т" # cyrillic small letter te
+<Multi_key> <ampersand> <u>              : "у" # cyrillic small letter u
+<Multi_key> <ampersand> <v>              : "в" # cyrillic small letter ve
+<Multi_key> <ampersand> <w>              : "ж" # cyrillic small letter zhe
+<Multi_key> <ampersand> <x>              : "х" # cyrillic small letter ha
+<Multi_key> <ampersand> <y>              : "ю" # cyrillic small letter yu
+<Multi_key> <ampersand> <z>              : "з" # cyrillic small letter ze
+<Multi_key> <ampersand> <semicolon>      : "ш" # cyrillic small letter sha
+<Multi_key> <ampersand> <slash>          : "щ" # cyrillic small letter shcha
+<Multi_key> <ampersand> <bracketleft>    : "ш" # cyrillic small letter sha
+<Multi_key> <ampersand> <bracketright>   : "щ" # cyrillic small letter shcha
+<Multi_key> <ampersand> <backslash>      : "э" # cyrillic small letter e
+<Multi_key> <ampersand> <comma>          : "ъ" # cyrillic small letter hard
+<Multi_key> <ampersand> <period>         : "ь" # cyrillic small letter soft
+
+<Multi_key> <ampersand> <A>              : "А" # cyrillic capital letter a
+<Multi_key> <ampersand> <B>              : "Б" # cyrillic capital letter be
+<Multi_key> <ampersand> <C>              : "Ц" # cyrillic capital letter tse
+<Multi_key> <ampersand> <D>              : "Д" # cyrillic capital letter de
+<Multi_key> <ampersand> <E>              : "Е" # cyrillic capital letter ie
+<Multi_key> <ampersand> <F>              : "Ф" # cyrillic capital letter ef
+<Multi_key> <ampersand> <G>              : "Г" # cyrillic capital letter ghe
+<Multi_key> <ampersand> <H>              : "Ч" # cyrillic capital letter che
+<Multi_key> <ampersand> <I>              : "И" # cyrillic capital letter i
+<Multi_key> <ampersand> <J>              : "Й" # cyrillic capital letter short i
+<Multi_key> <ampersand> <K>              : "К" # cyrillic capital letter ka
+<Multi_key> <ampersand> <L>              : "Л" # cyrillic capital letter el
+<Multi_key> <ampersand> <M>              : "М" # cyrillic capital letter em
+<Multi_key> <ampersand> <N>              : "Н" # cyrillic capital letter en
+<Multi_key> <ampersand> <O>              : "О" # cyrillic capital letter o
+<Multi_key> <ampersand> <P>              : "П" # cyrillic capital letter pe
+<Multi_key> <ampersand> <Q>              : "Я" # cyrillic capital letter ya
+<Multi_key> <ampersand> <R>              : "Р" # cyrillic capital letter er
+<Multi_key> <ampersand> <S>              : "С" # cyrillic capital letter es
+<Multi_key> <ampersand> <T>              : "Т" # cyrillic capital letter te
+<Multi_key> <ampersand> <U>              : "У" # cyrillic capital letter u
+<Multi_key> <ampersand> <V>              : "В" # cyrillic capital letter ve
+<Multi_key> <ampersand> <W>              : "Ж" # cyrillic capital letter zhe
+<Multi_key> <ampersand> <X>              : "Х" # cyrillic capital letter ha
+<Multi_key> <ampersand> <Y>              : "Ю" # cyrillic capital letter yu
+<Multi_key> <ampersand> <Z>              : "З" # cyrillic capital letter ze
+<Multi_key> <ampersand> <colon>          : "Ш" # cyrillic capital letter sha
+<Multi_key> <ampersand> <question>       : "Щ" # cyrillic capital letter shcha
+<Multi_key> <ampersand> <braceleft>      : "Ш" # cyrillic capital letter sha
+<Multi_key> <ampersand> <braceright>     : "Щ" # cyrillic capital letter shcha
+<Multi_key> <ampersand> <bar>            : "Э" # cyrillic capital letter e
+<Multi_key> <ampersand> <less>           : "Ъ" # cyrillic capital letter hard
+<Multi_key> <ampersand> <greater>        : "Ь" # cyrillic capital letter soft
+
+<Multi_key> <2> <O>                    : "Ꚙ" # cyrillic capital letter double o
+<Multi_key> <2> <o>                    : "ꚙ" # cyrillic small letter double o
+<Multi_key> <7> <O>                    : "ꙮ" # multiocular o
+<Multi_key> <7> <o>                    : "ꙮ" # multiocular o
