@@ -8,6 +8,7 @@ CursorShape=2
 
 [General]
 Command=/bin/bash
+Environment=TERM=xterm-256color,COLORTERM=truecolor
 LocalTabTitleFormat=%n || %w || %d
 Name=zeus
 Parent=FALLBACK/
@@ -24,7 +25,7 @@ UnderlineFilesEnabled=true
 KeyBindings=zeus
 
 [Terminal Features]
-BellMode=1
+BellMode=0
 BlinkingCursorEnabled=true
 UrlHintsModifiers=100663296
-VerticalLine=true
+VerticalLine=false

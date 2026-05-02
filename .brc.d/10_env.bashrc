@@ -1,3 +1,8 @@
+# bash shell options
+shopt -s autocd    # cd to folder just by typing dir name
+shopt -s cdspell   # fix minor typos in cd
+shopt -s dirspell  # "", but during autocomplete (allows completing cap dirs)
+
 # Secure PATH (for opensuse)
 sbin_path="/usr/sbin"
 if [ -d "$sbin_path" ] && ! [[ "$PATH" == *"$sbin_path"* ]]; then
