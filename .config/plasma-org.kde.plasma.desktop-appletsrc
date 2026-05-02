@@ -43,15 +43,15 @@ DialogWidth=1280
 
 [Containments][1][General]
 arrangement=1
-changedPositions={"desktop:/ My Computer":["1920x1080,2560x1440","0","0"],"desktop:/desktop-files":["1920x1080,2560x1440","0","2"],"desktop:/firefox box-shadow urlbar":["1920x1080,2560x1440","0","3"],"desktop:/net.lutris.middle-earth-shadow-of-mordor-13.desktop":["1920x1080,2560x1440","1","0"],"desktop:/shortkeys 2":["1920x1080,2560x1440","0","5"],"desktop:/shortkeys firefox extension":["1920x1080,2560x1440","0","4"]}
+changedPositions={"desktop:/ My Computer":["1920x1080,2560x1440","0","0"],"desktop:/Middle Earth: Shadow of Mordor":["1920x1080,2560x1440","2","0"],"desktop:/https:⁄⁄github.com⁄pulls.desktop":["1920x1080,2560x1440","1","0"],"desktop:/shortkeys firefox extension":["1920x1080,2560x1440","1","1"],"desktop:/zeus.keytab":["1920x1080,2560x1440","1","2"]}
 labelWidth=2
 lastResolution=2560x1440
-positions={"1920x1080":["3","7","desktop:/ Recycle Bin","0","1","desktop:/desktop-files","2","1","desktop:/firefox box-shadow urlbar","0","4","desktop:/recent-updates-flatpak.txt","0","6","desktop:/net.lutris.middle-earth-shadow-of-mordor-13.desktop","1","0","desktop:/shortkeys 2","0","2","desktop:/recent-updates-knewstuff.txt","1","1","desktop:/recent-updates-zypp.txt","1","2","desktop:/shortkeys firefox extension","0","5","desktop:/dots.md","0","3","desktop:/ My Computer","0","0"],"2560x1440":["2","10","desktop:/ Recycle Bin","0","1","desktop:/desktop-files","0","2","desktop:/firefox box-shadow urlbar","0","3","desktop:/net.lutris.middle-earth-shadow-of-mordor-13.desktop","1","0","desktop:/shortkeys 2","0","5","desktop:/shortkeys firefox extension","0","4","desktop:/dots.md","0","6","desktop:/ My Computer","0","0"]}
+positions={"1920x1080":["3","7","desktop:/shortkeys firefox extension","1","1","desktop:/https:⁄⁄github.com⁄pulls.desktop","1","0","desktop:/ My Computer","0","0","desktop:/Middle Earth: Shadow of Mordor","2","0","desktop:/ Recycle Bin","0","1","desktop:/zeus.keytab","1","2"],"2560x1440":["3","10","desktop:/shortkeys firefox extension","1","1","desktop:/ Recycle Bin","0","1","desktop:/ My Computer","0","0","desktop:/Middle Earth: Shadow of Mordor","2","0","desktop:/zeus.keytab","1","2","desktop:/https:⁄⁄github.com⁄pulls.desktop","1","0"]}
 sortMode=-1
 textLines=3
 
 [Containments][1][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/zeus/Pictures/Wallpapers/Aero-ish/sunset.jpg
+Image=file:///home/zeus/Pictures/Wallpapers/Arcadia/escape.png
 SlidePaths=/home/zeus/Pictures/Wallpapers/
 
 [Containments][2]
@@ -70,7 +70,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/zeus/Pictures/Wallpapers/Arcadia/cygnus.jpg
+Image=file:///home/zeus/Pictures/Wallpapers/Plasma/Nuvole.png
 SlidePaths=/home/zeus/Pictures/Wallpapers/
 
 [Containments][3]
@@ -131,33 +131,6 @@ previewPlugins=audiothumbnail,glycin-heif,blenderthumbnail,comicbookthumbnail,dj
 useCustomIcon=true
 viewMode=1
 
-[Containments][3][Applets][121]
-immutability=1
-plugin=io.github.daydve.fancytasksng
-
-[Containments][3][Applets][121][Configuration][ConfigDialog]
-DialogHeight=928
-DialogWidth=1600
-
-[Containments][3][Applets][121][Configuration][General]
-buttonColorize=true
-fill=false
-iconScale=98
-iconSizeOverride=true
-iconSizePx=56
-iconZoomFactor=0
-indicatorAccentColor=false
-indicatorDominantColor=true
-indicatorGrow=true
-indicatorMaxLimit=5
-indicatorProgress=true
-indicatorRadius=50
-indicatorStyle=1
-indicatorsEnabled=1
-launchers=applications:org.telegram.desktop.desktop,preferred://browser,applications:com.spotify.Client.desktop,applications:steam.desktop
-middleClickAction=ToggleMinimized
-wheelAction=AdjustVolume
-
 [Containments][3][Applets][122]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
@@ -190,6 +163,35 @@ plugin=org.kde.plasma.addons.katesessions
 [Containments][3][Applets][13][Configuration]
 popupHeight=637
 popupWidth=772
+
+[Containments][3][Applets][132]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][3][Applets][132][Configuration][ConfigDialog]
+DialogHeight=808
+DialogWidth=960
+
+[Containments][3][Applets][132][Configuration][General]
+buttonColorize=true
+fill=false
+highlightWindows=true
+iconScale=98
+iconSizeOverride=true
+iconSizePx=56
+iconZoomFactor=0
+indicatorAccentColor=false
+indicatorDominantColor=true
+indicatorGrow=true
+indicatorMaxLimit=5
+indicatorProgress=true
+indicatorRadius=50
+indicatorStyle=1
+indicatorsEnabled=1
+launchers=applications:org.telegram.desktop.desktop,preferred://browser,applications:spotify-launcher.desktop,applications:steam.desktop
+middleClickAction=ToggleMinimized
+wheelAction=AdjustVolume
+wheelEnabled=TaskOnly
 
 [Containments][3][Applets][14]
 immutability=1
@@ -254,7 +256,7 @@ widgets=true
 
 [Containments][3][Applets][15][Applets][124][Configuration][Miscellaneous]
 configMsg=false
-timestamp=1776293332312
+timestamp=1777210578147
 
 [Containments][3][Applets][15][Applets][124][Configuration][Upgrade]
 mngHideFlatpak=true
@@ -370,6 +372,7 @@ popupWidth=578
 customDateFormat=ddd d MMM
 dateFormat=custom
 fontWeight=400
+use24hFormat=2
 
 [Containments][3][Applets][31][Configuration][ConfigDialog]
 DialogHeight=630
@@ -433,7 +436,7 @@ showHoverBg=false
 showTooltip=false
 
 [Containments][3][General]
-AppletOrder=64;12;125;6;5;121;8;122;10;13;14;15;31
+AppletOrder=64;12;125;6;5;132;8;122;10;13;14;15;31
 
 [Containments][3][Shortcuts]
 global=
@@ -662,4 +665,4 @@ AppletOrder=65;34;35;123;106;37;38;54;55;33
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/ Recycle Bin,0,,desktop:/shortkeys firefox extension,0,,desktop:/tests.txt,0,,desktop:/desktop-files,0,,desktop:/firefox box-shadow urlbar,0,,desktop:/net.lutris.middle-earth-shadow-of-mordor-13.desktop,0,,desktop:/dots.md,0,,desktop:/test2.txt,0,,desktop:/ My Computer,0,,desktop:/shortkeys 2,0,,desktop:/ My Computer.desktop,0,
+screenMapping=desktop:/zeus.keytab,0,,desktop:/tests.txt,0,,desktop:/shortkeys firefox extension,0,,desktop:/desktop-files,0,,desktop:/firefox box-shadow urlbar,0,,desktop:/https:⁄⁄github.com⁄pulls.desktop,0,,desktop:/Middle Earth: Shadow of Mordor,0,,desktop:/net.lutris.middle-earth-shadow-of-mordor-13.desktop,0,,desktop:/dots.md,0,,desktop:/ My Computer.desktop,0,,desktop:/shortkeys 2,0,,desktop:/test2.txt,0,,desktop:/ My Computer,0,,desktop:/ Recycle Bin,0,

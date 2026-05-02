@@ -80,5 +80,17 @@
         "update_manager_config": {
             "url": "https://p2r3.com/spplice/app/spplice.AppImage"
         }
+    },
+    "TGVTaGFkZQ==": {
+        "b64name": "TGVTaGFkZQ==",
+        "website": "https://github.com/Ishidawg/LeShade/",
+        "name": "LeShade",
+        "update_url": "https://github.com/Ishidawg/LeShade/releases/download/*/LeShade-x86_64.AppImage",
+        "update_url_manager": "GithubUpdater",
+        "update_manager_config": {
+            "allow_prereleases": false,
+            "repo_url": "https://github.com/Ishidawg/LeShade",
+            "repo_filename": "LeShade-x86_64.AppImage"
+        }
     }
 }

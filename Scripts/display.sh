@@ -161,24 +161,18 @@ EOF
 }
 
 case $1 in
-	*'-b'*)
-		switch_to_bed
-		;;#service_reset;;
+	'-b' | '--bed')
+		switch_to_bed;;
 
-	*'-m'*)
-		switch_to_main
-		;;#service_reset;;
+	'-m' | '--main')
+		switch_to_main;;
 
-	*'-i'*)
-		invert_bed
-		;;#service_reset;;
+	'-i' | '--inverted')
+		invert_bed;;
 
-	*'-t'*)
+	'-t' | '--toggle')
 		toggle_current_layout;;
 
-	*'-h'*)
-		show_help;;
-
-	*)
+	'-h' | '--help' | '' | *)
 		show_help;;
 esac

@@ -6,9 +6,13 @@ ConfigVersion=1
 
 [KonsoleWindow]
 RememberWindowSize=false
+ShowWindowTitleOnTitleBar=true
 
 [MainWindow]
 MenuBar=Enabled
+
+[Notification Messages]
+CloseAllEmptyTabs=true
 
 [TabBar]
 TabBarVisibility=AlwaysShowTabBar
